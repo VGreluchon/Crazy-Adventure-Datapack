@@ -5,6 +5,6 @@
 		"layer1": "item/leather_boots_overlay"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": XXX0103 }, "model": "energy_datapack_template:equipments/template_boots" }
+		{ "predicate": { "custom_model_data": 4220103 }, "model": "crazy_adventure:equipments/template_boots" }
 	]
 }

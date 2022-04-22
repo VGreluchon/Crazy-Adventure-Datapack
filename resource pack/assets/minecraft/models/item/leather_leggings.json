@@ -5,6 +5,6 @@
 		"layer1": "item/leather_leggings_overlay"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": XXX0102 }, "model": "energy_datapack_template:equipments/template_leggings" }
+		{ "predicate": { "custom_model_data": 4220102 }, "model": "crazy_adventure:equipments/template_leggings" }
 	]
 }

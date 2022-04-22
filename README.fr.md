@@ -4,7 +4,7 @@
 
 
 
-# ⚡ Energy Datapack Template
+# ⚡ Crazy Adventure
 - [Rejoignez notre serveur discord Energy Data Packs ici : https://discord.gg/a2yX6GD4J7](https://discord.gg/a2yX6GD4J7)
 - Nécessite au moins SimplEnergy [v1.8.0]: https://github.com/Stoupy51/SimplEnergy
 
@@ -32,12 +32,12 @@
 
 # 🔧 Ce qui est déjà configuré
 - **Lantern Load (load & post_load)**		base situé dans `load/tags/functions/*`
-- **Smithed Crafting Recipes**				situé dans `energy_datapack_template/functions/craft/`
-- **Smithed Custom Block Placement**		situé dans `energy_datapack_template/place/functions/main`
-- **SimplEnergy Custom Armor Durability**	situé dans `energy_datapack_template/functions/opti/durability_multiplier`
-- **SimplEnergy Custom Furnace Recipes**	situé dans `energy_datapack_template/functions/all_furnace_recipes`
-- **SimplEnergy Energy Charge Lore**		situé dans `energy_datapack_template/functions/destroy/*batteries*`
-- **SimplEnergy Ore Generation**			situé dans `energy_datapack_template/functions/generate/main`
+- **Smithed Crafting Recipes**				situé dans `crazy_adventure/functions/craft/`
+- **Smithed Custom Block Placement**		situé dans `crazy_adventure/place/functions/main`
+- **SimplEnergy Custom Armor Durability**	situé dans `crazy_adventure/functions/opti/durability_multiplier`
+- **SimplEnergy Custom Furnace Recipes**	situé dans `crazy_adventure/functions/all_furnace_recipes`
+- **SimplEnergy Energy Charge Lore**		situé dans `crazy_adventure/functions/destroy/*batteries*`
+- **SimplEnergy Ore Generation**			situé dans `crazy_adventure/functions/generate/main`
 - Systèmes de base (First join advancement, destroy & placement functions, visual & work functions for machines, ...)
 - Un générateur, un consommateur d'énergie, une batterie
 - Boucles s'actualisant tou(te)s les ticks, 2 ticks, secondes, et minutes
@@ -48,24 +48,24 @@
 - Téléchargez l'ensemble à partir du code source ou de la release page.
 
 - Modifiez le nom du data pack en utilisant 'Rechercher et Remplacer' avec votre IDE préféré (**Activer 'respecter la casse'**)
-- - Recherchez : `energy_datapack_template` et remplacez par le nom de votre data pack.
+- - Recherchez : `crazy_adventure` et remplacez par le nom de votre data pack.
 - - (e.g. `simplenergy`, `my_energy_datapack`, ...)
-- - Recherchez : `Energy Datapack Template` et remplacez par le nom de votre data pack.
+- - Recherchez : `Crazy Adventure` et remplacez par le nom de votre data pack.
 - - (e.g. `SimplEnergy`, `My Energy Datapack`, ...)
-- - Modifiez la ligne 12 dans `energy_datapack_template/functions/load.mcfunction` avec le nom de votre data pack.
+- - Modifiez la ligne 12 dans `crazy_adventure/functions/load.mcfunction` avec le nom de votre data pack.
 
 - Modifiez le contenu de `pack.mcmeta` avec le nom de votre data pack.
 
-- Renommer le dossier `energy_datapack_template/` situé dans `data/` avec le nom de votre data pack.
-- Renommer le dossier `energy_datapack_template/` situé dans `resource pack/assets/` avec le nom de votre data pack.
+- Renommer le dossier `crazy_adventure/` situé dans `data/` avec le nom de votre data pack.
+- Renommer le dossier `crazy_adventure/` situé dans `resource pack/assets/` avec le nom de votre data pack.
 
 - Définissez l'avancement de la version de votre data pack en utilisant la [global convention](https://mc-datapacks.github.io/en/conventions/datapack_advancement.html), les fichiers sont situés dans
-- - `energy_datapack_template/advancements/energy_datapack_template.json`
+- - `crazy_adventure/advancements/crazy_adventure.json`
 - - `global/advancements/your_username.json`
 
 - Utilisez 'Rechercher et Remplacer' avec votre IDE préféré :
-- - Recherchez : `your_name` et remplacez le par votre nom (e.g. `stoupy`, `uwu42`, ...), c'est pour le champ nbt `from` concernant la [Common Trait Convention](https://mc-datapacks.github.io/en/conventions/common_trait.html)
-- - Recherchez : `XXX` et remplacez le par **votre** [CustomModelData prefix](https://wiki.smithed.dev/conventions/cmd-prefixing) (e.g. `XXX -> 201`, `XXX -> 067`, ...)
+- - Recherchez : `vgreluchon` et remplacez le par votre nom (e.g. `stoupy`, `uwu42`, ...), c'est pour le champ nbt `from` concernant la [Common Trait Convention](https://mc-datapacks.github.io/en/conventions/common_trait.html)
+- - Recherchez : `422` et remplacez le par **votre** [CustomModelData prefix](https://wiki.smithed.dev/conventions/cmd-prefixing) (e.g. `422 -> 201`, `422 -> 067`, ...)
 
 - Et c'est fini !
 Vous pouvez maintenant ajouter vos items, blocs, et machines. Vous pouvez également utiliser/modifier le dossier `resource pack`.

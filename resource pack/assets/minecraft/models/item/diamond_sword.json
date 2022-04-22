@@ -4,6 +4,6 @@
 		"layer0": "item/diamond_sword"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": XXX0104 }, "model": "energy_datapack_template:equipments/template_shovel" }
+		{ "predicate": { "custom_model_data": 4220104 }, "model": "crazy_adventure:equipments/template_shovel" }
 	]
 }

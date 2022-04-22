@@ -5,6 +5,6 @@
 		"layer1": "item/leather_chestplate_overlay"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": XXX0101 }, "model": "energy_datapack_template:equipments/template_chestplate" }
+		{ "predicate": { "custom_model_data": 4220101 }, "model": "crazy_adventure:equipments/template_chestplate" }
 	]
 }

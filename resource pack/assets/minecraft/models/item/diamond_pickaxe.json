@@ -4,6 +4,6 @@
 		"layer0": "item/diamond_pickaxe"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": XXX0105 }, "model": "energy_datapack_template:equipments/template_pickaxe" }
+		{ "predicate": { "custom_model_data": 4220105 }, "model": "crazy_adventure:equipments/template_pickaxe" }
 	]
 }

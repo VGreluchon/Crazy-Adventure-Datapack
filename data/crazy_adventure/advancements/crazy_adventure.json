@@ -1,0 +1,19 @@
+{
+	"display": {
+		"title": "Crazy Adventure",
+		"description": "v1.0.0",
+		"icon": {
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:2013000}"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "goal"
+	},
+	"parent": "global:vgreluchon",
+	"criteria": {
+		"always": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
