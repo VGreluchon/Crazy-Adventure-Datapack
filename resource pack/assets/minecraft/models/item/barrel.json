@@ -1,0 +1,15 @@
+{
+	"parent": "block/barrel",
+	"overrides": [
+		{ "predicate": { "custom_model_data": XXX0000 }, "model": "energy_datapack_template:materials/template_ore" },
+		{ "predicate": { "custom_model_data": XXX0002 }, "model": "energy_datapack_template:materials/template_block" },
+
+		{ "predicate": { "custom_model_data": XXX0200 }, "model": "energy_datapack_template:machines/template_battery" },
+
+		{ "predicate": { "custom_model_data": XXX0300 }, "model": "energy_datapack_template:machines/empty_generator" },
+		{ "predicate": { "custom_model_data": XXX0301 }, "model": "energy_datapack_template:machines/empty_generator_on" },
+
+		{ "predicate": { "custom_model_data": XXX0400 }, "model": "energy_datapack_template:machines/empty_consumer" },
+		{ "predicate": { "custom_model_data": XXX0401 }, "model": "energy_datapack_template:machines/empty_consumer_on" }
+	]
+}

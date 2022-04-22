@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_sword"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": XXX0104 }, "model": "energy_datapack_template:equipments/template_shovel" }
+	]
+}

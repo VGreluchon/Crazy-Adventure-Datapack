@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/leather_leggings",
+		"layer1": "item/leather_leggings_overlay"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": XXX0102 }, "model": "energy_datapack_template:equipments/template_leggings" }
+	]
+}

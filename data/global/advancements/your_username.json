@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "<Your name>",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: '<your_minecraft_name>'}"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

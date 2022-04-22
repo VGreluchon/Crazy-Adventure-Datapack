@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "energy_datapack_template:i/template_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 9
+						}
+					]
+				}
+			]
+		}
+	]
+}

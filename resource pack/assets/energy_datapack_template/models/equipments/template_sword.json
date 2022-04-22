@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "energy_datapack_template:equipments/template_sword"
+	}
+}

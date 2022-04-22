@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_hoe"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": XXX0108 }, "model": "energy_datapack_template:equipments/template_hoe" }
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "block/command_block",
+	"overrides": [
+		{ "predicate": { "custom_model_data": XXX0001 }, "model": "energy_datapack_template:materials/template_ingot" },
+		{ "predicate": { "custom_model_data": XXX0003 }, "model": "energy_datapack_template:materials/raw_template" }
+	]
+}
