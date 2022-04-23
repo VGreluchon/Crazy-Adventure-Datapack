@@ -9,4 +9,4 @@
 	execute as @e[type=#energy:valid_block_entities,tag=crazy_adventure.destroyer] at @s run function crazy_adventure:destroy/all
 	execute as @e[type=glow_item_frame,tag=crazy_adventure.destroyer,sort=random] at @s run function crazy_adventure:opti/tick_second_glows
 
-
+	execute as @e[type=zombie,tag=!crazy_adventure.miner_check,tag=!global.ignore,tag=!smithed.entity] at @s run function crazy_adventure:mobs/miner_check

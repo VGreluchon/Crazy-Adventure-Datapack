@@ -4,6 +4,7 @@
 # Define scoreboard objectives
 scoreboard objectives add crazy_adventure.data dummy
 scoreboard objectives add crazy_adventure.config dummy
+scoreboard objectives add crazy_adventure.id dummy
 
 # Default Config
 execute unless score #default_config crazy_adventure.config matches 1 run function crazy_adventure:config/default
@@ -48,6 +49,8 @@ scoreboard players set #-3 simplenergy.data -3
 		data modify storage crazy_adventure:main all.4220106 set value {Slot:16b,id:"minecraft:diamond_axe"					,Count:1b,tag:{ctc:{id:"template_axe",from:"vgreluchon:crazy_adventure",traits:{"tool/chopping":1b}}							,CustomModelData:4220106,crazy_adventure:{template_axe:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Template Axe","italic":false,"color":"white"}]'}}}
 		data modify storage crazy_adventure:main all.4220107 set value {Slot:16b,id:"minecraft:diamond_hoe"					,Count:1b,tag:{ctc:{id:"template_hoe",from:"vgreluchon:crazy_adventure",traits:{"tool/tilling":1b}}								,CustomModelData:4220107,crazy_adventure:{template_hoe:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Template Hoe","italic":false,"color":"white"}]'}}}
 		data modify storage crazy_adventure:main all.4220108 set value {Slot:16b,id:"minecraft:diamond_shovel"				,Count:1b,tag:{ctc:{id:"template_shovel",from:"vgreluchon:crazy_adventure",traits:{"tool/shovelling":1b}}						,CustomModelData:4220108,crazy_adventure:{template_shovel:1b}				,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Template Shovel","italic":false,"color":"white"}]'}}}
+
+		data modify storage crazy_adventure:main all.4220109 set value {Slot:16b,id:"minecraft:leather_helmet"				,Count:1b,tag:{ctc:{id:"cave_helmet",from:"vgreluchon:crazy_adventure",traits:{"armor":1b}}										,CustomModelData:4220109,crazy_adventure:{cave_helmet:1b}					,HideFlags:64,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Slot:"head",Amount:3,Operation:0,UUID:[I;201302,201302,201302,201303]}	,{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Slot:"head",Amount:2,Operation:0,UUID:[I;201302,201302,201303,201303]}]						,display:{color:6044178,Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}']	,Name:'[{"text":"Cave Helmet","italic":false,"color":"white"}]'}}}
 
 #Energy
 	#Batteries
