@@ -4,6 +4,8 @@
 		{ "predicate": { "custom_model_data": 4220001 }, "model": "crazy_adventure:materials/template_ingot" },
 		{ "predicate": { "custom_model_data": 4220003 }, "model": "crazy_adventure:materials/raw_template" },
 		{ "predicate": { "custom_model_data": 4220005 }, "model": "crazy_adventure:materials/uranium_ingot" },
-		{ "predicate": { "custom_model_data": 4220007 }, "model": "crazy_adventure:materials/raw_uranium" }
+		{ "predicate": { "custom_model_data": 4220007 }, "model": "crazy_adventure:materials/raw_uranium" },
+		{ "predicate": { "custom_model_data": 4220008 }, "model": "crazy_adventure:materials/uranium_core" },
+		{ "predicate": { "custom_model_data": 4220009 }, "model": "crazy_adventure:materials/radioactive_waste" }
 	]
 }

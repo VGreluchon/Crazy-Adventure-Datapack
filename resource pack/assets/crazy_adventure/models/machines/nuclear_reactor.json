@@ -1,12 +1,12 @@
 {
 	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"down": "crazy_adventure:machines/empty_generator_top",
-		"up": "crazy_adventure:machines/empty_generator_top",
-		"north": "crazy_adventure:machines/empty_generator_front_on",
-		"south": "crazy_adventure:machines/empty_generator_side",
-		"west": "crazy_adventure:machines/empty_generator_side",
-		"east": "crazy_adventure:machines/empty_generator_side"
+		"down": "crazy_adventure:machines/nuclear_reactor_bottom",
+		"up": "crazy_adventure:machines/nuclear_reactor_top",
+		"north": "crazy_adventure:machines/nuclear_reactor_side_off",
+		"south": "crazy_adventure:machines/nuclear_reactor_side_off",
+		"west": "crazy_adventure:machines/nuclear_reactor_side_off",
+		"east": "crazy_adventure:machines/nuclear_reactor_side_off"
 	},
 	"elements": [{
 		"from": [ 0, 0, 0 ],

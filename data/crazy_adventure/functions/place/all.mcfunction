@@ -11,5 +11,7 @@ execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:e
 
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:uranium_ore"} run function crazy_adventure:place/uranium_ore/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:uranium_block"} run function crazy_adventure:place/uranium_block/main
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:nuclear_reactor"} run function crazy_adventure:place/nuclear_reactor/main
+
 
 tag @s remove crazy_adventure.placer

@@ -8,8 +8,8 @@
 
 		{ "predicate": { "custom_model_data": 4220200 }, "model": "crazy_adventure:machines/template_battery" },
 
-		{ "predicate": { "custom_model_data": 4220300 }, "model": "crazy_adventure:machines/empty_generator" },
-		{ "predicate": { "custom_model_data": 4220301 }, "model": "crazy_adventure:machines/empty_generator_on" },
+		{ "predicate": { "custom_model_data": 4220300 }, "model": "crazy_adventure:machines/nuclear_reactor" },
+		{ "predicate": { "custom_model_data": 4220301 }, "model": "crazy_adventure:machines/nuclear_reactor_on" },
 
 		{ "predicate": { "custom_model_data": 4220400 }, "model": "crazy_adventure:machines/empty_consumer" },
 		{ "predicate": { "custom_model_data": 4220401 }, "model": "crazy_adventure:machines/empty_consumer_on" }

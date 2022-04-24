@@ -5,6 +5,7 @@
 scoreboard objectives add crazy_adventure.data dummy
 scoreboard objectives add crazy_adventure.config dummy
 scoreboard objectives add crazy_adventure.id dummy
+scoreboard objectives add crazy_adventure.working dummy
 
 # Default Config
 execute unless score #default_config crazy_adventure.config matches 1 run function crazy_adventure:config/default
@@ -29,23 +30,18 @@ scoreboard players set #-3 simplenergy.data -3
 # You should own a prefix '422'
 
 #Resources
-	#Template Ore
-		data modify storage crazy_adventure:main all.4220000 set value {Slot:16b,id:"minecraft:barrel"						,Count:1b,tag:{ctc:{id:"template_ore",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"block":1b,"ore":1b}}		,CustomModelData:4220000,crazy_adventure:{template_ore:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Template Ore","italic":false,"color":"white"}]'}		,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:template_ore"}}}}]}}}
-	#Template Ingot
-		data modify storage crazy_adventure:main all.4220001 set value {Slot:16b,id:"minecraft:command_block"				,Count:1b,tag:{ctc:{id:"template_ingot",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"ingot":1b}}				,CustomModelData:4220001,crazy_adventure:{template_ingot:1b}				,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Template Ingot","italic":false,"color":"white"}]'}}}
-	#Template Block
-		data modify storage crazy_adventure:main all.4220002 set value {Slot:16b,id:"minecraft:barrel"						,Count:1b,tag:{ctc:{id:"template_block",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"block":1b}}				,CustomModelData:4220002,crazy_adventure:{template_block:1b}				,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Template Block","italic":false,"color":"white"}]'}		,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:template_block"}}}}]}}}
-	#Raw Template
-		data modify storage crazy_adventure:main all.4220003 set value {Slot:16b,id:"minecraft:command_block"				,Count:1b,tag:{ctc:{id:"raw_template",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"ore":1b}}					,CustomModelData:4220003,crazy_adventure:{raw_template:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Raw Template","italic":false,"color":"white"}]'}}}
-
 	#URANIUM Ore
 		data modify storage crazy_adventure:main all.4220004 set value {Slot:16b,id:"minecraft:barrel"						,Count:1b,tag:{ctc:{id:"uranium_ore",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"block":1b,"ore":1b}}		,CustomModelData:4220004,crazy_adventure:{uranium_ore:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Uranium Ore","italic":false,"color":"white"}]'}			,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:uranium_ore"}}}}]}}}
 	#URANIUM Ingot
-		data modify storage crazy_adventure:main all.4220005 set value {Slot:16b,id:"minecraft:command_block"				,Count:1b,tag:{ctc:{id:"turanium_ingot",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"ingot":1b}}				,CustomModelData:4220005,crazy_adventure:{uranium_ingot:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Uranium Ingot","italic":false,"color":"white"}]'}}}
+		data modify storage crazy_adventure:main all.4220005 set value {Slot:16b,id:"minecraft:command_block"				,Count:1b,tag:{ctc:{id:"uranium_ingot",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"ingot":1b}}				,CustomModelData:4220005,crazy_adventure:{uranium_ingot:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Uranium Ingot","italic":false,"color":"white"}]'}}}
 	#URANIUM Block
 		data modify storage crazy_adventure:main all.4220006 set value {Slot:16b,id:"minecraft:barrel"						,Count:1b,tag:{ctc:{id:"uranium_block",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"block":1b}}				,CustomModelData:4220006,crazy_adventure:{uranium_block:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Uranium Block","italic":false,"color":"white"}]'}		,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:uranium_block"}}}}]}}}
 	#Raw URANIUM
 		data modify storage crazy_adventure:main all.4220007 set value {Slot:16b,id:"minecraft:command_block"				,Count:1b,tag:{ctc:{id:"raw_uranium",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"ore":1b}}					,CustomModelData:4220007,crazy_adventure:{raw_uranium:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Raw Uranium","italic":false,"color":"white"}]'}}}
+	#Uranium Core
+		data modify storage crazy_adventure:main all.4220008 set value {Slot:16b,id:"minecraft:command_block"				,Count:1b,tag:{ctc:{id:"uranium_core",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"ingot":1b}}				,CustomModelData:4220008,crazy_adventure:{uranium_core:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Uranium Core","italic":false,"color":"white"}]'}}}
+	#Radioactive Waste
+		data modify storage crazy_adventure:main all.4220009 set value {Slot:16b,id:"minecraft:command_block"				,Count:1b,tag:{ctc:{id:"radioactive_waste",from:"vgreluchon:crazy_adventure",traits:{"metal/template":1b,"ingot":1b}}			,CustomModelData:4220009,crazy_adventure:{radioactive_waste:1b}				,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Radioactive Waste","italic":false,"color":"white"}]'}}}
 
 #Tools/Equipments
 	#Template Armor/Tools
@@ -59,6 +55,7 @@ scoreboard players set #-3 simplenergy.data -3
 		data modify storage crazy_adventure:main all.4220107 set value {Slot:16b,id:"minecraft:diamond_hoe"					,Count:1b,tag:{ctc:{id:"template_hoe",from:"vgreluchon:crazy_adventure",traits:{"tool/tilling":1b}}								,CustomModelData:4220107,crazy_adventure:{template_hoe:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Template Hoe","italic":false,"color":"white"}]'}}}
 		data modify storage crazy_adventure:main all.4220108 set value {Slot:16b,id:"minecraft:diamond_shovel"				,Count:1b,tag:{ctc:{id:"template_shovel",from:"vgreluchon:crazy_adventure",traits:{"tool/shovelling":1b}}						,CustomModelData:4220108,crazy_adventure:{template_shovel:1b}				,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Template Shovel","italic":false,"color":"white"}]'}}}
 
+	#Cave Helmet
 		data modify storage crazy_adventure:main all.4220109 set value {Slot:16b,id:"minecraft:leather_helmet"				,Count:1b,tag:{ctc:{id:"cave_helmet",from:"vgreluchon:crazy_adventure",traits:{"armor":1b}}										,CustomModelData:4220109,crazy_adventure:{cave_helmet:1b}					,HideFlags:64,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Slot:"head",Amount:3,Operation:0,UUID:[I;201302,201302,201302,201303]}	,{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Slot:"head",Amount:2,Operation:0,UUID:[I;201302,201302,201303,201303]}]						,display:{color:6044178,Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}']	,Name:'[{"text":"Cave Helmet","italic":false,"color":"white"}]'}}}
 
 #Energy
@@ -66,8 +63,8 @@ scoreboard players set #-3 simplenergy.data -3
 		#Template Battery
 			data modify storage crazy_adventure:main all.4220200 set value {Slot:16b,id:"minecraft:barrel"					,Count:1b,tag:{ctc:{id:"template_battery",from:"vgreluchon:crazy_adventure",traits:{"block":1b,"energy":1b}}					,CustomModelData:4220200,crazy_adventure:{template_battery:1b}				,energy:{storage:0,max_storage:10000},display:{Lore:['[{"text":"[Energy Storage: 10 MJ]","italic":false,"color":"gray"}]','{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Template Battery","italic":false,"color":"white"}]'}										,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:template_battery"}}}}]}}}
 	#Generators
-		#Empty Generator (Generate energy from nothing)
-			data modify storage crazy_adventure:main all.4220300 set value {Slot:16b,id:"minecraft:barrel"					,Count:1b,tag:{ctc:{id:"empty_generator",from:"vgreluchon:crazy_adventure",traits:{"block":1b,"energy":1b}}						,CustomModelData:4220300,crazy_adventure:{empty_generator:1b}				,display:{Lore:['[{"text":"[Generate: 50 kW]","italic":false,"color":"gray"}]','[{"text":"[Energy Buffer: 500 kJ]","italic":false,"color":"gray"}]','{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Empty Generator","italic":false,"color":"white"}]'}				,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:empty_generator"}}}}]}}}
+		#Nuclear Reactor (Generate energy from nothing)
+			data modify storage crazy_adventure:main all.4220300 set value {Slot:16b,id:"minecraft:barrel"					,Count:1b,tag:{ctc:{id:"nuclear_reactor",from:"vgreluchon:crazy_adventure",traits:{"block":1b,"energy":1b}}						,CustomModelData:4220300,crazy_adventure:{nuclear_reactor:1b}				,display:{Lore:['[{"text":"Use Uranium Ingot","italic":false,"color":"white"}]','[{"text":"Cooling Required","italic":false,"color":"white"}]','[{"text":"[Generate: 150 kW]","italic":false,"color":"gray"}]','[{"text":"[Energy Buffer: 45 MJ]","italic":false,"color":"gray"}]','{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Nuclear Reactor","italic":false,"color":"white"}]'}				,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:nuclear_reactor"}}}}]}}}
 	#Consumers
 		#Empty Consumer (Consume energy with nothing)
 			data modify storage crazy_adventure:main all.4220400 set value {Slot:16b,id:"minecraft:barrel"					,Count:1b,tag:{ctc:{id:"empty_consumer",from:"vgreluchon:crazy_adventure",traits:{"block":1b,"energy":1b}}						,CustomModelData:4220400,crazy_adventure:{empty_consumer:1b}				,display:{Lore:['[{"text":"[Power Usage: 50 kW]","italic":false,"color":"gray"}]','[{"text":"[Energy Buffer: 500 kJ]","italic":false,"color":"gray"}]','{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Empty Consumer","italic":false,"color":"white"}]'}			,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:empty_consumer"}}}}]}}}
