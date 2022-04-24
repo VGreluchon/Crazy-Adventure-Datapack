@@ -3,6 +3,8 @@
 	"overrides": [
 		{ "predicate": { "custom_model_data": 4220000 }, "model": "crazy_adventure:materials/template_ore" },
 		{ "predicate": { "custom_model_data": 4220002 }, "model": "crazy_adventure:materials/template_block" },
+		{ "predicate": { "custom_model_data": 4220004 }, "model": "crazy_adventure:materials/uranium_ore" },
+		{ "predicate": { "custom_model_data": 4220006 }, "model": "crazy_adventure:materials/uranium_block" },
 
 		{ "predicate": { "custom_model_data": 4220200 }, "model": "crazy_adventure:machines/template_battery" },
 

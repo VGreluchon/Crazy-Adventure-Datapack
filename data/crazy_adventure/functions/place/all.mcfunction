@@ -9,4 +9,7 @@ execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:t
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:empty_generator"} run function crazy_adventure:place/empty_generator/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:empty_consumer"} run function crazy_adventure:place/empty_consumer/main
 
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:uranium_ore"} run function crazy_adventure:place/uranium_ore/main
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:uranium_block"} run function crazy_adventure:place/uranium_block/main
+
 tag @s remove crazy_adventure.placer
