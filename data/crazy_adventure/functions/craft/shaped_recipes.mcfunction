@@ -1,15 +1,27 @@
 
 ##Called by function tag #smithed.crafter:event/recipes
+data modify storage smithed.crafter:main flags append value "consume_tools"
 
-
-
+ 
 #Nuclear Reactor
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,id:"minecraft:copper_block"},{Slot:1b,tag:{crazy_adventure:{uranium_core:1b}}},{Slot:2b,id:"minecraft:copper_block"}],1:[{Slot:0b,tag:{crazy_adventure:{uranium_core:1b}}},{Slot:1b,tag:{crazy_adventure:{uranium_block:1b}}},{Slot:2b,tag:{crazy_adventure:{uranium_core:1b}}}],2:[{Slot:0b,id:"minecraft:copper_block"},{Slot:1b,tag:{crazy_adventure:{uranium_core:1b}}},{Slot:2b,id:"minecraft:copper_block"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/nuclear_reactor
+
 #Radioactive Waste Barrel
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,tag:{crazy_adventure:{radioactive_waste:1b}}},{Slot:1b,tag:{crazy_adventure:{radioactive_waste:1b}}},{Slot:2b,tag:{crazy_adventure:{radioactive_waste:1b}}}],1:[{Slot:0b,tag:{crazy_adventure:{radioactive_waste:1b}}},{Slot:1b,id:"minecraft:barrel"},{Slot:2b,tag:{crazy_adventure:{radioactive_waste:1b}}}],2:[{Slot:0b,tag:{crazy_adventure:{radioactive_waste:1b}}},{Slot:1b,tag:{crazy_adventure:{radioactive_waste:1b}}},{Slot:2b,tag:{crazy_adventure:{radioactive_waste:1b}}}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/radioactive_waste_barrel
 
-#Template Battery
+#Uranium Battery
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,tag:{crazy_adventure:{radioactive_waste_barrel:1b}}},{Slot:1b,tag:{crazy_adventure:{radioactive_waste_barrel:1b}}},{Slot:2b,tag:{crazy_adventure:{radioactive_waste_barrel:1b}}}],1:[{Slot:0b,tag:{crazy_adventure:{radioactive_waste_barrel:1b}}},{Slot:1b,tag:{ctc:{id:"elite_battery"}}},{Slot:2b,tag:{crazy_adventure:{radioactive_waste_barrel:1b}}}],2:[{Slot:0b,tag:{ctc:{id:"simplunium_block"}}},{Slot:1b,tag:{ctc:{id:"simplunium_block"}}},{Slot:2b,tag:{ctc:{id:"simplunium_block"}}}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/uranium_battery
+
+#Ore extractor 1
+	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,id:"minecraft:iron_ore"},{Slot:1b,id:"minecraft:gold_ore"},{Slot:2b,id:"minecraft:iron_ore"}],1:[{Slot:0b,id:"minecraft:coal_ore"},{Slot:1b,id:"minecraft:wooden_pickaxe"},{Slot:2b,id:"minecraft:coal_ore"}],2:[{Slot:0b,id:"minecraft:copper_block"},{Slot:1b,id:"minecraft:copper_block"},{Slot:2b,id:"minecraft:copper_block"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/ore_extractor_lvl_1
+#Ore extractor 2
+	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,tag:{ctc:{id:"uranium_ingot"}}},{Slot:1b,id:"minecraft:stone_pickaxe"},{Slot:2b,tag:{ctc:{id:"uranium_ingot"}}}],1:[{Slot:0b,tag:{ctc:{id:"uranium_ingot"}}},{Slot:1b,tag:{crazy_adventure:{ore_extractor_lvl_1:1b}}},{Slot:2b,tag:{ctc:{id:"uranium_ingot"}}}],2:[{Slot:0b,id:"minecraft:exposed_copper"},{Slot:1b,id:"minecraft:exposed_copper"},{Slot:2b,id:"minecraft:exposed_copper"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/ore_extractor_lvl_2
+#Ore extractor 3
+	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,tag:{crazy_adventure:{uranium_core:1b}}},{Slot:1b,id:"minecraft:iron_pickaxe"},{Slot:2b,tag:{crazy_adventure:{uranium_core:1b}}}],1:[{Slot:0b,tag:{crazy_adventure:{uranium_core:1b}}},{Slot:1b,tag:{crazy_adventure:{ore_extractor_lvl_2:1b}}},{Slot:2b,tag:{crazy_adventure:{uranium_core:1b}}}],2:[{Slot:0b,id:"minecraft:weathered_copper"},{Slot:1b,id:"minecraft:weathered_copper"},{Slot:2b,id:"minecraft:weathered_copper"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/ore_extractor_lvl_3
+#Ore extractor 4
+	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,tag:{ctc:{id:"uranium_block"}}},{Slot:1b,tag:{crazy_adventure:{californium_pickaxe:1b}}},{Slot:2b,tag:{ctc:{id:"uranium_block"}}}],1:[{Slot:0b,tag:{ctc:{id:"uranium_block"}}},{Slot:1b,tag:{crazy_adventure:{ore_extractor_lvl_3:1b}}},{Slot:2b,tag:{ctc:{id:"uranium_block"}}}],2:[{Slot:0b,id:"minecraft:oxidised_copper"},{Slot:1b,id:"minecraft:oxidised_copper"},{Slot:2b,id:"minecraft:oxidised_copper"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/ore_extractor_lvl_4
+
+
 
 #Template Helmet
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,id:"minecraft:command_block",tag:{crazy_adventure:{template_ingot:1b}}},{Slot:1b,id:"minecraft:command_block",tag:{crazy_adventure:{template_ingot:1b}}},{Slot:2b,id:"minecraft:command_block",tag:{crazy_adventure:{template_ingot:1b}}}],1:[{Slot:0b,id:"minecraft:command_block",tag:{crazy_adventure:{template_ingot:1b}}},{Slot:1b,id:"minecraft:air"},{Slot:2b,id:"minecraft:command_block",tag:{crazy_adventure:{template_ingot:1b}}}]}} if data storage smithed.crafter:main root.temp{crafting_input:{2:[]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/template_helmet
@@ -52,3 +64,6 @@
 
 #Uranium Core
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:command_block",tag:{crazy_adventure:{uranium_ingot:1b}}},{Slot:2b,id:"minecraft:air"}],1:[{Slot:0b,id:"minecraft:command_block",tag:{crazy_adventure:{uranium_ingot:1b}}},{Slot:1b,id:"minecraft:iron_block"},{Slot:2b,id:"minecraft:command_block",tag:{crazy_adventure:{uranium_ingot:1b}}}],2:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:command_block",tag:{crazy_adventure:{uranium_ingot:1b}}},{Slot:2b,id:"minecraft:air"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/uranium_core
+
+
+data remove storage smithed.crafter:main flags[-1]
