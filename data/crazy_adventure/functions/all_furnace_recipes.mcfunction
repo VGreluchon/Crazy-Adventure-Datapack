@@ -5,5 +5,5 @@
 #Template Ore
 	execute if score #found simplenergy.data matches 0 store result score #found simplenergy.data if data storage simplenergy:main furnace.input_ctc{id:"template_ore"} run loot replace block ~ ~ ~ container.3 loot crazy_adventure:i/template_ingot
 
-#Raw Template
-	execute if score #found simplenergy.data matches 0 store result score #found simplenergy.data if data storage simplenergy:main furnace.input_ctc{id:"raw_template"} run loot replace block ~ ~ ~ container.3 loot crazy_adventure:i/template_ingot
+#Raw Uranium
+	execute if score #found simplenergy.data matches 0 store result score #found simplenergy.data if data storage simplenergy:main furnace.input_ctc{id:"raw_uranium"} run loot replace block ~ ~ ~ container.3 loot crazy_adventure:i/uranium_ingot

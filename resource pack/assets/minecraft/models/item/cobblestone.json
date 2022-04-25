@@ -13,7 +13,7 @@
 		{ "predicate": { "custom_model_data": 4221009 }, "model": "crazy_adventure:gui/cooling_gui_9" },
 		{ "predicate": { "custom_model_data": 4221010 }, "model": "crazy_adventure:gui/cooling_gui_10" },
 		{ "predicate": { "custom_model_data": 4221100 }, "model": "crazy_adventure:gui/nuclear_reactor_gui_0" },
-		{ "predicate": { "custom_model_data": 4221101 }, "model": "crazy_adventure:gui/nuclear_reactor_gui_1" }
+		{ "predicate": { "custom_model_data": 4221101 }, "model": "crazy_adventure:gui/nuclear_reactor_gui_1" },
 		{ "predicate": { "custom_model_data": 4221102 }, "model": "crazy_adventure:gui/nuclear_reactor_gui_2" },
 		{ "predicate": { "custom_model_data": 4221103 }, "model": "crazy_adventure:gui/nuclear_reactor_gui_3" },
 		{ "predicate": { "custom_model_data": 4221104 }, "model": "crazy_adventure:gui/nuclear_reactor_gui_4" },
