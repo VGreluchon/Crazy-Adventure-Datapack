@@ -65,5 +65,3 @@ data modify storage smithed.crafter:main flags append value "consume_tools"
 #Uranium Core
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:command_block",tag:{crazy_adventure:{uranium_ingot:1b}}},{Slot:2b,id:"minecraft:air"}],1:[{Slot:0b,id:"minecraft:command_block",tag:{crazy_adventure:{uranium_ingot:1b}}},{Slot:1b,id:"minecraft:iron_block"},{Slot:2b,id:"minecraft:command_block",tag:{crazy_adventure:{uranium_ingot:1b}}}],2:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:command_block",tag:{crazy_adventure:{uranium_ingot:1b}}},{Slot:2b,id:"minecraft:air"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/uranium_core
 
-
-data remove storage smithed.crafter:main flags[-1]
