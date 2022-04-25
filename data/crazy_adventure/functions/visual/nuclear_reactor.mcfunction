@@ -32,3 +32,4 @@ execute if score @s energy.storage < @s energy.max_storage run function crazy_ad
 #Update model depends on BurnTime (on/off)
 	execute if score @s crazy_adventure.working matches 0 run data modify entity @s Item.tag.CustomModelData set value 4220300
 	execute unless score @s crazy_adventure.working matches 0 run data modify entity @s Item.tag.CustomModelData set value 4220301
+

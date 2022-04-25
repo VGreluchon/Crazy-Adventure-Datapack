@@ -14,5 +14,9 @@ execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:r
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:nuclear_reactor"} run function crazy_adventure:place/nuclear_reactor/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:uranium_battery"} run function crazy_adventure:place/uranium_battery/main
 
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:ore_extractor_lvl_1"} run function crazy_adventure:place/ore_extractor_lvl_1/main
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:ore_extractor_lvl_2"} run function crazy_adventure:place/ore_extractor_lvl_2/main
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:ore_extractor_lvl_3"} run function crazy_adventure:place/ore_extractor_lvl_3/main
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:ore_extractor_lvl_4"} run function crazy_adventure:place/ore_extractor_lvl_4/main
 
 tag @s remove crazy_adventure.placer

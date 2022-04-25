@@ -12,4 +12,7 @@
 	execute if entity @s[tag=crazy_adventure.nuclear_reactor] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/nuclear_reactor
 
 #Power Consumers
-	execute if entity @s[tag=crazy_adventure.empty_consumer] unless block ~ ~ ~ furnace run function crazy_adventure:destroy/empty_consumer
+	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_1] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/ore_extractor_lvl_1
+	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_2] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/ore_extractor_lvl_2
+	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_3] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/ore_extractor_lvl_3
+	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_4] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/ore_extractor_lvl_4
