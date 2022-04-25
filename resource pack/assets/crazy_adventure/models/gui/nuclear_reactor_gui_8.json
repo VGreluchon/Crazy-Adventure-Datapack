@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"texture": "crazy_adventure:gui/cooling/nuclear_reactor_gui_8"
+		"texture": "crazy_adventure:gui/working/nuclear_reactor_gui_8"
 	},
 	"elements": [ 
 		{
