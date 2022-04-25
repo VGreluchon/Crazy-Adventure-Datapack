@@ -10,11 +10,13 @@ loot spawn ~ ~ ~ loot crazy_adventure:i/radioactive_waste
 loot spawn ~ ~ ~ loot crazy_adventure:i/radioactive_waste_barrel
 
 loot spawn ~ ~ ~ loot crazy_adventure:i/cave_helmet
+loot spawn ~ ~ ~ loot crazy_adventure:i/souls_bag
 
 loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_boots
 loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_leggings
 loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_chestplate
 loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_helmet
+loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_glove
 
 loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_battery
 loot spawn ~ ~ ~ loot crazy_adventure:i/nuclear_reactor

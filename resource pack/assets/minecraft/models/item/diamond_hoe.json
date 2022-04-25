@@ -4,6 +4,8 @@
 		"layer0": "item/diamond_hoe"
 	},
 	"overrides": [
+		{ "predicate": { "custom_model_data": 2012107 }, "model": "simplenergy:equipments/simplunium_hoe" },
+
 		{ "predicate": { "custom_model_data": 4220108 }, "model": "crazy_adventure:equipments/template_hoe" }
 	]
 }
