@@ -6,6 +6,7 @@ scoreboard objectives add crazy_adventure.data dummy
 scoreboard objectives add crazy_adventure.config dummy
 scoreboard objectives add crazy_adventure.id dummy
 scoreboard objectives add crazy_adventure.working dummy
+scoreboard objectives add crazy_adventure.water dummy
 
 # Default Config
 execute unless score #default_config crazy_adventure.config matches 1 run function crazy_adventure:config/default
