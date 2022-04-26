@@ -1,6 +1,6 @@
 
 #Copy block Items into a storage
-data modify storage crazy_adventure:main Items set from block ~ ~ ~ Items
+data modify storage crazy_adventure:main Items set from block ~ ~ ~ Items 
 
 #Cooling
 execute if data storage crazy_adventure:main Items[{Slot:11b,id:"minecraft:water_bucket"}] unless score @s crazy_adventure.water matches 100 run function crazy_adventure:work/nuclear_reactor/cooling

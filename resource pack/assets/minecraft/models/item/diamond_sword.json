@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_sword"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 2012104 }, "model": "simplenergy:equipments/simplunium_sword" },
+
+		{ "predicate": { "custom_model_data": 4220104 }, "model": "crazy_adventure:equipments/template_shovel" }
+	]
+}

@@ -5,4 +5,5 @@
 	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_2] if score @s energy.storage matches 10.. run function crazy_adventure:work/ore_extractor/lvl_2
 	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_3] if score @s energy.storage matches 30.. run function crazy_adventure:work/ore_extractor/lvl_3
 	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_4] if score @s energy.storage matches 100.. run function crazy_adventure:work/ore_extractor/lvl_4
+	execute if entity @s[tag=crazy_adventure.storm_stick_charger] run function crazy_adventure:work/stick_charger/storm_stick_charger/main
 

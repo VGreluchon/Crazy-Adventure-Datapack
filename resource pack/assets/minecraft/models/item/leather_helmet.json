@@ -1,0 +1,13 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/leather_helmet",
+		"layer1": "item/leather_helmet_overlay"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 2012100 }, "model": "simplenergy:equipments/simplunium_helmet" },
+
+		{ "predicate": { "custom_model_data": 4220100 }, "model": "crazy_adventure:equipments/anti_radiation_helmet" },
+		{ "predicate": { "custom_model_data": 4220109 }, "model": "crazy_adventure:equipments/cave_helmet" }
+	]
+}

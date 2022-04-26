@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/leather_boots",
+		"layer1": "item/leather_boots_overlay"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 2012103 }, "model": "simplenergy:equipments/simplunium_boots" },
+
+		{ "predicate": { "custom_model_data": 4220103 }, "model": "crazy_adventure:equipments/anti_radiation_boots" }
+	]
+}
