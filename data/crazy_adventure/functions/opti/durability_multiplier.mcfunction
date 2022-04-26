@@ -1,16 +1,14 @@
-
-##Called by function tag #simplenergy:durability_multiplier
+##Called by function tag #durability_multiplier:v1/durability_changed
 ##Set the durability multiplier compared to vanilla durability
-##Here 42 * leather armor durability (42000 divided by 1000)
-##And 1.2 * diamond tools durability (1200 divided by 1000)
+##Keep in mind that your multiplier should be >= 1000, or else there is no effect.
+##E.g. if you want to multiply durability by a x4.5 factor
+##You'll need to put #multiplier score to 4500 (4500 divided by 1000 = 4.5)
 
 #Custom durability for Template Armor & Tools
-	scoreboard players set #durability_multiplier simplenergy.data 42000
-	execute unless score @s simplenergy.head = #helmet simplenergy.data if data storage simplenergy:main durability[{Slot:103b,tag:{crazy_adventure:{template:1b}}}] run function simplenergy:opti/durability_multiplier/helmet
-	execute unless score @s simplenergy.chest = #chestplate simplenergy.data if data storage simplenergy:main durability[{Slot:102b,tag:{crazy_adventure:{template:1b}}}] run function simplenergy:opti/durability_multiplier/chestplate
-	execute unless score @s simplenergy.legs = #leggings simplenergy.data if data storage simplenergy:main durability[{Slot:101b,tag:{crazy_adventure:{template:1b}}}] run function simplenergy:opti/durability_multiplier/leggings
-	execute unless score @s simplenergy.boots = #boots simplenergy.data if data storage simplenergy:main durability[{Slot:100b,tag:{crazy_adventure:{template:1b}}}] run function simplenergy:opti/durability_multiplier/boots
-	scoreboard players set #durability_multiplier simplenergy.data 1200
-	execute unless score @s simplenergy.offhand = #offhand simplenergy.data if data storage simplenergy:main durability[{Slot:-106b,tag:{crazy_adventure:{template:1b}}}] run function simplenergy:opti/durability_multiplier/offhand
-	execute unless score @s simplenergy.mainhand = #mainhand simplenergy.data if data storage simplenergy:main durability[{Slot:-42b,tag:{crazy_adventure:{template:1b}}}] run function simplenergy:opti/durability_multiplier/mainhand
-
+    scoreboard players set #multiplier durability_multiplier.data 42000
+    execute if score #head_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main head.tag.energy_datapack_template.template run function durability_multiplier:v1.0/technical/head
+    execute if score #chest_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main chest.tag.energy_datapack_template.template run function durability_multiplier:v1.0/technical/chest
+    execute if score #legs_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main legs.tag.energy_datapack_template.template run function durability_multiplier:v1.0/technical/legs
+    execute if score #feet_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main feet.tag.energy_datapack_template.template run function durability_multiplier:v1.0/technical/feet
+    scoreboard players set #multiplier durability_multiplier.data 1200
+    execute if score #mainhand_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main mainhand.tag.energy_datapack_template.template run function durability_multiplier:v1.0/technical/mainhand

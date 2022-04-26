@@ -11,4 +11,5 @@
 	execute as @e[type=area_effect_cloud,tag=crazy_adventure.ore_pos] at @s run function crazy_adventure:generate/uranium_ore
 
 
+
 kill @e[type=area_effect_cloud,tag=crazy_adventure.ore_pos]
