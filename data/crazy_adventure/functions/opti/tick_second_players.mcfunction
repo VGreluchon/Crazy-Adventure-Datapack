@@ -13,8 +13,8 @@ execute if score #temp crazy_adventure.data matches 0 if data storage crazy_adve
 execute if score #temp crazy_adventure.data matches 0 if data storage crazy_adventure:main Inventory[{tag:{crazy_adventure:{raw_uranium:1b}}}] run effect give @s wither 3 3 true
 
 execute if data storage crazy_adventure:main Inventory[{Slot:-106b,tag:{crazy_adventure:{anti_radiation_glove:1b}}}] run scoreboard players add @s crazy_adventure.offhand 1
-execute if score @s crazy_adventure.offhand matches 5 run item modify entity @s weapon.offhand crazy_adventure:glove
-execute if score @s crazy_adventure.offhand matches 5 run scoreboard players set @s crazy_adventure.offhand 0
+execute if score @s crazy_adventure.offhand matches 6 run item modify entity @s weapon.offhand crazy_adventure:glove
+execute if score @s crazy_adventure.offhand matches 6 run scoreboard players set @s crazy_adventure.offhand 0
 
 tag @s remove crazy_adventure.ps.empty_generator
 tag @s remove crazy_adventure.ps.empty_consumer
