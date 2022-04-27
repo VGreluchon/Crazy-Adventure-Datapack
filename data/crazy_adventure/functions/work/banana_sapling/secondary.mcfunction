@@ -1,0 +1,1 @@
+execute if block ~ ~3 ~ jungle_log if block ~1 ~3 ~ jungle_leaves if block ~1 ~2 ~ air run 

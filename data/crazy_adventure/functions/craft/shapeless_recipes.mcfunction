@@ -2,7 +2,7 @@
 ##Called by function tag #smithed.crafter:event/shapeless_recipes
 
 #Banana sapling
-	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 1 if data storage smithed.crafter:main root.temp{shapeless_crafting_input:[{Count:1b,tag:{ctc:{id:"banana"}}}]} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/banana_sapling_x2
+	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 1 if data storage smithed.crafter:main root.temp{shapeless_crafting_input:[{Count:1b,tag:{ctc:{id:"banana"}}}]} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/banana_sapling
 
 #Template Ingot
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 1 if data storage smithed.crafter:main root.temp{shapeless_crafting_input:[{Count:1b,id:"minecraft:barrel",tag:{crazy_adventure:{template_block:1b}}}]} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/template_ingot_x9

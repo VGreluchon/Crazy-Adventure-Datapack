@@ -28,7 +28,7 @@
 		"trunk_provider": {
 		"type": "minecraft:simple_state_provider",
 		"state": {
-			"Name": "minecraft:jungle_wood",
+			"Name": "minecraft:jungle_log",
 			"Properties": {
 			"axis": "y"
 			}
