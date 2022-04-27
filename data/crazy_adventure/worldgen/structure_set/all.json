@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "crazy_adventure:banana_tree",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"spacing": 5,
+		"separation": 3,
+		"salt": 422000069
+	}
+}

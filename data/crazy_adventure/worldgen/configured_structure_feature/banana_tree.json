@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:village",
+	"config": {
+		"start_pool": "crazy_adventure:banana_tree",
+		"size": 1
+	},
+	"biomes": "#crazy_adventure:natural_banana_tree",
+	"adapt_noise": true,
+	"spawn_overrides": {}
+}

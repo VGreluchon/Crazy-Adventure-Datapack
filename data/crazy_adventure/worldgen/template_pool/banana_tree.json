@@ -1,0 +1,15 @@
+{
+	"name": "crazy_adventure:banana_tree",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "crazy_adventure:banana_tree",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}
