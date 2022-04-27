@@ -1,6 +1,6 @@
 ### Translations
-* [English](https://github.com/Stoupy51/Energy-Datapack-Template/blob/master/README.md)
-* [Française](https://github.com/Stoupy51/Energy-Datapack-Template/blob/master/README.fr.md)
+* [English](https://github.com/Vgreluchon/Crazy-Adventure-Datapack/blob/master/README.md)
+* [Française](https://github.com/Vgreluchon/Crazy-Adventure-Datapack/blob/master/README.fr.md)
 
 ! This Datapack need SimplEnergy to work ! https://github.com/Stoupy51/SimplEnergy
 
