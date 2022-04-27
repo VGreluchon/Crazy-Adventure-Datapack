@@ -6,7 +6,7 @@
 
 # Quoi que c'est Crazy Adventure
 
-Crazy Adventure est un datapck d'aventure et de technologie qui ajoute pleins de trucs cool à Minecraft. Voici une liste non exhaustive des ajouts:
+Crazy Adventure est un datapack d'aventure et de technologie qui ajoute pleins de trucs cool à Minecraft. Voici une liste non exhaustive des ajouts:
 
     Some new items
     1 New Custom Dimensions (pas encore fait)

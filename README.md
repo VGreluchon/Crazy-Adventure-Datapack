@@ -17,5 +17,5 @@ Crazy Adventure is an advanced Adventure & Technology Datapack created to add co
 Credits :
 
     Resource Pack : Me
-    I received some help from: Stoupy51
+    I received some help from: Stoupy51 & LTHC
     Creator of SimplEnergy: Stoupy51

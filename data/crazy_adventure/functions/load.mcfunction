@@ -10,6 +10,7 @@ scoreboard objectives add crazy_adventure.water dummy
 scoreboard objectives add crazy_adventure.offhand dummy
 scoreboard objectives add crazy_adventure.charges dummy
 scoreboard objectives add crazy_adventure.radiation dummy
+scoreboard objectives add crazy_adventure.stockable_radiation dummy
 
 # Default Config
 execute unless score #default_config crazy_adventure.config matches 1 run function crazy_adventure:config/default
@@ -56,6 +57,8 @@ scoreboard players set #-3 simplenergy.data -3
 		data modify storage crazy_adventure:main all.4220014 set value {Slot:16b,id:"minecraft:bread"						,Count:1b,tag:{ctc:{id:"banana",from:"vgreluchon:crazy_adventure",traits:{"food":1b}}										,CustomModelData:4220014,crazy_adventure:{banana:1b}						,display:{Lore:['{"translate":"Gives 20 Bq to your body when eaten","color":"gray","italic":false,"bold":true}','{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Banana","italic":false,"color":"white"}]'}					,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:banana"}}}}]}}}
 		data modify storage crazy_adventure:main all.4220015 set value {Slot:16b,id:"minecraft:barrel"						,Count:1b,tag:{ctc:{id:"banana_sapling",from:"vgreluchon:crazy_adventure",traits:{"sapling":1b}}							,CustomModelData:4220015,crazy_adventure:{banana_sapling:1b}				,display:{Lore:['{"translate":"Need to be place on dirt","color":"gray","italic":false}','{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Banana Sapling","italic":false,"color":"white"}]'}				,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:banana_sapling"}}}}]}}}
 		data modify storage crazy_adventure:main all.4220016 set value {Slot:16b,id:"minecraft:soul_campfire"				,Count:1b,tag:{ctc:{id:"banana_plant",from:"vgreluchon:crazy_adventure",traits:{"food":1b}}									,CustomModelData:4220016,crazy_adventure:{banana_plant:1b}					,display:{Lore:['{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Banana Plant","italic":false,"color":"white"}]'}				,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:banana_plant"}}}}]}}}
+
+		data modify storage crazy_adventure:main all.4220017 set value {Slot:16b,id:"minecraft:command_block"				,Count:1b,tag:{ctc:{id:"geiger_counter",from:"vgreluchon:crazy_adventure",traits:{"tool":1b}}								,CustomModelData:4220017,crazy_adventure:{geiger_counter:1b}				,display:{Lore:['{"translate":"Tells you the radiation exposure","color":"gray","italic":false}','{"translate":"level you and your armor have","color":"gray","italic":false}','{"translate":"[Hold in offhand to use]","color":"white","italic":false}','{"translate":"Crazy Adventure","color":"blue","italic":true}'],Name:'[{"text":"Geiger Counter","italic":false,"color":"yellow"}]'}				,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:geiger_counter"}}}}]}}}
 
 
 
