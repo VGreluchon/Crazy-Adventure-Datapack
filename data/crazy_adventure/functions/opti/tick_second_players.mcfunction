@@ -20,10 +20,14 @@ execute if score @s crazy_adventure.radiation matches 201.. run scoreboard playe
 
 execute if data storage crazy_adventure:main Inventory[{Slot:-106b,tag:{crazy_adventure:{anti_radiation_glove:1b}}}] run scoreboard players add @s crazy_adventure.offhand 1
 
-execute if data storage crazy_adventure:main Inventory[{Slot:-106b,tag:{crazy_adventure:{geiger_counter:1b}}}] run title @s actionbar [{"translate":"Body Radiation : ","italic":false,"color":"aqua"},{"score":{"name":"@s","objective":"crazy_adventure.radiation"},"italic":false,"color":"yellow"},{"text":"/"},{"translate":"200 Bq","italic":false,"color":"yellow"},{"translate":"\nChange Rate : "},{"score":{"name":"@s","objective":"crazy_adventure.stockable_radiation"},"italic":false,"color":"yellow"},{"translate":" Bq"}]
+execute if data storage crazy_adventure:main Inventory[{Slot:-106b,tag:{crazy_adventure:{geiger_counter:1b}}}] run title @s actionbar [{"translate":"Body Radiation : ","italic":false,"color":"aqua"},{"score":{"name":"@s","objective":"crazy_adventure.radiation"},"italic":false,"color":"yellow"},{"text":"/"},{"score":{"name":"@s","objective":"crazy_adventure.stockable_radiation"},"italic":false,"color":"yellow"},{"translate":" Bq"}]
 
 execute if score @s crazy_adventure.offhand matches 6 run item modify entity @s weapon.offhand crazy_adventure:glove
 execute if score @s crazy_adventure.offhand matches 6 run scoreboard players set @s crazy_adventure.offhand 0
 
+execute unless score @s crazy_adventure.cooldown matches 5.. run scoreboard players add @s crazy_adventure.cooldown 1
+execute if score @s crazy_adventure.right_click matches 1.. run function crazy_adventure:right_click/all
+
 tag @s remove crazy_adventure.ps.empty_generator
 tag @s remove crazy_adventure.ps.empty_consumer
+
