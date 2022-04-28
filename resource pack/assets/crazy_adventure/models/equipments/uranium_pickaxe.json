@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "crazy_adventure:equipments/uranium_pickaxe"
+	}
+}

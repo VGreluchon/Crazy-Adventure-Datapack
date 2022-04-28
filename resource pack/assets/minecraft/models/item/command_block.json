@@ -14,6 +14,7 @@
 		{ "predicate": { "custom_model_data": 4220009 }, "model": "crazy_adventure:materials/radioactive_waste" },
 		{ "predicate": { "custom_model_data": 4220011 }, "model": "crazy_adventure:materials/souls_bag" },
 		{ "predicate": { "custom_model_data": 4220012 }, "model": "crazy_adventure:materials/souls_bag_half_filled" },
-		{ "predicate": { "custom_model_data": 4220013 }, "model": "crazy_adventure:materials/souls_bag_filled" }
+		{ "predicate": { "custom_model_data": 4220013 }, "model": "crazy_adventure:materials/souls_bag_filled" },
+		{ "predicate": { "custom_model_data": 4220017 }, "model": "crazy_adventure:equipments/geiger_counter" }
 	]
 }

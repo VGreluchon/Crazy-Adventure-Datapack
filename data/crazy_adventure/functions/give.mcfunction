@@ -22,6 +22,7 @@ loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_chestplate
 loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_helmet
 loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_glove
 loot spawn ~ ~ ~ loot crazy_adventure:i/banana
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_banana
 loot spawn ~ ~ ~ loot crazy_adventure:i/banana_plant
 loot spawn ~ ~ ~ loot crazy_adventure:i/banana_sapling
 

@@ -5,7 +5,7 @@
 	  "layer0": "minecraft:item/bread"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 4220014 }, "model": "crazy_adventure:food/banana" }
+		{ "predicate": { "custom_model_data": 4220018 }, "model": "crazy_adventure:food/uranium_banana" }
 
 	  ]
   }
