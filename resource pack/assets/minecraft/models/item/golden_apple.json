@@ -2,10 +2,11 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-	  "layer0": "minecraft:item/bread"
+	  "layer0": "minecraft:item/golden_apple"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 4220018 }, "model": "crazy_adventure:food/uranium_banana" }
+		{ "predicate": { "custom_model_data": 4220018 }, "model": "crazy_adventure:food/uranium_banana" },
+		{ "predicate": { "custom_model_data": 4220019 }, "model": "crazy_adventure:food/uranium_apple" }
 
 	  ]
   }

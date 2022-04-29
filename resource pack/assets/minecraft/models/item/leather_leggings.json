@@ -7,6 +7,8 @@
 	"overrides": [
 		{ "predicate": { "custom_model_data": 2012100 }, "model": "simplenergy:equipments/simplunium_helmet" },
 
-		{ "predicate": { "custom_model_data": 4220102 }, "model": "crazy_adventure:equipments/anti_radiation_leggings" }
+		{ "predicate": { "custom_model_data": 4220102 }, "model": "crazy_adventure:equipments/anti_radiation_leggings" },
+
+		{ "predicate": { "custom_model_data": 4220112 }, "model": "crazy_adventure:equipments/uranium_leggings" }
 	]
 }

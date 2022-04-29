@@ -6,6 +6,6 @@
 	"overrides": [
 		{ "predicate": { "custom_model_data": 2012108 }, "model": "simplenergy:equipments/simplunium_shovel" },
 
-		{ "predicate": { "custom_model_data": 4220107 }, "model": "crazy_adventure:equipments/template_shovel" }
+		{ "predicate": { "custom_model_data": 4220118 }, "model": "crazy_adventure:equipments/uranium_shovel" }
 	]
 }

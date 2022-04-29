@@ -6,6 +6,6 @@
 	"overrides": [
 		{ "predicate": { "custom_model_data": 2012105 }, "model": "simplenergy:equipments/simplunium_pickaxe" },
 
-		{ "predicate": { "custom_model_data": 4220105 }, "model": "crazy_adventure:equipments/template_pickaxe" }
+		{ "predicate": { "custom_model_data": 4220115 }, "model": "crazy_adventure:equipments/uranium_pickaxe" }
 	]
 }
