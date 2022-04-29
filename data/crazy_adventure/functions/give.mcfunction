@@ -11,6 +11,17 @@ loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_core
 loot spawn ~ ~ ~ loot crazy_adventure:i/radioactive_waste
 loot spawn ~ ~ ~ loot crazy_adventure:i/radioactive_waste_barrel
 
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_helmet
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_chestplate
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_leggings
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_boots
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_pickaxe
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_shovel
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_hoe
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_axe
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_sword
+
+
 loot spawn ~ ~ ~ loot crazy_adventure:i/cave_helmet
 loot spawn ~ ~ ~ loot crazy_adventure:i/souls_bag
 loot spawn ~ ~ ~ loot crazy_adventure:i/chargeless_stick
@@ -23,6 +34,7 @@ loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_helmet
 loot spawn ~ ~ ~ loot crazy_adventure:i/anti_radiation_glove
 loot spawn ~ ~ ~ loot crazy_adventure:i/banana
 loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_banana
+loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_apple
 loot spawn ~ ~ ~ loot crazy_adventure:i/banana_plant
 loot spawn ~ ~ ~ loot crazy_adventure:i/banana_sapling
 

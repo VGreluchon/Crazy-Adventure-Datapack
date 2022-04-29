@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:diamond_axe",
+					"name": "minecraft:diamond_hoe",
 					"functions": [
 						{
 							"function": "minecraft:copy_nbt",
@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220106.tag",
+									"source": "all.4220117.tag",
 									"target": "{}",
 									"op": "merge"
 								}

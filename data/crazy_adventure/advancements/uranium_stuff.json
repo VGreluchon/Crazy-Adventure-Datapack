@@ -1,0 +1,16 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:item_durability_changed",
+		"conditions": {
+		  "item": {
+			"nbt": "{crazy_adventure:{uranium:1b}}"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "crazy_adventure:opti/advancements_rewards/uranium_stuff"
+	}
+  }
+  
