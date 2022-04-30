@@ -17,6 +17,8 @@
 	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_3] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/ore_extractor_lvl_3
 	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_4] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/ore_extractor_lvl_4
 	execute if entity @s[tag=crazy_adventure.storm_stick_charger] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/storm_stick_charger
+	execute if entity @s[tag=crazy_adventure.shield_stick_charger] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/shield_stick_charger
+	execute if entity @s[tag=crazy_adventure.fireball_stick_charger] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/fireball_stick_charger
 
 
 	execute if entity @s[tag=crazy_adventure.banana_sapling] unless block ~ ~ ~ jungle_sapling run function crazy_adventure:destroy/banana_tree

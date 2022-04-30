@@ -24,12 +24,6 @@ execute if data storage crazy_adventure:main Inventory[{Slot:-106b,tag:{crazy_ad
 execute if score @s crazy_adventure.offhand matches 6 run item modify entity @s weapon.offhand crazy_adventure:glove
 execute if score @s crazy_adventure.offhand matches 6 run scoreboard players set @s crazy_adventure.offhand 0
 
-execute unless score @s crazy_adventure.cooldown matches 5.. run scoreboard players add @s crazy_adventure.cooldown 1
-execute if score @s crazy_adventure.right_click matches 1.. run function crazy_adventure:right_click/all
-
-
-
-
 
 scoreboard players set @s crazy_adventure.stockable_radiation 200
 execute if data storage crazy_adventure:main Inventory[{Slot:103b,id:"minecraft:iron_helmet"}] run scoreboard players add @s crazy_adventure.stockable_radiation 40
