@@ -6,8 +6,8 @@ execute as @e[type=fireball,tag=crazy_adventure.fireball] run tp @s ^ ^1.55 ^
 execute as @e[type=fireball,tag=crazy_adventure.fireball] at @s run function crazy_adventure:work/sticks/fireball_stick/launch_fireball
 
 
-execute if entity @s[tag=crazy_adventure.stop] run item modify entity @s weapon.mainhand crazy_adventure:fireball_stick
-scoreboard players remove @s[tag=crazy_adventure.stop] crazy_adventure.radiation 60
+execute run item modify entity @s weapon.mainhand crazy_adventure:fireball_stick
+scoreboard players remove @s crazy_adventure.radiation 60
 scoreboard players set @s crazy_adventure.cooldown 80
 
 

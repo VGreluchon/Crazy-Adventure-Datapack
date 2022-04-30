@@ -7,7 +7,7 @@
 
 	execute if score @s crazy_adventure.charges matches ..9 if block ~ ~1 ~ obsidian run scoreboard players add @s crazy_adventure.working 10
 	execute if score @s crazy_adventure.charges matches ..9 if block ~ ~1 ~ obsidian run setblock ~ ~1 ~ air
-	execute if score @s crazy_adventure.working matches 20.. run particle landing_obsidian_tear ~ ~ ~ ~1 ~1 ~1 1 20
+	execute if score @s crazy_adventure.working matches 20.. run particle landing_obsidian_tear ~ ~1 ~ ~1 ~1 ~1 1 20
 	execute if score @s crazy_adventure.working matches 20.. run scoreboard players add @s crazy_adventure.charges 1
 	execute if score @s crazy_adventure.working matches 20.. run scoreboard players set @s crazy_adventure.working 0
 	execute if score @s crazy_adventure.charges matches 10.. unless data storage crazy_adventure:main Items[{Slot:15b,tag:{crazy_adventure:{shield_stick:1b}}}] if data storage crazy_adventure:main Items[{Slot:11b,tag:{crazy_adventure:{chargeless_stick:1b}}}] run loot replace block ~ ~ ~ container.15 loot crazy_adventure:i/shield_stick

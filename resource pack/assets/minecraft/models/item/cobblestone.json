@@ -312,7 +312,29 @@
 		{ "predicate": { "custom_model_data": 4221207 }, "model": "crazy_adventure:gui/storm_charger_gui_7" },
 		{ "predicate": { "custom_model_data": 4221208 }, "model": "crazy_adventure:gui/storm_charger_gui_8" },
 		{ "predicate": { "custom_model_data": 4221209 }, "model": "crazy_adventure:gui/storm_charger_gui_9" },
-		{ "predicate": { "custom_model_data": 4221210 }, "model": "crazy_adventure:gui/storm_charger_gui_10" }
+		{ "predicate": { "custom_model_data": 4221210 }, "model": "crazy_adventure:gui/storm_charger_gui_10" },
+		{ "predicate": { "custom_model_data": 4221211 }, "model": "crazy_adventure:gui/fireball_charger_gui_0" },
+		{ "predicate": { "custom_model_data": 4221212 }, "model": "crazy_adventure:gui/fireball_charger_gui_1" },
+		{ "predicate": { "custom_model_data": 4221213 }, "model": "crazy_adventure:gui/fireball_charger_gui_2" },
+		{ "predicate": { "custom_model_data": 4221214 }, "model": "crazy_adventure:gui/fireball_charger_gui_3" },
+		{ "predicate": { "custom_model_data": 4221215 }, "model": "crazy_adventure:gui/fireball_charger_gui_4" },
+		{ "predicate": { "custom_model_data": 4221216 }, "model": "crazy_adventure:gui/fireball_charger_gui_5" },
+		{ "predicate": { "custom_model_data": 4221217 }, "model": "crazy_adventure:gui/fireball_charger_gui_6" },
+		{ "predicate": { "custom_model_data": 4221218 }, "model": "crazy_adventure:gui/fireball_charger_gui_7" },
+		{ "predicate": { "custom_model_data": 4221219 }, "model": "crazy_adventure:gui/fireball_charger_gui_8" },
+		{ "predicate": { "custom_model_data": 4221220 }, "model": "crazy_adventure:gui/fireball_charger_gui_9" },
+		{ "predicate": { "custom_model_data": 4221221 }, "model": "crazy_adventure:gui/fireball_charger_gui_10" },
+		{ "predicate": { "custom_model_data": 4221222 }, "model": "crazy_adventure:gui/shield_charger_gui_0" },
+		{ "predicate": { "custom_model_data": 4221223 }, "model": "crazy_adventure:gui/shield_charger_gui_1" },
+		{ "predicate": { "custom_model_data": 4221224 }, "model": "crazy_adventure:gui/shield_charger_gui_2" },
+		{ "predicate": { "custom_model_data": 4221225 }, "model": "crazy_adventure:gui/shield_charger_gui_3" },
+		{ "predicate": { "custom_model_data": 4221226 }, "model": "crazy_adventure:gui/shield_charger_gui_4" },
+		{ "predicate": { "custom_model_data": 4221227 }, "model": "crazy_adventure:gui/shield_charger_gui_5" },
+		{ "predicate": { "custom_model_data": 4221228 }, "model": "crazy_adventure:gui/shield_charger_gui_6" },
+		{ "predicate": { "custom_model_data": 4221229 }, "model": "crazy_adventure:gui/shield_charger_gui_7" },
+		{ "predicate": { "custom_model_data": 4221230 }, "model": "crazy_adventure:gui/shield_charger_gui_8" },
+		{ "predicate": { "custom_model_data": 4221231 }, "model": "crazy_adventure:gui/shield_charger_gui_9" },
+		{ "predicate": { "custom_model_data": 4221232 }, "model": "crazy_adventure:gui/shield_charger_gui_10" }
 
 	]
 }
