@@ -12,3 +12,11 @@
     execute if score #feet_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main feet.tag.crazy_adventure.uranium run function durability_multiplier:v1.0/technical/feet
     scoreboard players set #multiplier durability_multiplier.data 1200
     execute if score #mainhand_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main mainhand.tag.crazy_adventure.uranium run function durability_multiplier:v1.0/technical/mainhand
+
+	    scoreboard players set #multiplier durability_multiplier.data 12000
+    execute if score #head_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main head.tag.crazy_adventure.californium run function durability_multiplier:v1.0/technical/head
+    execute if score #chest_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main chest.tag.crazy_adventure.californium run function durability_multiplier:v1.0/technical/chest
+    execute if score #legs_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main legs.tag.crazy_adventure.californium run function durability_multiplier:v1.0/technical/legs
+    execute if score #feet_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main feet.tag.crazy_adventure.californium run function durability_multiplier:v1.0/technical/feet
+    scoreboard players set #multiplier durability_multiplier.data 2000
+    execute if score #mainhand_valid durability_multiplier.data matches 1 if data storage durability_multiplier:main mainhand.tag.crazy_adventure.californium run function durability_multiplier:v1.0/technical/mainhand

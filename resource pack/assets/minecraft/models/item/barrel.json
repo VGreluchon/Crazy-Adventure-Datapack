@@ -22,12 +22,13 @@
 		{ "predicate": { "custom_model_data": 2012405 }, "model": "simplenergy:blocks/electric_lamp" },
 		{ "predicate": { "custom_model_data": 2012406 }, "model": "simplenergy:blocks/electric_lamp_on" },
 
-		{ "predicate": { "custom_model_data": 4220000 }, "model": "crazy_adventure:materials/template_ore" },
-		{ "predicate": { "custom_model_data": 4220002 }, "model": "crazy_adventure:materials/template_block" },
 		{ "predicate": { "custom_model_data": 4220004 }, "model": "crazy_adventure:materials/uranium_ore" },
 		{ "predicate": { "custom_model_data": 4220006 }, "model": "crazy_adventure:materials/uranium_block" },
 		{ "predicate": { "custom_model_data": 4220010 }, "model": "crazy_adventure:materials/radioactive_waste_barrel" },
 		{ "predicate": { "custom_model_data": 4220015 }, "model": "crazy_adventure:food/banana_sapling" },
+		
+		{ "predicate": { "custom_model_data": 4220020 }, "model": "crazy_adventure:materials/californium_ore" },
+		{ "predicate": { "custom_model_data": 4220022 }, "model": "crazy_adventure:materials/californium_block" },
 
 		{ "predicate": { "custom_model_data": 4220200 }, "model": "crazy_adventure:machines/uranium_battery" },
 
@@ -41,5 +42,6 @@
 		{ "predicate": { "custom_model_data": 4220404 }, "model": "crazy_adventure:machines/storm_stick_charger" },
 		{ "predicate": { "custom_model_data": 4220405 }, "model": "crazy_adventure:machines/shield_stick_charger" },
 		{ "predicate": { "custom_model_data": 4220406 }, "model": "crazy_adventure:machines/fireball_stick_charger" }
+
 	]
 }

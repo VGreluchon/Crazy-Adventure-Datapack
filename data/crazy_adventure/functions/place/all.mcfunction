@@ -20,4 +20,7 @@ execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:f
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:banana_sapling"} run function crazy_adventure:place/banana_sapling/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:banana_plant"} run function crazy_adventure:place/banana_plant/main
 
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:californium_ore"} run function crazy_adventure:place/californium_ore/main
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:californium_block"} run function crazy_adventure:place/californium_block/main
+
 tag @s remove crazy_adventure.placer
