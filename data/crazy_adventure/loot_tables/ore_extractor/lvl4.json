@@ -40,7 +40,12 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 4,
+					"weight": 3,
+					"name": "crazy_adventure:i/californium_nugget"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
 					"name": "crazy_adventure:i/raw_californium"
 				}
 			]
