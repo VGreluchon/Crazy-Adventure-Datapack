@@ -5,12 +5,12 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 50,
+					"weight": 45,
 					"name": "minecraft:cobblestone"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 50,
+					"weight": 45,
 					"name": "minecraft:coal"
 				},
 				{
@@ -25,13 +25,28 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 12,
+					"weight": 15,
 					"name": "minecraft:diamond"
 				},
 				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:emerald"
+				},
+				{
 					"type": "minecraft:loot_table",
-					"weight": 5,
+					"weight": 7,
+					"name": "simplenergy:i/simplunium_nugget"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 4,
 					"name": "simplenergy:i/raw_simplunium"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 7,
+					"name": "crazy_adventure:i/uranium_nugget"
 				},
 				{
 					"type": "minecraft:loot_table",

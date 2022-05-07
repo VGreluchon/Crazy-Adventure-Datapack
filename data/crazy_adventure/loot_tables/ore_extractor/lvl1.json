@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 91,
+					"weight": 80,
 					"name": "minecraft:cobblestone"
 				},
 				{
@@ -30,8 +30,18 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "simplenergy:i/simplunium_nugget"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"weight": 2,
 					"name": "simplenergy:i/raw_simplunium"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "crazy_adventure:i/uranium_nugget"
 				},
 				{
 					"type": "minecraft:loot_table",

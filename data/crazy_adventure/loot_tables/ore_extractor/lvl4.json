@@ -30,12 +30,22 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 10,
+					"weight": 13,
+					"name": "simplenergy:i/simplunium_nugget"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 8,
 					"name": "simplenergy:i/raw_simplunium"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 10,
+					"weight": 13,
+					"name": "crazy_adventure:i/uranium_nugget"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 8,
 					"name": "crazy_adventure:i/raw_uranium"
 				},
 				{
