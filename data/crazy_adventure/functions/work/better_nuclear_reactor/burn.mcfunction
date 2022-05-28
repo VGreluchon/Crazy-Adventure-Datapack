@@ -4,6 +4,6 @@ execute store result block ~ ~ ~ Items[{Slot:13b}].Count byte -0.999 run data ge
 
 
 #Execute 
-execute if score @s crazy_adventure.water matches 0 run summon tnt ~ ~ ~
+execute if score @s crazy_adventure.water matches ..9 run summon tnt ~ ~ ~
 
-scoreboard players remove @s crazy_adventure.water 5
+scoreboard players remove @s crazy_adventure.water 10

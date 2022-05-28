@@ -30,6 +30,6 @@ execute if score @s energy.storage < @s energy.max_storage run function crazy_ad
 	execute if score @s crazy_adventure.water matches 96..100 run data modify block ~ ~ ~ Items[{Slot:25b}] set value {Slot:25b,id:"minecraft:cobblestone",Count:1b,tag:{CustomModelData:4221010,simplenergy:{texture_item:1b},display:{Name:'[{"text":""}]'}}}
 
 #Update model depends on BurnTime (on/off)
-	execute if score @s crazy_adventure.working matches 0 run data modify entity @s Item.tag.CustomModelData set value 4220300
-	execute unless score @s crazy_adventure.working matches 0 run data modify entity @s Item.tag.CustomModelData set value 4220301
+	execute if score @s crazy_adventure.working matches 0 run data modify entity @s Item.tag.CustomModelData set value 4220306
+	execute unless score @s crazy_adventure.working matches 0 run data modify entity @s Item.tag.CustomModelData set value 4220307
 

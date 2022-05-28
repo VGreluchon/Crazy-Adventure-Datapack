@@ -29,8 +29,10 @@
 		
 		{ "predicate": { "custom_model_data": 4220020 }, "model": "crazy_adventure:materials/californium_ore" },
 		{ "predicate": { "custom_model_data": 4220022 }, "model": "crazy_adventure:materials/californium_block" },
-
+		{ "predicate": { "custom_model_data": 4220028 }, "model": "crazy_adventure:materials/californium_waste_barrel" },
+		
 		{ "predicate": { "custom_model_data": 4220200 }, "model": "crazy_adventure:machines/uranium_battery" },
+		{ "predicate": { "custom_model_data": 4220201 }, "model": "crazy_adventure:machines/californium_battery" },
 
 		{ "predicate": { "custom_model_data": 4220300 }, "model": "crazy_adventure:machines/nuclear_reactor" },
 		{ "predicate": { "custom_model_data": 4220301 }, "model": "crazy_adventure:machines/nuclear_reactor_on" },

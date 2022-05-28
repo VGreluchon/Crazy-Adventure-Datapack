@@ -6,7 +6,7 @@ data modify storage crazy_adventure:main Items set from block ~ ~ ~ Items
 execute if data storage crazy_adventure:main Items[{Slot:11b,id:"minecraft:water_bucket"}] unless score @s crazy_adventure.water matches 100 run function crazy_adventure:work/incredible_nuclear_reactor/cooling
 
 #Working process
-execute if score @s crazy_adventure.working matches 0 if data storage crazy_adventure:main Items[{Slot:13b,tag:{ctc:{id:"californium_ingot"}}}] unless data storage crazy_adventure:main Items[{Slot:16b,Count:64b}] run function crazy_adventure:work/incredible_nuclear_reactor/burn
+execute if score @s crazy_adventure.working matches 0 if data storage crazy_adventure:main Items[{Slot:13b,tag:{ctc:{id:"californium_core"}}}] unless data storage crazy_adventure:main Items[{Slot:16b,Count:64b}] run function crazy_adventure:work/incredible_nuclear_reactor/burn
 
 execute if score @s crazy_adventure.working matches 1 run function crazy_adventure:work/incredible_nuclear_reactor/loot_nuclear_reactor
 execute if score @s crazy_adventure.working matches 1 if predicate crazy_adventure:nuclear_reactor run function crazy_adventure:work/incredible_nuclear_reactor/nugget
