@@ -9,6 +9,7 @@
 
 		{ "predicate": { "custom_model_data": 4220102 }, "model": "crazy_adventure:equipments/anti_radiation_leggings" },
 
-		{ "predicate": { "custom_model_data": 4220112 }, "model": "crazy_adventure:equipments/uranium_leggings" }
+		{ "predicate": { "custom_model_data": 4220112 }, "model": "crazy_adventure:equipments/uranium_leggings" },
+		{ "predicate": { "custom_model_data": 4220121 }, "model": "crazy_adventure:equipments/californium_leggings" }
 	]
 }

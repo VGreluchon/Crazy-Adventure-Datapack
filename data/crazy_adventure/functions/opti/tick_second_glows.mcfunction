@@ -1,6 +1,9 @@
 
 #Machines Visuals & Work
 	execute if entity @s[tag=crazy_adventure.nuclear_reactor] run function crazy_adventure:visual/nuclear_reactor
+	execute if entity @s[tag=crazy_adventure.better_nuclear_reactor] run function crazy_adventure:visual/better_nuclear_reactor
+	execute if entity @s[tag=crazy_adventure.amazing_nuclear_reactor] run function crazy_adventure:visual/amazing_nuclear_reactor
+	execute if entity @s[tag=crazy_adventure.incredible_nuclear_reactor] run function crazy_adventure:visual/incredible_nuclear_reactor
 	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_1] if score @s energy.storage matches 20.. run function crazy_adventure:work/ore_extractor/lvl_1
 	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_2] if score @s energy.storage matches 40.. run function crazy_adventure:work/ore_extractor/lvl_2
 	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_3] if score @s energy.storage matches 70.. run function crazy_adventure:work/ore_extractor/lvl_3

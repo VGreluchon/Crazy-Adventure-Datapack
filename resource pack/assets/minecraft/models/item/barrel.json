@@ -34,6 +34,12 @@
 
 		{ "predicate": { "custom_model_data": 4220300 }, "model": "crazy_adventure:machines/nuclear_reactor" },
 		{ "predicate": { "custom_model_data": 4220301 }, "model": "crazy_adventure:machines/nuclear_reactor_on" },
+		{ "predicate": { "custom_model_data": 4220302 }, "model": "crazy_adventure:machines/better_nuclear_reactor" },
+		{ "predicate": { "custom_model_data": 4220303 }, "model": "crazy_adventure:machines/better_nuclear_reactor_on" },
+		{ "predicate": { "custom_model_data": 4220304 }, "model": "crazy_adventure:machines/amazing_nuclear_reactor" },
+		{ "predicate": { "custom_model_data": 4220305 }, "model": "crazy_adventure:machines/amazing_nuclear_reactor_on" },
+		{ "predicate": { "custom_model_data": 4220306 }, "model": "crazy_adventure:machines/incredible_nuclear_reactor" },
+		{ "predicate": { "custom_model_data": 4220307 }, "model": "crazy_adventure:machines/incredible_nuclear_reactor_on" },
 
 		{ "predicate": { "custom_model_data": 4220400 }, "model": "crazy_adventure:machines/ore_extractor_1" },
 		{ "predicate": { "custom_model_data": 4220401 }, "model": "crazy_adventure:machines/ore_extractor_2" },

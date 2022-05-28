@@ -17,6 +17,8 @@
 
 		{ "predicate": { "custom_model_data": 4220021 }, "model": "crazy_adventure:materials/californium_ingot" },
 		{ "predicate": { "custom_model_data": 4220023 }, "model": "crazy_adventure:materials/raw_californium" },
-		{ "predicate": { "custom_model_data": 4220024 }, "model": "crazy_adventure:materials/californium_core" }
+		{ "predicate": { "custom_model_data": 4220024 }, "model": "crazy_adventure:materials/californium_core" },
+		{ "predicate": { "custom_model_data": 4220025 }, "model": "crazy_adventure:materials/californium_nugget" },
+		{ "predicate": { "custom_model_data": 4220026 }, "model": "crazy_adventure:materials/uranium_nugget" }
 	]
 }

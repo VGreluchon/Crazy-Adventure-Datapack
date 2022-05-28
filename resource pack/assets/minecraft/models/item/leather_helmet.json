@@ -9,6 +9,7 @@
 
 		{ "predicate": { "custom_model_data": 4220100 }, "model": "crazy_adventure:equipments/anti_radiation_helmet" },
 		{ "predicate": { "custom_model_data": 4220109 }, "model": "crazy_adventure:equipments/cave_helmet" },
-		{ "predicate": { "custom_model_data": 4220110 }, "model": "crazy_adventure:equipments/uranium_helmet" }
+		{ "predicate": { "custom_model_data": 4220110 }, "model": "crazy_adventure:equipments/uranium_helmet" },
+		{ "predicate": { "custom_model_data": 4220119 }, "model": "crazy_adventure:equipments/californium_helmet" }
 	]
 }

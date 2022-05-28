@@ -10,6 +10,9 @@
 
 #Generators
 	execute if entity @s[tag=crazy_adventure.nuclear_reactor] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/nuclear_reactor
+	execute if entity @s[tag=crazy_adventure.better_nuclear_reactor] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/better_nuclear_reactor
+	execute if entity @s[tag=crazy_adventure.amazing_nuclear_reactor] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/amazing_nuclear_reactor
+	execute if entity @s[tag=crazy_adventure.incredible_nuclear_reactor] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/incredible_nuclear_reactor
 
 #Power Consumers
 	execute if entity @s[tag=crazy_adventure.ore_extractor_lvl_1] unless block ~ ~ ~ barrel run function crazy_adventure:destroy/ore_extractor_lvl_1
