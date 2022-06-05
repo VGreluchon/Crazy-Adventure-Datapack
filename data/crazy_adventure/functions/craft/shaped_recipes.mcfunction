@@ -111,5 +111,8 @@ data modify storage smithed.crafter:main flags append value "consume_tools"
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,tag:{ctc:{id:"californium_ingot"}}},{Slot:1b,id:"minecraft:air"},{Slot:2b,id:"minecraft:air"}],1:[{Slot:0b,id:"minecraft:stick"},{Slot:1b,id:"minecraft:air"},{Slot:2b,id:"minecraft:air"}],2:[{Slot:0b,id:"minecraft:stick"},{Slot:1b,id:"minecraft:air"},{Slot:2b,id:"minecraft:air"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/californium_shovel
 
 
-#Uranium Core
+#Californium Core
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:command_block",tag:{crazy_adventure:{californium_ingot:1b}}},{Slot:2b,id:"minecraft:air"}],1:[{Slot:0b,id:"minecraft:command_block",tag:{crazy_adventure:{californium_ingot:1b}}},{Slot:1b,tag:{ctc:{id:"uranium_core"}}},{Slot:2b,id:"minecraft:command_block",tag:{crazy_adventure:{californium_ingot:1b}}}],2:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:command_block",tag:{crazy_adventure:{californium_ingot:1b}}},{Slot:2b,id:"minecraft:air"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/californium_core
+
+#Boss Altar
+	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,id:"minecraft:black_candle"},{Slot:1b,id:"minecraft:wither_skeleton_skull"},{Slot:2b,id:"minecraft:black_candle"}],1:[{Slot:0b,id:"minecraft:black_candle"},{Slot:1b,tag:{ctc:{id:"uranium_core"}}},{Slot:2b,id:"minecraft:black_candle"}],2:[{Slot:0b,id:"minecraft:black_candle"},{Slot:1b,id:"minecraft:netherite_block"},{Slot:2b,id:"minecraft:black_candle"}]}} run loot replace block ~ ~ ~ container.16 loot crazy_adventure:i/boss_altar

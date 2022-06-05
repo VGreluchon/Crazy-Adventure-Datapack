@@ -31,3 +31,4 @@
 
 	execute if entity @s[tag=crazy_adventure.californium_ore] unless block ~ ~ ~ emerald_ore run function crazy_adventure:destroy/californium_ore
 	execute if entity @s[tag=crazy_adventure.californium_block] unless block ~ ~ ~ diamond_block run function crazy_adventure:destroy/californium_block
+	execute if entity @s[tag=crazy_adventure.boss_altar] unless block ~ ~ ~ netherite_block run function crazy_adventure:destroy/boss_altar
