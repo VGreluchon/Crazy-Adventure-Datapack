@@ -28,5 +28,6 @@ execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:b
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:californium_ore"} run function crazy_adventure:place/californium_ore/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:californium_block"} run function crazy_adventure:place/californium_block/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:boss_altar"} run function crazy_adventure:place/boss_altar/main
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:boss_altar_on"} run function crazy_adventure:place/boss_altar_on/main
 
 tag @s remove crazy_adventure.placer

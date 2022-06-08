@@ -13,3 +13,5 @@
 	execute if entity @s[tag=crazy_adventure.fireball_stick_charger] run function crazy_adventure:work/stick_charger/fireball_stick_charger/main
 
 	execute if entity @s[tag=crazy_adventure.banana_sapling] run function crazy_adventure:work/banana_sapling/main
+
+	execute if entity @s[tag=crazy_adventure.boss_altar] positioned ~ ~1 ~ as @e[type=item,dx=0,dy=0,dz=0,nbt={Item:{tag:{crazy_adventure:{filled_souls_bag:1b}}}}] run function crazy_adventure:work/boss_altar

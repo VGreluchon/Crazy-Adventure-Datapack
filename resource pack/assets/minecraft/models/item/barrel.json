@@ -50,7 +50,8 @@
 		{ "predicate": { "custom_model_data": 4220404 }, "model": "crazy_adventure:machines/storm_stick_charger" },
 		{ "predicate": { "custom_model_data": 4220405 }, "model": "crazy_adventure:machines/shield_stick_charger" },
 		{ "predicate": { "custom_model_data": 4220406 }, "model": "crazy_adventure:machines/fireball_stick_charger" },
-		{ "predicate": { "custom_model_data": 4220407 }, "model": "crazy_adventure:machines/boss_altar" }
+		{ "predicate": { "custom_model_data": 4220407 }, "model": "crazy_adventure:machines/boss_altar" },
+		{ "predicate": { "custom_model_data": 4220408 }, "model": "crazy_adventure:machines/boss_altar_on" }
 
 	]
 }

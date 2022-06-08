@@ -5,6 +5,7 @@
 	},
 	"overrides": [
 		{ "predicate": { "custom_model_data": 4220000 }, "model": "crazy_adventure:mobs/miner" },
-		{ "predicate": { "custom_model_data": 4220001 }, "model": "crazy_adventure:mobs/miner_hurt" }
+		{ "predicate": { "custom_model_data": 4220001 }, "model": "crazy_adventure:mobs/miner_hurt" },
+		{ "predicate": { "custom_model_data": 4220002 }, "model": "crazy_adventure:mobs/battle_boss" }
 	]
 }
