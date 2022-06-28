@@ -1,3 +1,5 @@
+loot spawn ~ ~ ~ loot crazy_adventure:i/boss_altar
+loot spawn ~ ~ ~ loot crazy_adventure:i/filled_souls_bag
 
 loot spawn ~ ~ ~ loot smithed.crafter:blocks/table
 loot spawn ~ ~ ~ loot simplenergy:i/multimeter

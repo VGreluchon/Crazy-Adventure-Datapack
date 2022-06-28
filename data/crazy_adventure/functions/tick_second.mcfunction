@@ -5,6 +5,7 @@
 	execute if score #minute crazy_adventure.data matches 60.. run function crazy_adventure:tick_minute
 	execute as @a[sort=random] at @s run function crazy_adventure:opti/tick_second_players
 
+	execute as @e[type=armor_stand,tag=crazy_adventure.battle_boss] at @s positioned ~ ~-1 ~ run function crazy_adventure:work/battle_boss/main
 #Custom Blocks
 	execute as @e[type=#energy:valid_block_entities,tag=crazy_adventure.destroyer] at @s run function crazy_adventure:destroy/all
 	execute as @e[type=glow_item_frame,tag=crazy_adventure.destroyer,sort=random] at @s run function crazy_adventure:opti/tick_second_glows
