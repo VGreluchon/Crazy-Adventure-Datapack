@@ -1519,6 +1519,12 @@
 			}
 		}
 	],
+	"display": {
+		"head": {
+			"translation": [0, -69, 0],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	},
 	"groups": [
 		{
 			"name": "BUS",
