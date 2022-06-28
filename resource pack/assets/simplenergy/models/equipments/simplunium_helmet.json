@@ -1,7 +1,0 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "simplenergy:equipments/simplunium_helmet",
-        "layer1": "simplenergy:equipments/simplunium_helmet"
-    }
-}

@@ -1,11 +1,6 @@
 {
 	"parent": "block/command_block",
 	"overrides": [
-		{ "predicate": { "custom_model_data": 2012004 }, "model": "simplenergy:ores/raw_simplunium" },
-		{ "predicate": { "custom_model_data": 2012005 }, "model": "simplenergy:ores/simplunium_ingot" },
-		{ "predicate": { "custom_model_data": 2012006 }, "model": "simplenergy:ores/simplunium_nugget" },
-
-
 		{ "predicate": { "custom_model_data": 4220005 }, "model": "crazy_adventure:materials/uranium_ingot" },
 		{ "predicate": { "custom_model_data": 4220007 }, "model": "crazy_adventure:materials/raw_uranium" },
 		{ "predicate": { "custom_model_data": 4220008 }, "model": "crazy_adventure:materials/uranium_core" },
