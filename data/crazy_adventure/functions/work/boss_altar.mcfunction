@@ -12,3 +12,5 @@ bossbar set crazy_adventure:battle_boss value 400
 bossbar set crazy_adventure:battle_boss style notched_10
 bossbar set crazy_adventure:battle_boss players @a[distance=..40]
 bossbar set crazy_adventure:battle_boss visible true
+
+execute positioned ~ ~-1 ~ run tag @e[tag=crazy_adventure.boss_altar,distance=..1] add crazy_adventure.spawned
