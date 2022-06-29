@@ -9,10 +9,9 @@
 Crazy Adventure is an advanced Adventure & Technology Datapack created to add cool things to the game. Here is a small list of features:
 
     Some new items
-    1 New Custom Dimensions (not yet done)
-    1 Boss (not yet done)
-    1 New Tree
-    1 New Ores
+    +69 nexw Items
+    1 Boss
+    Bananas
 
 Credits :
 
