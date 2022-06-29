@@ -9,7 +9,7 @@
 Crazy Adventure is an advanced Adventure & Technology Datapack created to add cool things to the game. Here is a small list of features:
 
     Some new items
-    +69 nexw Items
+    +69 new Items
     1 Boss
     Bananas
 
