@@ -6,11 +6,12 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "crazy_adventure:i/cave_helmet",
+					"name": "crazy_adventure:i/uranium_shard",
 					"conditions": [
 						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.05
+							"condition": "minecraft:random_chance_with_looting",
+							"chance": 0.05,
+							"looting_multiplier": 0.02
 						}
 					]
 				}

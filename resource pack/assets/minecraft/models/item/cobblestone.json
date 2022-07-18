@@ -56,7 +56,8 @@
 		{ "predicate": { "custom_model_data": 4221229 }, "model": "crazy_adventure:gui/shield_charger_gui_7" },
 		{ "predicate": { "custom_model_data": 4221230 }, "model": "crazy_adventure:gui/shield_charger_gui_8" },
 		{ "predicate": { "custom_model_data": 4221231 }, "model": "crazy_adventure:gui/shield_charger_gui_9" },
-		{ "predicate": { "custom_model_data": 4221232 }, "model": "crazy_adventure:gui/shield_charger_gui_10" }
+		{ "predicate": { "custom_model_data": 4221232 }, "model": "crazy_adventure:gui/shield_charger_gui_10" },
+		{ "predicate": { "custom_model_data": 4221233 }, "model": "crazy_adventure:gui/uranium_upgrader" }
 
 	]
 }
