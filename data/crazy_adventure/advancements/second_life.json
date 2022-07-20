@@ -4,12 +4,12 @@
 			"trigger": "minecraft:item_durability_changed",
 			"conditions": {
 				"item": {
-					"nbt": "{crazy_adventure:{upgrades:{more_radioactive:1b}}}"
+					"nbt": "{crazy_adventure:{upgrades:{second_life:1b}}}"
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "crazy_adventure:opti/advancements_rewards/more_radioactive"
+		"function": "crazy_adventure:opti/advancements_rewards/second_life"
 	}
 }

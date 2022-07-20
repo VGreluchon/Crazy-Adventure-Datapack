@@ -13,6 +13,7 @@ scoreboard objectives add crazy_adventure.radiation dummy
 scoreboard objectives add crazy_adventure.stockable_radiation dummy
 scoreboard objectives add crazy_adventure.right_click minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add crazy_adventure.cooldown dummy
+scoreboard objectives add crazy_adventure.stone minecraft.mined:minecraft.stone
 
 # Default Config
 execute unless score #default_config crazy_adventure.config matches 1 run function crazy_adventure:config/default

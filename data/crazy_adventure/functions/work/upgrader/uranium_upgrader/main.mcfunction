@@ -38,6 +38,18 @@ execute if score #book crazy_adventure.data matches 1 if data storage crazy_adve
 execute if score #book crazy_adventure.data matches 0 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_shovel if data storage crazy_adventure:main Items[{Slot:20b}].tag.crazy_adventure.uranium_book run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_shovel/uranium_shovel_2
 execute if score #book crazy_adventure.data matches 0 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_shovel unless data storage crazy_adventure:main Items[{Slot:20b}].tag.crazy_adventure.uranium_book run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_shovel/uranium_shovel_3
 
+execute if score #book crazy_adventure.data matches 1 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_axe run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_axe/uranium_axe
+execute if score #book crazy_adventure.data matches 0 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_axe if data storage crazy_adventure:main Items[{Slot:20b}].tag.crazy_adventure.uranium_book run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_axe/uranium_axe_2
+execute if score #book crazy_adventure.data matches 0 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_axe unless data storage crazy_adventure:main Items[{Slot:20b}].tag.crazy_adventure.uranium_book run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_axe/uranium_axe_3
+
+execute if score #book crazy_adventure.data matches 1 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_hoe run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_hoe/uranium_hoe
+execute if score #book crazy_adventure.data matches 0 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_hoe if data storage crazy_adventure:main Items[{Slot:20b}].tag.crazy_adventure.uranium_book run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_hoe/uranium_hoe_2
+execute if score #book crazy_adventure.data matches 0 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_hoe unless data storage crazy_adventure:main Items[{Slot:20b}].tag.crazy_adventure.uranium_book run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_hoe/uranium_hoe_3
+
+execute if score #book crazy_adventure.data matches 1 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_pickaxe run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_pickaxe/uranium_pickaxe
+execute if score #book crazy_adventure.data matches 0 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_pickaxe if data storage crazy_adventure:main Items[{Slot:20b}].tag.crazy_adventure.uranium_book run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_pickaxe/uranium_pickaxe_2
+execute if score #book crazy_adventure.data matches 0 if data storage crazy_adventure:main Item.tag.crazy_adventure.uranium_pickaxe unless data storage crazy_adventure:main Items[{Slot:20b}].tag.crazy_adventure.uranium_book run function crazy_adventure:work/upgrader/uranium_upgrader/uranium_pickaxe/uranium_pickaxe_3
+
 #Storage dump
 data remove storage crazy_adventure:main Items
 data remove storage crazy_adventure:main Item

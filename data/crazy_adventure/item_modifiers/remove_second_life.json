@@ -1,0 +1,25 @@
+[
+    {
+        "function": "minecraft:set_damage",
+        "damage": 0.2,
+        "add": false
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{crazy_adventure:{upgrades:{second_life:0b}}}"
+    },
+	{
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "crazy_adventure:main"
+        },
+        "ops": [
+            {
+                "source": "Lore",
+                "target": "display.Lore",
+                "op": "replace"
+            }
+        ]
+    }
+]

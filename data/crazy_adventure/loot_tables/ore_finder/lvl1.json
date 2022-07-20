@@ -1,0 +1,50 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"weight": 200,
+			"name": "minecraft:coal"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 100,
+			"name": "minecraft:raw_iron"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 60,
+			"name": "minecraft:raw_gold"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 20,
+			"name": "minecraft:diamond"
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"weight": 5,
+			"name": "simplenergy:i/simplunium_nugget"
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"weight": 5,
+			"name": "crazy_adventure:i/uranium_nugget"
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"weight": 3,
+			"name": "crazy_adventure:i/californium_nugget"
+		  }
+		],
+		"conditions": [
+		  {
+			"condition": "minecraft:random_chance",
+			"chance": 0.05
+		  }
+		]
+	  }
+	]
+  }
