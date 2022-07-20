@@ -1,0 +1,23 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:item_durability_changed",
+		"conditions": {
+		  "damage": {
+			"blocked": false,
+			"source_entity": {
+			  "equipment": {
+				"mainhand": {
+				  "nbt": "{crazy_adventure:{upgrades:{more_radioactive:1b}}}"
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "crazy_adventure:opti/advancements_rewards/more_radioactive"
+	}
+  }
+  

@@ -1,6 +1,8 @@
 data modify storage crazy_adventure:main Inventory set from entity @s Inventory
 execute if data storage crazy_adventure:main Inventory[{Slot:103b,tag:{crazy_adventure:{cave_helmet:1b}}}] run effect give @s night_vision 2 1 true
 
+execute if data entity @s SelectedItem.tag.crazy_adventure.upgrades.haste run effect give @s haste 2 0 true
+
 #Radiation system
 tag @s add crazy_adventure.radiation
 scoreboard players set #temp crazy_adventure.data 0
