@@ -1,5 +1,5 @@
 
-scoreboard players set @s energy.max_storage 5000
+scoreboard players set @s energy.max_storage 10000
 scoreboard players operation @s energy.transfer_rate = @s energy.max_storage
 scoreboard players set @s energy.storage 0
 scoreboard players set @s crazy_adventure.charges 0

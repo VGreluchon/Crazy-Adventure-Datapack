@@ -1,0 +1,23 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:player_hurt_entity",
+		"conditions": {
+		  "damage": {
+			"blocked": false,
+			"source_entity": {
+			  "equipment": {
+				"mainhand": {
+				  "nbt": "{crazy_adventure:{upgrades:{life_steal:1b}}}"
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "crazy_adventure:opti/advancements_rewards/life_steal"
+	}
+  }
+  

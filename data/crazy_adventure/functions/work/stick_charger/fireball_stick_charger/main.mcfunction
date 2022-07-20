@@ -1,6 +1,7 @@
 
 #Copy Block Item into a storage
 	data modify storage crazy_adventure:main Items set from block ~ ~ ~ Items
+	function crazy_adventure:work/stick_charger/fireball_stick_charger/drop_gui
 	function crazy_adventure:visual/fireball_stick_charger
 
 	execute if score @s crazy_adventure.charges matches ..9 if score @s energy.storage matches 50.. run function crazy_adventure:work/stick_charger/fireball_stick_charger/secondary

@@ -1,9 +1,10 @@
-loot spawn ~ ~ ~ loot crazy_adventure:i/boss_altar
-loot spawn ~ ~ ~ loot crazy_adventure:i/filled_souls_bag
 
 loot spawn ~ ~ ~ loot smithed.crafter:blocks/table
 loot spawn ~ ~ ~ loot simplenergy:i/multimeter
 loot spawn ~ ~ ~ loot crazy_adventure:i/geiger_counter
+
+loot spawn ~ ~ ~ loot crazy_adventure:i/boss_altar
+loot spawn ~ ~ ~ loot crazy_adventure:i/filled_souls_bag
 
 loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_ore
 loot spawn ~ ~ ~ loot crazy_adventure:i/uranium_ingot
