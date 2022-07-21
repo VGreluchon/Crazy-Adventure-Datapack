@@ -22,6 +22,7 @@ execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:o
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:storm_stick_charger"} run function crazy_adventure:place/storm_stick_charger/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:shield_stick_charger"} run function crazy_adventure:place/shield_stick_charger/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:fireball_stick_charger"} run function crazy_adventure:place/fireball_stick_charger/main
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:fertilizer_stick_charger"} run function crazy_adventure:place/fertilizer_stick_charger/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:banana_sapling"} run function crazy_adventure:place/banana_sapling/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:banana_plant"} run function crazy_adventure:place/banana_plant/main
 

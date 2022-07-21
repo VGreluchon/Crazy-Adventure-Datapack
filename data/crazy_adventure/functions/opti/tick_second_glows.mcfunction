@@ -11,6 +11,7 @@
 	execute if entity @s[tag=crazy_adventure.storm_stick_charger] run function crazy_adventure:work/stick_charger/storm_stick_charger/main
 	execute if entity @s[tag=crazy_adventure.shield_stick_charger] run function crazy_adventure:work/stick_charger/shield_stick_charger/main
 	execute if entity @s[tag=crazy_adventure.fireball_stick_charger] run function crazy_adventure:work/stick_charger/fireball_stick_charger/main
+	execute if entity @s[tag=crazy_adventure.fertilizer_stick_charger] run function crazy_adventure:work/stick_charger/fertilizer_stick_charger/main
 	execute if entity @s[tag=crazy_adventure.uranium_upgrader] if block ~ ~ ~ barrel[open=true] run function crazy_adventure:work/upgrader/uranium_upgrader/main
 
 	execute if entity @s[tag=crazy_adventure.banana_sapling] run function crazy_adventure:work/banana_sapling/main

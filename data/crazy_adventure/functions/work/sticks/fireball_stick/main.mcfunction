@@ -7,7 +7,7 @@ execute as @e[type=fireball,tag=crazy_adventure.fireball] at @s run function cra
 
 
 execute run item modify entity @s weapon.mainhand crazy_adventure:fireball_stick
-scoreboard players remove @s crazy_adventure.radiation 60
+scoreboard players remove @s crazy_adventure.radiation 80
 scoreboard players set @s crazy_adventure.cooldown 200
 
 

@@ -87,7 +87,14 @@
 		{ "predicate": { "custom_model_data": 4221260 }, "model": "crazy_adventure:gui/second_life_upgrade_off" },
 		{ "predicate": { "custom_model_data": 4221261 }, "model": "crazy_adventure:gui/speed_upgrade" },
 		{ "predicate": { "custom_model_data": 4221262 }, "model": "crazy_adventure:gui/speed_upgrade_on" },
-		{ "predicate": { "custom_model_data": 4221263 }, "model": "crazy_adventure:gui/speed_upgrade_off" }
+		{ "predicate": { "custom_model_data": 4221263 }, "model": "crazy_adventure:gui/speed_upgrade_off" },
+		{ "predicate": { "custom_model_data": 4221264 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_0" },
+		{ "predicate": { "custom_model_data": 4221265 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_1" },
+		{ "predicate": { "custom_model_data": 4221266 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_2" },
+		{ "predicate": { "custom_model_data": 4221267 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_3" },
+		{ "predicate": { "custom_model_data": 4221268 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_4" },
+		{ "predicate": { "custom_model_data": 4221269 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_5" }
+
 
 	]
 }

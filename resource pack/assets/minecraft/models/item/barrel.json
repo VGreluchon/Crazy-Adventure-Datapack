@@ -31,7 +31,8 @@
 		{ "predicate": { "custom_model_data": 4220406 }, "model": "crazy_adventure:machines/fireball_stick_charger" },
 		{ "predicate": { "custom_model_data": 4220407 }, "model": "crazy_adventure:machines/boss_altar" },
 		{ "predicate": { "custom_model_data": 4220408 }, "model": "crazy_adventure:machines/boss_altar_on" },
-		{ "predicate": { "custom_model_data": 4220409 }, "model": "crazy_adventure:machines/uranium_upgrader" }
+		{ "predicate": { "custom_model_data": 4220409 }, "model": "crazy_adventure:machines/uranium_upgrader" },
+		{ "predicate": { "custom_model_data": 4220410 }, "model": "crazy_adventure:machines/fertilizer_stick_charger" }
 
 	]
 }

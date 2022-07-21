@@ -8,6 +8,7 @@
 		{ "predicate": { "custom_model_data": 4220105 }, "model": "crazy_adventure:equipments/chargeless_stick" },
 		{ "predicate": { "custom_model_data": 4220106 }, "model": "crazy_adventure:equipments/storm_stick" },
 		{ "predicate": { "custom_model_data": 4220107 }, "model": "crazy_adventure:equipments/shield_stick" },
-		{ "predicate": { "custom_model_data": 4220108 }, "model": "crazy_adventure:equipments/fireball_stick" }
+		{ "predicate": { "custom_model_data": 4220108 }, "model": "crazy_adventure:equipments/fireball_stick" },
+		{ "predicate": { "custom_model_data": 4220128 }, "model": "crazy_adventure:equipments/fertilizer_stick" }
 	]
 }
