@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"function": "crazy_adventure:opti/advancements_rewards/inventory_changed"
+	}
+}
