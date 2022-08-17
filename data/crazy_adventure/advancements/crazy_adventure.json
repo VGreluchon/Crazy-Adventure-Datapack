@@ -1,10 +1,10 @@
 {
 	"display": {
 		"title": "Crazy Adventure",
-		"description": "v1.0.0",
+		"description": "v1.2.0",
 		"icon": {
 			"item": "minecraft:command_block",
-			"nbt": "{CustomModelData:2013000}"
+			"nbt": "{CustomModelData:4220005}"
 		},
 		"show_toast": false,
 		"announce_to_chat": false,

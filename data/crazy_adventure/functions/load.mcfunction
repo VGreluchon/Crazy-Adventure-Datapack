@@ -19,7 +19,7 @@ scoreboard objectives add crazy_adventure.stone minecraft.mined:minecraft.stone
 execute unless score #default_config crazy_adventure.config matches 1 run function crazy_adventure:config/default
 
 # Define datapack version in this format "1.00.0" (Major.Minor.Patch)
-scoreboard players set CrazyAdventure load.status 1000
+scoreboard players set CrazyAdventure load.status 1020
 scoreboard players set #second crazy_adventure.data 10
 
 # Define some missing constants in simplenergy.data
