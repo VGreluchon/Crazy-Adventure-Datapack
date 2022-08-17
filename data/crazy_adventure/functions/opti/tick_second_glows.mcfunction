@@ -17,3 +17,4 @@
 	execute if entity @s[tag=crazy_adventure.banana_sapling] run function crazy_adventure:work/banana_sapling/main
 
 	execute if entity @s[tag=crazy_adventure.boss_altar,tag=!crazy_adventure.spawned] positioned ~ ~1 ~ as @e[type=item,dx=0,dy=0,dz=0,nbt={Item:{tag:{crazy_adventure:{filled_souls_bag:1b}}}}] run function crazy_adventure:work/boss_altar
+	execute as @e[type=item,tag=!crazy_adventure.checked] at @s run function crazy_adventure:utils/item_check
