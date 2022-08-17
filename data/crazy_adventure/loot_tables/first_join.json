@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "crazy_adventure:i/maybe_a_manual"
+					"name": "crazy_adventure:i/crazy_adventure_manual"
 				}
 			]
 		}
