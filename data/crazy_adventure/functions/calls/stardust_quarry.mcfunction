@@ -1,2 +1,2 @@
 
-execute as @e[type=#energy:valid_block_entities,tag=crazy_adventure.destroyer,distance=..1,limit=1] at @s run function crazy_adventure:destroy/all
+execute as @e[tag=crazy_adventure.destroyer,distance=..1,limit=1] at @s run function crazy_adventure:destroy/all
