@@ -32,7 +32,12 @@
 		{ "predicate": { "custom_model_data": 4220407 }, "model": "crazy_adventure:machines/boss_altar" },
 		{ "predicate": { "custom_model_data": 4220408 }, "model": "crazy_adventure:machines/boss_altar_on" },
 		{ "predicate": { "custom_model_data": 4220409 }, "model": "crazy_adventure:machines/uranium_upgrader" },
-		{ "predicate": { "custom_model_data": 4220410 }, "model": "crazy_adventure:machines/fertilizer_stick_charger" }
+		{ "predicate": { "custom_model_data": 4220410 }, "model": "crazy_adventure:machines/fertilizer_stick_charger" },
+		{ "predicate": { "custom_model_data": 4220411 }, "model": "crazy_adventure:machines/oxidizer" },
+		{ "predicate": { "custom_model_data": 4220412 }, "model": "crazy_adventure:machines/oxidizer_1" },
+		{ "predicate": { "custom_model_data": 4220413 }, "model": "crazy_adventure:machines/oxidizer_2" },
+		{ "predicate": { "custom_model_data": 4220414 }, "model": "crazy_adventure:machines/oxidizer_3" },
+		{ "predicate": { "custom_model_data": 4220415 }, "model": "crazy_adventure:machines/oxidizer_4" }
 
 	]
 }

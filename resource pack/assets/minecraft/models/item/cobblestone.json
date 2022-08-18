@@ -93,7 +93,21 @@
 		{ "predicate": { "custom_model_data": 4221266 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_2" },
 		{ "predicate": { "custom_model_data": 4221267 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_3" },
 		{ "predicate": { "custom_model_data": 4221268 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_4" },
-		{ "predicate": { "custom_model_data": 4221269 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_5" }
+		{ "predicate": { "custom_model_data": 4221269 }, "model": "crazy_adventure:gui/fertilizer_charger_gui_5" },
+		{ "predicate": { "custom_model_data": 4221270 }, "model": "crazy_adventure:gui/oxidizer_gui_0" },
+		{ "predicate": { "custom_model_data": 4221271 }, "model": "crazy_adventure:gui/oxidizer_gui_1" },
+		{ "predicate": { "custom_model_data": 4221272 }, "model": "crazy_adventure:gui/oxidizer_gui_2" },
+		{ "predicate": { "custom_model_data": 4221273 }, "model": "crazy_adventure:gui/oxidizer_gui_3" },
+		{ "predicate": { "custom_model_data": 4221274 }, "model": "crazy_adventure:gui/oxidizer_gui_4" },
+		{ "predicate": { "custom_model_data": 4221275 }, "model": "crazy_adventure:gui/oxidizer_gui_5" },
+		{ "predicate": { "custom_model_data": 4221276 }, "model": "crazy_adventure:gui/oxidizer_gui_6" },
+		{ "predicate": { "custom_model_data": 4221277 }, "model": "crazy_adventure:gui/oxidizer_gui_7" },
+		{ "predicate": { "custom_model_data": 4221278 }, "model": "crazy_adventure:gui/oxidizer_gui_8" },
+		{ "predicate": { "custom_model_data": 4221279 }, "model": "crazy_adventure:gui/oxidizer_gui_9" },
+		{ "predicate": { "custom_model_data": 4221280 }, "model": "crazy_adventure:gui/oxidizer_gui_10" },
+		{ "predicate": { "custom_model_data": 4221281 }, "model": "crazy_adventure:gui/oxidizer_gui_11" },
+		{ "predicate": { "custom_model_data": 4221282 }, "model": "crazy_adventure:gui/oxidizer_gui_12" },
+		{ "predicate": { "custom_model_data": 4221283 }, "model": "crazy_adventure:gui/oxidizer_gui_13" }
 
 
 	]
