@@ -34,6 +34,11 @@
 					"name": "minecraft:diamond"
 				},
 				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:emerald"
+				},
+				{
 					"type": "minecraft:loot_table",
 					"weight": 7,
 					"name": "simplenergy:i/simplunium_nugget"

@@ -34,8 +34,13 @@
 					"name": "minecraft:diamond"
 				},
 				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"name": "minecraft:emerald"
+				},
+				{
 					"type": "minecraft:loot_table",
-					"weight": 13,
+					"weight": 12,
 					"name": "simplenergy:i/simplunium_nugget"
 				},
 				{
@@ -45,7 +50,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 13,
+					"weight": 12,
 					"name": "crazy_adventure:i/uranium_nugget"
 				},
 				{
