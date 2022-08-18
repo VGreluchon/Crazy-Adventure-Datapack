@@ -31,5 +31,6 @@ execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:c
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:boss_altar"} run function crazy_adventure:place/boss_altar/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:boss_altar_on"} run function crazy_adventure:place/boss_altar_on/main
 execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:uranium_upgrader"} run function crazy_adventure:place/uranium_upgrader/main
+execute if data storage smithed.custom_block:main blockApi{id:"crazy_adventure:oxidizer"} run function crazy_adventure:place/oxidizer/main
 
 tag @s remove crazy_adventure.placer

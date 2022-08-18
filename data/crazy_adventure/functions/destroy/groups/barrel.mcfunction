@@ -15,3 +15,4 @@
 	execute if entity @s[tag=crazy_adventure.fireball_stick_charger] run function crazy_adventure:destroy/fireball_stick_charger
 	execute if entity @s[tag=crazy_adventure.fertilizer_stick_charger] run function crazy_adventure:destroy/fertilizer_stick_charger
 	execute if entity @s[tag=crazy_adventure.uranium_upgrader] run function crazy_adventure:destroy/uranium_upgrader
+	execute if entity @s[tag=crazy_adventure.oxidizer] run function crazy_adventure:destroy/oxidizer
