@@ -40,7 +40,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 7,
+					"weight": 8,
 					"name": "simplenergy:i/simplunium_nugget"
 				},
 				{
@@ -50,7 +50,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 7,
+					"weight": 8,
 					"name": "crazy_adventure:i/uranium_nugget"
 				},
 				{
@@ -60,7 +60,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 2,
+					"weight": 3,
 					"name": "crazy_adventure:i/californium_nugget"
 				}
 			]
