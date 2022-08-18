@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 65,
+					"weight": 100,
 					"name": "minecraft:cobblestone"
 				},
 				{
