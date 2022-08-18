@@ -29,7 +29,7 @@ function crazy_adventure:work/nuclear_reactors/amazing_nuclear_reactor/drop_gui
 	execute if score @s crazy_adventure.water matches 66..75 run data modify block ~ ~ ~ Items[{Slot:25b}] set value {Slot:25b,id:"minecraft:cobblestone",Count:1b,tag:{CustomModelData:4221007,simplenergy:{texture_item:1b},display:{Name:'[{"text":""}]'}}}
 	execute if score @s crazy_adventure.water matches 76..85 run data modify block ~ ~ ~ Items[{Slot:25b}] set value {Slot:25b,id:"minecraft:cobblestone",Count:1b,tag:{CustomModelData:4221008,simplenergy:{texture_item:1b},display:{Name:'[{"text":""}]'}}}
 	execute if score @s crazy_adventure.water matches 86..95 run data modify block ~ ~ ~ Items[{Slot:25b}] set value {Slot:25b,id:"minecraft:cobblestone",Count:1b,tag:{CustomModelData:4221009,simplenergy:{texture_item:1b},display:{Name:'[{"text":""}]'}}}
-	execute if score @s crazy_adventure.water matches 96..100 run data modify block ~ ~ ~ Items[{Slot:25b}] set value {Slot:25b,id:"minecraft:cobblestone",Count:1b,tag:{CustomModelData:4221010,simplenergy:{texture_item:1b},display:{Name:'[{"text":""}]'}}}
+	execute if score @s crazy_adventure.water matches 96.. run data modify block ~ ~ ~ Items[{Slot:25b}] set value {Slot:25b,id:"minecraft:cobblestone",Count:1b,tag:{CustomModelData:4221010,simplenergy:{texture_item:1b},display:{Name:'[{"text":""}]'}}}
 
 #Update model depends on BurnTime (on/off)
 	execute if score @s crazy_adventure.working matches 0 run data modify entity @s Item.tag.CustomModelData set value 4220304
