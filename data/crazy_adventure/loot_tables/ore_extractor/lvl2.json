@@ -15,12 +15,17 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 35,
+					"weight": 25,
+					"name": "minecraft:raw_copper"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
 					"name": "minecraft:raw_iron"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 29,
+					"weight": 20,
 					"name": "minecraft:raw_gold"
 				},
 				{

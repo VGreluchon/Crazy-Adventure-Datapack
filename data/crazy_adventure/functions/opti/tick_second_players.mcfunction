@@ -1,5 +1,5 @@
 
-effect give @s[tag=crazy_adventure.radiation] wither 3 3 true
+effect give @s[tag=crazy_adventure.radiation] wither 3 1 true
 effect give @s[tag=crazy_adventure.state.cave_helmet] night_vision 2 1 true
 title @s[tag=crazy_adventure.state.geiger_counter] actionbar [{"translate":"Body Radiation : ","italic":false,"color":"aqua"},{"score":{"name":"@s","objective":"crazy_adventure.radiation"},"italic":false,"color":"yellow"},{"text":"/"},{"score":{"name":"@s","objective":"crazy_adventure.stockable_radiation"},"italic":false,"color":"yellow"},{"translate":" Bq"}]
 execute if data entity @s SelectedItem.tag.crazy_adventure.upgrades.haste run effect give @s haste 2 0 true
