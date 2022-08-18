@@ -9,3 +9,4 @@
 	execute if entity @s[tag=crazy_adventure.fertilizer_stick_charger] run data modify block ~ ~-1 ~ TransferCooldown set value 100
 	execute if entity @s[tag=crazy_adventure.shield_stick_charger] run data modify block ~ ~-1 ~ TransferCooldown set value 100
 	execute if entity @s[tag=crazy_adventure.uranium_upgrader] run data modify block ~ ~-1 ~ TransferCooldown set value 100
+	execute if entity @s[tag=crazy_adventure.oxidizer] run data modify block ~ ~-1 ~ TransferCooldown set value 100

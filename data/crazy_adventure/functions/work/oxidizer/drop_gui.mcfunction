@@ -38,7 +38,7 @@ execute if data storage crazy_adventure:main dropped_item run function crazy_adv
 execute unless data storage crazy_adventure:main Items[{Slot:12b,tag:{simplenergy:{texture_item:1b}}}] run data modify storage crazy_adventure:main dropped_item set from storage crazy_adventure:main Items[{Slot:12b}]
 execute if data storage crazy_adventure:main dropped_item run function crazy_adventure:work/oxidizer/dropped
 
-execute unless data storage crazy_adventure:main Items[{Slot:13b,id:"minecraft:copper_block"}] unless data storage crazy_adventure:main Items[{Slot:13b,id:"minecraft:weathered_copper"}] unless data storage crazy_adventure:main Items[{Slot:13b,id:"minecraft:exposed_copper"}] run data modify storage crazy_adventure:main dropped_item set from storage crazy_adventure:main Items[{Slot:13b}]
+execute unless data storage crazy_adventure:main Items[{Slot:13b,id:"minecraft:copper_block",Count:1b}] unless data storage crazy_adventure:main Items[{Slot:13b,id:"minecraft:weathered_copper",Count:1b}] unless data storage crazy_adventure:main Items[{Slot:13b,id:"minecraft:exposed_copper",Count:1b}] run data modify storage crazy_adventure:main dropped_item set from storage crazy_adventure:main Items[{Slot:13b}]
 execute if data storage crazy_adventure:main dropped_item run function crazy_adventure:work/oxidizer/dropped
 
 execute unless data storage crazy_adventure:main Items[{Slot:14b,tag:{simplenergy:{texture_item:1b}}}] run data modify storage crazy_adventure:main dropped_item set from storage crazy_adventure:main Items[{Slot:14b}]

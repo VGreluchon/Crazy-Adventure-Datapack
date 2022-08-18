@@ -26,6 +26,7 @@ scoreboard players set #second crazy_adventure.data 10
 scoreboard players set #3 simplenergy.data 3
 scoreboard players set #-10 simplenergy.data -10
 scoreboard players set #-3 simplenergy.data -3
+
 tag Arobaze add convention.debug
 
 #define storage energy:temp
@@ -156,7 +157,7 @@ tag Arobaze add convention.debug
 			data modify storage crazy_adventure:main all.4220410 set value {Slot:16b,id:"minecraft:barrel"					,Count:1b,tag:{ctc:{id:"fertilizer_stick_charger",from:"vgreluchon:crazy_adventure",traits:{"block":1b,"energy":1b}}		,CustomModelData:4220410,crazy_adventure:{fertilizer_stick_charger:1b}		,display:{Lore:['[{"text":"[Power Usage: 50 kW]","italic":false,"color":"gray"}]','[{"text":"[Energy Buffer: 5 MJ]","italic":false,"color":"gray"}]','[{"translate":"Crazy","color":"green","italic":true},{"translate":" Adventure","color":"gray","italic":true}]'],Name:'[{"text":"Fertilizer Stick Charger","italic":false,"color":"white"}]'}		,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:fertilizer_stick_charger"}}}}]}}}
 
 		#Oxidizer
-			data modify storage crazy_adventure:main all.4220411 set value {Slot:16b,id:"minecraft:barrel"					,Count:1b,tag:{ctc:{id:"oxidizer",from:"vgreluchon:crazy_adventure",traits:{"block":1b,"energy":1b}}						,CustomModelData:4220411,crazy_adventure:{oxidizer:1b}						,display:{Lore:['[{"text":"[Power Usage: 20 kW]","italic":false,"color":"gray"}]','[{"text":"[Energy Buffer: 500 kJ]","italic":false,"color":"gray"}]','[{"translate":"Crazy","color":"green","italic":true},{"translate":" Adventure","color":"gray","italic":true}]'],Name:'[{"text":"Oxidizer","italic":false,"color":"white"}]'}						,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:oxidizer"}}}}]}}}
+			data modify storage crazy_adventure:main all.4220411 set value {Slot:16b,id:"minecraft:barrel"					,Count:1b,tag:{ctc:{id:"oxidizer",from:"vgreluchon:crazy_adventure",traits:{"block":1b,"energy":1b}}						,CustomModelData:4220411,crazy_adventure:{oxidizer:1b}						,display:{Lore:['[{"text":"[Power Usage: 100 kW]","italic":false,"color":"gray"}]','[{"text":"[Energy Buffer: 10 MJ]","italic":false,"color":"gray"}]','[{"translate":"Crazy","color":"green","italic":true},{"translate":" Adventure","color":"gray","italic":true}]'],Name:'[{"text":"Oxidizer","italic":false,"color":"white"}]'}						,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{from:"crazy_adventure",id:"crazy_adventure:oxidizer"}}}}]}}}
 
 
 	#BOSS ALTAR
