@@ -1,0 +1,13 @@
+{
+	"providers": [
+		{ "type": "bitmap", "file": "crazy_adventure:font/none.png",					"ascent": 8, "height": 19, "chars": ["\uec00"] },
+		{ "type": "bitmap", "file": "crazy_adventure:font/meme_1.png",					"ascent": 12, "height": 111, "chars": ["\uec01"] },
+		{ "type": "bitmap", "file": "crazy_adventure:font/meme_2.png",					"ascent": 12, "height": 111, "chars": ["\uec02"] },
+		{ "type": "bitmap", "file": "crazy_adventure:font/meme_3.png",					"ascent": 12, "height": 111, "chars": ["\uec03"] },
+		{ "type": "bitmap", "file": "crazy_adventure:font/meme_4.png",					"ascent": 12, "height": 111, "chars": ["\uec04"] },
+		{ "type": "bitmap", "file": "crazy_adventure:font/meme_5.png",					"ascent": 12, "height": 111, "chars": ["\uec05"] },
+		{ "type": "bitmap", "file": "crazy_adventure:font/meme_6.png",					"ascent": 12, "height": 111, "chars": ["\uec06"] },
+		{ "type": "bitmap", "file": "crazy_adventure:font/meme_7.png",					"ascent": 12, "height": 111, "chars": ["\uec07"] }
+	]
+	}
+	
