@@ -15,7 +15,6 @@ execute if score @s crazy_adventure.working matches 1 if predicate crazy_adventu
 execute unless score @s crazy_adventure.working matches 0 run scoreboard players add @s energy.storage 3000
 execute unless score @s crazy_adventure.working matches 0 run scoreboard players remove @s crazy_adventure.working 1
 execute unless score @s crazy_adventure.working matches 0 run particle dust 0.596 0.596 0.596 1 ~ ~ ~ 1 1 1 0 20
-execute unless score @s crazy_adventure.working matches 0 run effect give @a[distance=..3,tag=crazy_adventure.radiation] wither 3 3 true
 
 #optional: playsound crazy_adventure:empty_generator block @a[distance=..10,tag=!crazy_adventure.ps.empty_generator] ~ ~ ~ 0.25
 #optional: tag @a[distance=..10] add crazy_adventure.ps.empty_generator
