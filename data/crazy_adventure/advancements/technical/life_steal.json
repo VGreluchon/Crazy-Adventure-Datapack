@@ -17,7 +17,7 @@
 	  }
 	},
 	"rewards": {
-	  "function": "crazy_adventure:opti/advancements/life_steal"
+	  "function": "crazy_adventure:advancements/life_steal"
 	}
   }
   

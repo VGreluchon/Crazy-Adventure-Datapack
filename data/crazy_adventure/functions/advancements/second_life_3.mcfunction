@@ -5,4 +5,4 @@ execute store success score #success crazy_adventure.data run data modify storag
 execute if score #success crazy_adventure.data matches 1 run data modify storage crazy_adventure:main Lore append from storage crazy_adventure:main temp
 
 data remove storage crazy_adventure:main LoreTemp[0]
-execute if data storage crazy_adventure:main LoreTemp[0] run function crazy_adventure:opti/advancements/second_life_3
+execute if data storage crazy_adventure:main LoreTemp[0] run function crazy_adventure:advancements/second_life_3

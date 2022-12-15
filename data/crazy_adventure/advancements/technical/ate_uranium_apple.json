@@ -10,7 +10,7 @@
 	  }
 	},
 	"rewards": {
-	  "function": "crazy_adventure:opti/advancements/ate_uranium_apple"
+	  "function": "crazy_adventure:advancements/ate_uranium_apple"
 	}
   }
   

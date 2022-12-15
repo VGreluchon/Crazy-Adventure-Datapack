@@ -10,7 +10,7 @@
 	  }
 	},
 	"rewards": {
-	  "function": "crazy_adventure:opti/advancements/californium_stuff"
+	  "function": "crazy_adventure:advancements/californium_stuff"
 	}
   }
   

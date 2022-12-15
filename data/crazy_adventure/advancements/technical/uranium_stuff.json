@@ -10,7 +10,7 @@
 	  }
 	},
 	"rewards": {
-	  "function": "crazy_adventure:opti/advancements/uranium_stuff"
+	  "function": "crazy_adventure:advancements/uranium_stuff"
 	}
   }
   

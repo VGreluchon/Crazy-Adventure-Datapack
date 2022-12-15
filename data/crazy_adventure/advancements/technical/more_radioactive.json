@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "crazy_adventure:opti/advancements/more_radioactive"
+		"function": "crazy_adventure:advancements/more_radioactive"
 	}
 }
