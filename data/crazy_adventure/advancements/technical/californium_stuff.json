@@ -4,13 +4,13 @@
 		"trigger": "minecraft:item_durability_changed",
 		"conditions": {
 		  "item": {
-			"nbt": "{crazy_adventure:{uranium:1b}}"
+			"nbt": "{crazy_adventure:{californium:1b}}"
 		  }
 		}
 	  }
 	},
 	"rewards": {
-	  "function": "crazy_adventure:opti/advancements_rewards/uranium_stuff"
+	  "function": "crazy_adventure:opti/advancements/californium_stuff"
 	}
   }
   

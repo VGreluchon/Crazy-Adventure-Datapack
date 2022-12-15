@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "crazy_adventure:opti/advancements_rewards/inventory_changed"
+		"function": "crazy_adventure:opti/advancements/inventory_changed"
 	}
 }
