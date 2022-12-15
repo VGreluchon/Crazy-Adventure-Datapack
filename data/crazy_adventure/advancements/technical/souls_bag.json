@@ -21,7 +21,7 @@
 	  }
 	},
 	"rewards": {
-		"function": "crazy_adventure:opti/advancements_rewards/souls_bag"
+		"function": "crazy_adventure:advancements/souls_bag"
 	}
   }
   

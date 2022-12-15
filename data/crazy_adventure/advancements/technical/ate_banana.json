@@ -4,13 +4,13 @@
 		"trigger": "minecraft:consume_item",
 		"conditions": {
 		  "item": {
-			"nbt": "{ctc:{id:\"uranium_apple\"}}"
+			"nbt": "{ctc:{id:\"banana\"}}"
 		  }
 		}
 	  }
 	},
 	"rewards": {
-	  "function": "crazy_adventure:opti/advancements_rewards/ate_uranium_apple"
+	  "function": "crazy_adventure:advancements/ate_banana"
 	}
   }
   

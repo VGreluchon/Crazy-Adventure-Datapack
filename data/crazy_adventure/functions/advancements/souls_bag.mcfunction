@@ -6,4 +6,4 @@ execute if data storage crazy_adventure:main {souls:51b} run item replace entity
 execute if data storage crazy_adventure:main {souls:101b} run data modify block -30000000 14 1610 Items append from storage crazy_adventure:main all.4220013
 execute if data storage crazy_adventure:main {souls:101b} run item replace entity @s weapon.offhand from block -30000000 14 1610 container.16
 
-advancement revoke @s only crazy_adventure:souls_bag
+advancement revoke @s only crazy_adventure:technical/souls_bag

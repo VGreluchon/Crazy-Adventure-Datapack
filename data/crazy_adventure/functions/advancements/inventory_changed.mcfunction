@@ -1,5 +1,5 @@
 
-advancement revoke @s only crazy_adventure:inventory_changed
+advancement revoke @s only crazy_adventure:technical/inventory_changed
 
 #Storage define
 data modify storage crazy_adventure:main Inventory set from entity @s Inventory
