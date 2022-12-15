@@ -5,6 +5,3 @@
 	execute if score #tick_2 crazy_adventure.data matches 2.. run function crazy_adventure:tick_2
 	execute if score #second crazy_adventure.data matches 20.. run function crazy_adventure:tick_second
 
-#Others
-	execute as @a[sort=random] at @s run function crazy_adventure:opti/tick_players
-
