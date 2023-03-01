@@ -1,12 +1,12 @@
 {
 	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"down": "crazy_adventure:machines/empty_consumer_top",
-		"up": "crazy_adventure:machines/empty_consumer_top",
-		"north": "crazy_adventure:machines/empty_consumer_front_on",
-		"south": "crazy_adventure:machines/empty_consumer_side",
-		"west": "crazy_adventure:machines/empty_consumer_side",
-		"east": "crazy_adventure:machines/empty_consumer_side"
+		"down": "crazy_adventure:item/machines/empty_consumer_top",
+		"up": "crazy_adventure:item/machines/empty_consumer_top",
+		"north": "crazy_adventure:item/machines/empty_consumer_front_on",
+		"south": "crazy_adventure:item/machines/empty_consumer_side",
+		"west": "crazy_adventure:item/machines/empty_consumer_side",
+		"east": "crazy_adventure:item/machines/empty_consumer_side"
 	},
 	"elements": [{
 		"from": [ 0, 0, 0 ],

@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "crazy_adventure:manual"
+		"layer0": "crazy_adventure:item/manual"
 	}
 }

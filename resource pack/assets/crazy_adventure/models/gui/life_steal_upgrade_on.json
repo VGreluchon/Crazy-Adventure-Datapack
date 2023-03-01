@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "crazy_adventure:gui/upgrader/life_steal_upgrade_on"
+		"layer0": "crazy_adventure:item/gui/upgrader/life_steal_upgrade_on"
 	}
 }

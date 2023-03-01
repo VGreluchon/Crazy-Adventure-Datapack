@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"texture": "crazy_adventure:gui/upgrader/uranium_upgrader_gui"
+		"texture": "crazy_adventure:item/gui/upgrader/uranium_upgrader_gui"
 	},
 	"elements": [ 
 		{

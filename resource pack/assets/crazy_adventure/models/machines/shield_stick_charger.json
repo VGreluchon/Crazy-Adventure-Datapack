@@ -1,12 +1,12 @@
 {
 	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"down": "crazy_adventure:machines/shield_stick_charger_bottom",
-		"up": "crazy_adventure:machines/shield_stick_charger_top",
-		"north": "crazy_adventure:machines/shield_stick_charger_front",
-		"south": "crazy_adventure:machines/shield_stick_charger_side",
-		"west": "crazy_adventure:machines/shield_stick_charger_side",
-		"east": "crazy_adventure:machines/shield_stick_charger_side"
+		"down": "crazy_adventure:item/machines/shield_stick_charger_bottom",
+		"up": "crazy_adventure:item/machines/shield_stick_charger_top",
+		"north": "crazy_adventure:item/machines/shield_stick_charger_front",
+		"south": "crazy_adventure:item/machines/shield_stick_charger_side",
+		"west": "crazy_adventure:item/machines/shield_stick_charger_side",
+		"east": "crazy_adventure:item/machines/shield_stick_charger_side"
 	},
 	"elements": [{
 		"from": [ 0, 0, 0 ],

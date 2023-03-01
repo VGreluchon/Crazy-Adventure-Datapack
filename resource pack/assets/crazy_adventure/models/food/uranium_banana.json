@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:food/uranium_banana"
+		"layer0": "crazy_adventure:item/food/uranium_banana"
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"texture": "crazy_adventure:gui/charger/fertilizer_charger_gui_5"
+		"texture": "crazy_adventure:item/gui/charger/fertilizer_charger_gui_5"
 	},
 	"elements": [ 
 		{

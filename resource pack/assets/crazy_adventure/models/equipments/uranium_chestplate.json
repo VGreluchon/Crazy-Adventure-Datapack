@@ -1,7 +1,7 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:equipments/uranium_chestplate",
-		"layer1": "crazy_adventure:equipments/uranium_chestplate"
+		"layer0": "crazy_adventure:item/equipments/uranium_chestplate",
+		"layer1": "crazy_adventure:item/equipments/uranium_chestplate"
 	}
 }

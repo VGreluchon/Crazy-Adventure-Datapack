@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:equipments/chargeless_stick"
+		"layer0": "crazy_adventure:item/equipments/chargeless_stick"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:equipments/cave_helmet",
-		"layer1": "crazy_adventure:equipments/cave_helmet"
+		"layer0": "crazy_adventure:item/equipments/cave_helmet",
+		"layer1": "crazy_adventure:item/equipments/cave_helmet"
 	}
 }

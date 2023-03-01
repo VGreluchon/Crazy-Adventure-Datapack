@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"texture": "crazy_adventure:gui/cooling/cooling_gui_4"
+		"texture": "crazy_adventure:item/gui/cooling/cooling_gui_4"
 	},
 	"elements": [ 
 		{

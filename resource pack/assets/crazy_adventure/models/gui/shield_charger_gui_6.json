@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"texture": "crazy_adventure:gui/charger/shield_charger_gui_6"
+		"texture": "crazy_adventure:item/gui/charger/shield_charger_gui_6"
 	},
 	"elements": [ 
 		{

@@ -1,7 +1,7 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:equipments/anti_radiation_boots",
-		"layer1": "crazy_adventure:equipments/anti_radiation_boots"
+		"layer0": "crazy_adventure:item/equipments/anti_radiation_boots",
+		"layer1": "crazy_adventure:item/equipments/anti_radiation_boots"
 	}
 }

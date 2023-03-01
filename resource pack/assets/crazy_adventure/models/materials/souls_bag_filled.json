@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:materials/souls_bag_filled"
+		"layer0": "crazy_adventure:item/materials/souls_bag_filled"
 	}
 }

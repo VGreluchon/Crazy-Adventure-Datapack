@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:materials/raw_californium"
+		"layer0": "crazy_adventure:item/materials/raw_californium"
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"texture": "crazy_adventure:gui/charger/storm_charger_gui_9"
+		"texture": "crazy_adventure:item/gui/charger/storm_charger_gui_9"
 	},
 	"elements": [ 
 		{

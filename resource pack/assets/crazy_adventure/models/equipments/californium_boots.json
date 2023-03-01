@@ -1,7 +1,7 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:equipments/californium_boots",
-		"layer1": "crazy_adventure:equipments/californium_boots"
+		"layer0": "crazy_adventure:item/equipments/californium_boots",
+		"layer1": "crazy_adventure:item/equipments/californium_boots"
 	}
 }

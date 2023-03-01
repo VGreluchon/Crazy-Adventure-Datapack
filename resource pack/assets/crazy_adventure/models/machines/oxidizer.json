@@ -1,12 +1,12 @@
 {
 	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"down": "crazy_adventure:machines/oxidizer_bottom",
-		"up": "crazy_adventure:machines/oxidizer_top_0",
-		"north": "crazy_adventure:machines/oxidizer_front_0",
-		"south": "crazy_adventure:machines/oxidizer_side",
-		"west": "crazy_adventure:machines/oxidizer_side",
-		"east": "crazy_adventure:machines/oxidizer_side"
+		"down": "crazy_adventure:item/machines/oxidizer_bottom",
+		"up": "crazy_adventure:item/machines/oxidizer_top_0",
+		"north": "crazy_adventure:item/machines/oxidizer_front_0",
+		"south": "crazy_adventure:item/machines/oxidizer_side",
+		"west": "crazy_adventure:item/machines/oxidizer_side",
+		"east": "crazy_adventure:item/machines/oxidizer_side"
 	},
 	"elements": [{
 		"from": [ 0, 0, 0 ],

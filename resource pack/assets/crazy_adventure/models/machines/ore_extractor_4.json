@@ -1,12 +1,12 @@
 {
 	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"down": "crazy_adventure:machines/ore_extractor_4_bottom",
-		"up": "crazy_adventure:machines/ore_extractor_4_top",
-		"north": "crazy_adventure:machines/ore_extractor_4_side",
-		"south": "crazy_adventure:machines/ore_extractor_4_side",
-		"west": "crazy_adventure:machines/ore_extractor_4_side",
-		"east": "crazy_adventure:machines/ore_extractor_4_side"
+		"down": "crazy_adventure:item/machines/ore_extractor_4_bottom",
+		"up": "crazy_adventure:item/machines/ore_extractor_4_top",
+		"north": "crazy_adventure:item/machines/ore_extractor_4_side",
+		"south": "crazy_adventure:item/machines/ore_extractor_4_side",
+		"west": "crazy_adventure:item/machines/ore_extractor_4_side",
+		"east": "crazy_adventure:item/machines/ore_extractor_4_side"
 	},
 	"elements": [{
 		"from": [ 0, 0, 0 ],

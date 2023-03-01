@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [256, 64],
 	"textures": {
-		"3": "crazy_adventure:mobs/miner"
+		"3": "crazy_adventure:item/mobs/miner"
 	},
 	"elements": [
 		{

@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:equipments/fertilizer_stick"
+		"layer0": "crazy_adventure:item/equipments/fertilizer_stick"
 	}
 }

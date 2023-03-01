@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:equipments/uranium_axe"
+		"layer0": "crazy_adventure:item/equipments/uranium_axe"
 	}
 }

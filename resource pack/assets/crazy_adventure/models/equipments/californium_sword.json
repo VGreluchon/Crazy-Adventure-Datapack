@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:equipments/californium_sword"
+		"layer0": "crazy_adventure:item/equipments/californium_sword"
 	}
 }

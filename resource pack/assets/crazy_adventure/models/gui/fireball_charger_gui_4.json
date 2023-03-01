@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"texture": "crazy_adventure:gui/charger/fireball_charger_gui_4"
+		"texture": "crazy_adventure:item/gui/charger/fireball_charger_gui_4"
 	},
 	"elements": [ 
 		{

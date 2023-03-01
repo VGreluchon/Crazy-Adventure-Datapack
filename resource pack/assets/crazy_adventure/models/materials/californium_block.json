@@ -1,7 +1,7 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "crazy_adventure:materials/californium_block"
+		"all": "crazy_adventure:item/materials/californium_block"
 	},
 	"display": {
 		"head": {

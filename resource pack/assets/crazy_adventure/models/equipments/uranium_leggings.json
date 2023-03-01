@@ -1,7 +1,7 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "crazy_adventure:equipments/uranium_leggings",
-		"layer1": "crazy_adventure:equipments/uranium_leggings"
+		"layer0": "crazy_adventure:item/equipments/uranium_leggings",
+		"layer1": "crazy_adventure:item/equipments/uranium_leggings"
 	}
 }

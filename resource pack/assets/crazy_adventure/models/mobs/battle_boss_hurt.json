@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [256, 256],
 	"textures": {
-		"0": "crazy_adventure:mobs/battle_boss_hurt",
-		"particle": "crazy_adventure:mobs/battle_boss_hurt"
+		"0": "crazy_adventure:item/mobs/battle_boss_hurt",
+		"particle": "crazy_adventure:item/mobs/battle_boss_hurt"
 	},
 	"elements": [
 		{

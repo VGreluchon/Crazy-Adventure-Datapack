@@ -1,7 +1,7 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "crazy_adventure:materials/uranium_block"
+		"all": "crazy_adventure:item/materials/uranium_block"
 	},
 	"display": {
 		"head": {

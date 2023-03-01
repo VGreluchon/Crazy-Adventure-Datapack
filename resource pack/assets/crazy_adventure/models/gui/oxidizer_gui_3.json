@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"texture": "crazy_adventure:gui/oxidizer/oxidizer_gui_3"
+		"texture": "crazy_adventure:item/gui/oxidizer/oxidizer_gui_3"
 	},
 	"elements": [ 
 		{
