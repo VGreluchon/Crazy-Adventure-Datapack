@@ -1,7 +1,5 @@
 {
 	"values": [
-		"#energy:load",
-		"simplenergy:load",
-		"crazy_adventure:load"
+		"#crazy_adventure:load/main"
 	]
 }
