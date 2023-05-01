@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220302.tag",
+									"source": "all.better_nuclear_reactor.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220405.tag",
+									"source": "all.shield_stick_charger.tag",
 									"target": "{}",
 									"op": "merge"
 								}

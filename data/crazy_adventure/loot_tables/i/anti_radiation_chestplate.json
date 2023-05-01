@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220101.tag",
+									"source": "all.anti_radiation_chestplate.tag",
 									"target": "{}",
 									"op": "merge"
 								}

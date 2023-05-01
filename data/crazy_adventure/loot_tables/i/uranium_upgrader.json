@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220409.tag",
+									"source": "all.uranium_upgrader.tag",
 									"target": "{}",
 									"op": "merge"
 								}

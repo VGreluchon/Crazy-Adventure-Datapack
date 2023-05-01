@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220128.tag",
+									"source": "all.fertilizer_stick.tag",
 									"target": "{}",
 									"op": "merge"
 								}

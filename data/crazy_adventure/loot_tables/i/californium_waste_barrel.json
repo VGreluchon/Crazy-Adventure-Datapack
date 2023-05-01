@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220028.tag",
+									"source": "all.californium_waste_barrel.tag",
 									"target": "{}",
 									"op": "merge"
 								}

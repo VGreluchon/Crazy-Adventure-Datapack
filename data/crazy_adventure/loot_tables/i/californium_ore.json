@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220020.tag",
+									"source": "all.californium_ore.tag",
 									"target": "{}",
 									"op": "merge"
 								}

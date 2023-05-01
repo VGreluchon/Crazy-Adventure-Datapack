@@ -1,0 +1,9 @@
+{
+	"values": [
+		{
+			"id": "#crazy_adventure:load/dependencies",
+			"required": false
+		},
+		"crazy_adventure:load/"
+	]
+}

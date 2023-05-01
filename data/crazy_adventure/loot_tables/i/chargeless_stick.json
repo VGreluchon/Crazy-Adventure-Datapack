@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220105.tag",
+									"source": "all.chargeless_stick.tag",
 									"target": "{}",
 									"op": "merge"
 								}

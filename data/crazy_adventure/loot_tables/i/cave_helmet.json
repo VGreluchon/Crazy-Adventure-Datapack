@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220109.tag",
+									"source": "all.cave_helmet.tag",
 									"target": "{}",
 									"op": "merge"
 								}

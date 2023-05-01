@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220004.tag",
+									"source": "all.uranium_ore.tag",
 									"target": "{}",
 									"op": "merge"
 								}

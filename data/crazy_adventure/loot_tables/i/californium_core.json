@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220024.tag",
+									"source": "all.californium_core.tag",
 									"target": "{}",
 									"op": "merge"
 								}

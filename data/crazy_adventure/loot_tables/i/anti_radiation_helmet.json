@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220100.tag",
+									"source": "all.anti_radiation_helmet.tag",
 									"target": "{}",
 									"op": "merge"
 								}

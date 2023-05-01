@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220201.tag",
+									"source": "all.californium_battery.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220107.tag",
+									"source": "all.shield_stick.tag",
 									"target": "{}",
 									"op": "merge"
 								}

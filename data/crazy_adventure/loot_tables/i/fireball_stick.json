@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220108.tag",
+									"source": "all.fireball_stick.tag",
 									"target": "{}",
 									"op": "merge"
 								}

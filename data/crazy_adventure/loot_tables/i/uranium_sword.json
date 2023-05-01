@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220114.tag",
+									"source": "all.uranium_sword.tag",
 									"target": "{}",
 									"op": "merge"
 								}

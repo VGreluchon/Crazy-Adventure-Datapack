@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220120.tag",
+									"source": "all.californium_chestplate.tag",
 									"target": "{}",
 									"op": "merge"
 								}

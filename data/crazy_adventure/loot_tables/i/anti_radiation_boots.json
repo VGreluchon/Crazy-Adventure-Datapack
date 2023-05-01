@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220103.tag",
+									"source": "all.anti_radiation_boots.tag",
 									"target": "{}",
 									"op": "merge"
 								}

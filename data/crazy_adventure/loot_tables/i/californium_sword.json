@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220123.tag",
+									"source": "all.californium_sword.tag",
 									"target": "{}",
 									"op": "merge"
 								}

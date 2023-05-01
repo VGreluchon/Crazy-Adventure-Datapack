@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220009.tag",
+									"source": "all.radioactive_waste.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220012.tag",
+									"source": "all.half_filled_souls_bag.tag",
 									"target": "{}",
 									"op": "merge"
 								}
