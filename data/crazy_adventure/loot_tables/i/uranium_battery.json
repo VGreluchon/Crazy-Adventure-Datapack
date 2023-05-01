@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220200.tag",
+									"source": "all.uranium_battery.tag",
 									"target": "{}",
 									"op": "merge"
 								}

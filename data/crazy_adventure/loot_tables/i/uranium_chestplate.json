@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220111.tag",
+									"source": "all.uranium_chestplate.tag",
 									"target": "{}",
 									"op": "merge"
 								}

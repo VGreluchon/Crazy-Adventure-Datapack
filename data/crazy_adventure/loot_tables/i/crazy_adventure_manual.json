@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220999.tag",
+									"source": "all.crazy_adventure_manual.tag",
 									"target": "{}",
 									"op": "merge"
 								}

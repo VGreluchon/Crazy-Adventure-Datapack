@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220113.tag",
+									"source": "all.uranium_boots.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220404.tag",
+									"source": "all.storm_stick_charger.tag",
 									"target": "{}",
 									"op": "merge"
 								}

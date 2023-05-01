@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220029.tag",
+									"source": "all.uranium_shard.tag",
 									"target": "{}",
 									"op": "merge"
 								}

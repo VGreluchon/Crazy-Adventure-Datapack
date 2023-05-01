@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220403.tag",
+									"source": "all.ore_extractor_lvl_4.tag",
 									"target": "{}",
 									"op": "merge"
 								}

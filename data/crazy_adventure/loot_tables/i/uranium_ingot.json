@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220005.tag",
+									"source": "all.uranium_ingot.tag",
 									"target": "{}",
 									"op": "merge"
 								}

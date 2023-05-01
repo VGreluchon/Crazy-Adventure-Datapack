@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220017.tag",
+									"source": "all.geiger_counter.tag",
 									"target": "{}",
 									"op": "merge"
 								}

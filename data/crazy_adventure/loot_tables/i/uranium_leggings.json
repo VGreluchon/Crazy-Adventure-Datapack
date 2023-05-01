@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220112.tag",
+									"source": "all.uranium_leggings.tag",
 									"target": "{}",
 									"op": "merge"
 								}

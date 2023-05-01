@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220407.tag",
+									"source": "all.boss_altar.tag",
 									"target": "{}",
 									"op": "merge"
 								}

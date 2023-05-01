@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220027.tag",
+									"source": "all.californium_waste.tag",
 									"target": "{}",
 									"op": "merge"
 								}

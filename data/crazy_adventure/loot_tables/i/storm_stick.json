@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220106.tag",
+									"source": "all.storm_stick.tag",
 									"target": "{}",
 									"op": "merge"
 								}

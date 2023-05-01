@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220118.tag",
+									"source": "all.uranium_shovel.tag",
 									"target": "{}",
 									"op": "merge"
 								}

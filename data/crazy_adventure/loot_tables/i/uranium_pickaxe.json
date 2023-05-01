@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.4220115.tag",
+									"source": "all.uranium_pickaxe.tag",
 									"target": "{}",
 									"op": "merge"
 								}
