@@ -31,6 +31,28 @@ def main_additions() -> None:
 				{"text":"\nHold in your offhand to know how much radiation is there is your body.","color":"gray"},
 			],
 			},
+		"uranium_core": {
+			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: MISC,
+			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":[" U ","UIU"," U "],"ingredients":{"U":ingr_repr("uranium_ingot"),"I":ingr_repr("iron_block")}}],
+			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			WIKI_COMPONENT: [
+				{"text":"Very interesting right ?","color":"green"},
+				{"text":"\nUsed to craft a lot of things","color":"gray"},
+			],
+			
+		},
+		"californium_core": {
+			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: MISC,
+			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":[" C ","CUC"," C "],"ingredients":{"U":ingr_repr("uranium_core"),"C":ingr_repr("Californium_ingot")}}],
+			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			WIKI_COMPONENT: [
+				{"text":"Extremely interesting right ?","color":"green"},
+				{"text":"\nUsed to craft a lot of things","color":"gray"},
+			],
+			
+		},
 		# Equipement
 		"uranium_helmet":{
 			"custom_data": {ns: {"radiation": 150}},
