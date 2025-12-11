@@ -1,0 +1,64 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"smithed": {
+										"dict": {"armor": {"californium": true,"helmet": true}},
+										"ignore": {"functionality": true,"crafting": true}
+									},
+									"crazy_adventure": {
+										"californium_helmet": true
+									}
+								},
+								"minecraft:max_damage": 814,
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "armor",
+										"amount": 6.0,
+										"operation": "add_value",
+										"slot": "head",
+										"id": "crazy_adventure:armor.head"
+									},
+									{
+										"type": "armor_toughness",
+										"amount": 3,
+										"operation": "add_value",
+										"slot": "head",
+										"id": "crazy_adventure:armor_toughness.head"
+									},
+									{
+										"type": "knockback_resistance",
+										"amount": 0.1,
+										"operation": "add_value",
+										"slot": "head",
+										"id": "crazy_adventure:knockback_resistance.head"
+									}
+								],
+								"minecraft:item_model": "crazy_adventure:californium_helmet",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.californium_helmet"
+								},
+								"minecraft:lore": [
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure","italic": true,"color": "blue"}
+									]
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -9,7 +9,7 @@
 Crazy Adventure est un datapack d'aventure et de technologie qui ajoute pleins de trucs cool à Minecraft. Voici une liste non exhaustive des ajouts:
 
     Some new items
-    + de 69 nouveaux items
+    + de 67 nouveaux items
     1 Boss
     Des Bananes
 

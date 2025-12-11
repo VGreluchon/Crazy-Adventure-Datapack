@@ -1,0 +1,33 @@
+{
+	"pools": [
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_ingot"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_nugget"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/raw_uranium"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_block"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_ore"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_helmet"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_chestplate"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_leggings"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_boots"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_sword"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_pickaxe"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_axe"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_shovel"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_hoe"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_ingot"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_nugget"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/raw_californium"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_block"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_ore"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_helmet"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_chestplate"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_leggings"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_boots"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_sword"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_pickaxe"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_axe"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_shovel"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_hoe"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/manual"}]}
+	]
+}

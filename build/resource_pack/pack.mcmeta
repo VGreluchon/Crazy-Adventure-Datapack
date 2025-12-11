@@ -1,0 +1,15 @@
+{
+	"pack": {
+		"pack_format": 75,
+		"description": "Crazy Adventure [2.0.0] by Arobaze",
+		"min_format": [
+			75,
+			0
+		],
+		"max_format": [
+			1000,
+			0
+		]
+	},
+	"id": "crazy_adventure"
+}

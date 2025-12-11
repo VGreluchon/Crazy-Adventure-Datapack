@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": "minecraft:furnace",
+	"result": {
+		"id": "minecraft:command_block",
+		"count": 1,
+		"components": {
+			"minecraft:custom_data": {
+				"smithed": {
+					"dict": {
+						"ingot": {
+							"californium": true
+						}
+					},
+					"ignore": {
+						"functionality": true,
+						"crafting": true
+					}
+				},
+				"crazy_adventure": {
+					"californium_ingot": true
+				}
+			},
+			"minecraft:item_model": "crazy_adventure:californium_ingot",
+			"minecraft:item_name": {
+				"translate": "crazy_adventure.californium_ingot"
+			},
+			"minecraft:lore": [
+				[
+					"",
+					{
+						"text": "I",
+						"color": "white",
+						"italic": false,
+						"font": "crazy_adventure:icons"
+					},
+					{
+						"translate": "crazy_adventure",
+						"italic": true,
+						"color": "blue"
+					}
+				]
+			]
+		}
+	},
+	"experience": 0.8,
+	"cookingtime": 200
+}
