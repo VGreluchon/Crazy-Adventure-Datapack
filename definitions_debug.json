@@ -6,7 +6,7 @@
 		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 9,"category": "misc","group": "uranium","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_block": true}}}}]},{"type": "crafting_shaped","result_count": 1,"category": "misc","group": "uranium","shape": ["XXX","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_nugget": true}}}}}},{"type": "smelting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"raw_uranium": true}}}}},{"type": "blasting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 100,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"raw_uranium": true}}}}},{"type": "smelting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ore": true}}}}},{"type": "blasting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 100,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ore": true}}}}}],
 		"item_model": "crazy_adventure:uranium_ingot",
 		"item_name": {"text": "Uranium Ingot"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_nugget": {
 		"id": "minecraft:command_block",
@@ -15,7 +15,7 @@
 		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 9,"category": "misc","group": "uranium","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}]},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_helmet": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_chestplate": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_leggings": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_boots": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_sword": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_pickaxe": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_axe": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_shovel": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_hoe": true}}}}}],
 		"item_model": "crazy_adventure:uranium_nugget",
 		"item_name": {"text": "Uranium Nugget"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"raw_uranium": {
 		"id": "minecraft:command_block",
@@ -23,7 +23,7 @@
 		"custom_data": {"smithed": {"dict": {"raw": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"raw_uranium": true}},
 		"item_model": "crazy_adventure:raw_uranium",
 		"item_name": {"text": "Raw Uranium"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_block": {
 		"id": "minecraft:furnace",
@@ -33,7 +33,7 @@
 		"vanilla_block": {"id": "minecraft:cobblestone","apply_facing": false},
 		"item_model": "crazy_adventure:uranium_block",
 		"item_name": {"text": "Uranium Block"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_ore": {
 		"id": "minecraft:furnace",
@@ -43,51 +43,55 @@
 		"no_silk_touch_drop": "raw_uranium",
 		"item_model": "crazy_adventure:uranium_ore",
 		"item_name": {"text": "Uranium Ore"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_helmet": {
 		"id": "minecraft:diamond_helmet",
 		"category": "equipment",
-		"custom_data": {"smithed": {"dict": {"armor": {"uranium": true,"helmet": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_helmet": true}},
+		"custom_data": {"crazy_adventure": {"radiation": 150,"uranium_helmet": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 544,
 		"attribute_modifiers": [{"type": "armor","amount": 3.5,"operation": "add_value","slot": "head","id": "crazy_adventure:armor.head"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "head","id": "crazy_adventure:armor_toughness.head"}],
+		"wiki_components": [{"text": "Very cool helmet.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"}],
 		"item_model": "crazy_adventure:uranium_helmet",
 		"item_name": {"text": "Uranium Helmet"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_chestplate": {
 		"id": "minecraft:diamond_chestplate",
 		"category": "equipment",
-		"custom_data": {"smithed": {"dict": {"armor": {"uranium": true,"chestplate": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_chestplate": true}},
+		"custom_data": {"crazy_adventure": {"radiation": 240,"uranium_chestplate": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 791,
 		"attribute_modifiers": [{"type": "armor","amount": 8.5,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor.chest"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor_toughness.chest"}],
+		"wiki_components": [{"text": "Very cool chestplate.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"}],
 		"item_model": "crazy_adventure:uranium_chestplate",
 		"item_name": {"text": "Uranium Chestplate"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_leggings": {
 		"id": "minecraft:diamond_leggings",
 		"category": "equipment",
-		"custom_data": {"smithed": {"dict": {"armor": {"uranium": true,"leggings": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_leggings": true}},
+		"custom_data": {"crazy_adventure": {"radiation": 210,"uranium_leggings": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 742,
 		"attribute_modifiers": [{"type": "armor","amount": 6.5,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor.legs"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor_toughness.legs"}],
+		"wiki_components": [{"text": "Very cool leggings.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"}],
 		"item_model": "crazy_adventure:uranium_leggings",
 		"item_name": {"text": "Uranium Leggings"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_boots": {
 		"id": "minecraft:diamond_boots",
 		"category": "equipment",
-		"custom_data": {"smithed": {"dict": {"armor": {"uranium": true,"boots": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_boots": true}},
+		"custom_data": {"crazy_adventure": {"radiation": 120,"uranium_boots": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 643,
 		"attribute_modifiers": [{"type": "armor","amount": 3.5,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor.feet"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor_toughness.feet"}],
+		"wiki_components": [{"text": "Very cool boots.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"}],
 		"item_model": "crazy_adventure:uranium_boots",
 		"item_name": {"text": "Uranium Boots"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_sword": {
 		"id": "minecraft:diamond_sword",
@@ -98,7 +102,7 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 7,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"}],
 		"item_model": "crazy_adventure:uranium_sword",
 		"item_name": {"text": "Uranium Sword"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_pickaxe": {
 		"id": "minecraft:diamond_pickaxe",
@@ -109,7 +113,7 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 5,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -2.8,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],
 		"item_model": "crazy_adventure:uranium_pickaxe",
 		"item_name": {"text": "Uranium Pickaxe"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_axe": {
 		"id": "minecraft:diamond_axe",
@@ -120,7 +124,7 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 9,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -3.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],
 		"item_model": "crazy_adventure:uranium_axe",
 		"item_name": {"text": "Uranium Axe"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_shovel": {
 		"id": "minecraft:diamond_shovel",
@@ -131,7 +135,7 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 5.5,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -3.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],
 		"item_model": "crazy_adventure:uranium_shovel",
 		"item_name": {"text": "Uranium Shovel"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_hoe": {
 		"id": "minecraft:diamond_hoe",
@@ -142,7 +146,7 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 1,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": 0.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],
 		"item_model": "crazy_adventure:uranium_hoe",
 		"item_name": {"text": "Uranium Hoe"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_ingot": {
 		"id": "minecraft:command_block",
@@ -151,7 +155,7 @@
 		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 9,"category": "misc","group": "californium","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_block": true}}}}]},{"type": "crafting_shaped","result_count": 1,"category": "misc","group": "californium","shape": ["XXX","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_nugget": true}}}}}},{"type": "smelting","result_count": 1,"category": "misc","group": "californium","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"raw_californium": true}}}}},{"type": "blasting","result_count": 1,"category": "misc","group": "californium","experience": 0.8,"cookingtime": 100,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"raw_californium": true}}}}},{"type": "smelting","result_count": 1,"category": "misc","group": "californium","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ore": true}}}}},{"type": "blasting","result_count": 1,"category": "misc","group": "californium","experience": 0.8,"cookingtime": 100,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ore": true}}}}}],
 		"item_model": "crazy_adventure:californium_ingot",
 		"item_name": {"text": "Californium Ingot"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_nugget": {
 		"id": "minecraft:command_block",
@@ -160,7 +164,7 @@
 		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 9,"category": "misc","group": "californium","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}]},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_helmet": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_chestplate": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_leggings": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_boots": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_sword": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_pickaxe": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_axe": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_shovel": true}}}}},{"type": "smelting","result_count": 1,"category": "equipment","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_hoe": true}}}}}],
 		"item_model": "crazy_adventure:californium_nugget",
 		"item_name": {"text": "Californium Nugget"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"raw_californium": {
 		"id": "minecraft:command_block",
@@ -168,7 +172,7 @@
 		"custom_data": {"smithed": {"dict": {"raw": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"raw_californium": true}},
 		"item_model": "crazy_adventure:raw_californium",
 		"item_name": {"text": "Raw Californium"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_block": {
 		"id": "minecraft:furnace",
@@ -178,7 +182,7 @@
 		"vanilla_block": {"id": "minecraft:iron_block","apply_facing": false},
 		"item_model": "crazy_adventure:californium_block",
 		"item_name": {"text": "Californium Block"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_ore": {
 		"id": "minecraft:furnace",
@@ -188,51 +192,55 @@
 		"no_silk_touch_drop": "raw_californium",
 		"item_model": "crazy_adventure:californium_ore",
 		"item_name": {"text": "Californium Ore"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_helmet": {
 		"id": "minecraft:netherite_helmet",
 		"category": "equipment",
-		"custom_data": {"smithed": {"dict": {"armor": {"californium": true,"helmet": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_helmet": true}},
+		"custom_data": {"crazy_adventure": {"radiation": 375,"californium_helmet": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 814,
 		"attribute_modifiers": [{"type": "armor","amount": 6.0,"operation": "add_value","slot": "head","id": "crazy_adventure:armor.head"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "head","id": "crazy_adventure:armor_toughness.head"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "head","id": "crazy_adventure:knockback_resistance.head"}],
+		"wiki_components": [{"text": "Extremely cool helmet.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"}],
 		"item_model": "crazy_adventure:californium_helmet",
 		"item_name": {"text": "Californium Helmet"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_chestplate": {
 		"id": "minecraft:netherite_chestplate",
 		"category": "equipment",
-		"custom_data": {"smithed": {"dict": {"armor": {"californium": true,"chestplate": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_chestplate": true}},
+		"custom_data": {"crazy_adventure": {"radiation": 600,"californium_chestplate": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 1184,
 		"attribute_modifiers": [{"type": "armor","amount": 11.0,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor.chest"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor_toughness.chest"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "chest","id": "crazy_adventure:knockback_resistance.chest"}],
+		"wiki_components": [{"text": "Extremely cool chestplate.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"}],
 		"item_model": "crazy_adventure:californium_chestplate",
 		"item_name": {"text": "Californium Chestplate"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_leggings": {
 		"id": "minecraft:netherite_leggings",
 		"category": "equipment",
-		"custom_data": {"smithed": {"dict": {"armor": {"californium": true,"leggings": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_leggings": true}},
+		"custom_data": {"crazy_adventure": {"radiation": 525,"californium_leggings": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 1110,
 		"attribute_modifiers": [{"type": "armor","amount": 9.0,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor.legs"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor_toughness.legs"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "legs","id": "crazy_adventure:knockback_resistance.legs"}],
+		"wiki_components": [{"text": "Extremely cool leggings.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"}],
 		"item_model": "crazy_adventure:californium_leggings",
 		"item_name": {"text": "Californium Leggings"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_boots": {
 		"id": "minecraft:netherite_boots",
 		"category": "equipment",
-		"custom_data": {"smithed": {"dict": {"armor": {"californium": true,"boots": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_boots": true}},
+		"custom_data": {"crazy_adventure": {"radiation": 300,"californium_boots": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 962,
 		"attribute_modifiers": [{"type": "armor","amount": 6.0,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor.feet"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor_toughness.feet"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "feet","id": "crazy_adventure:knockback_resistance.feet"}],
+		"wiki_components": [{"text": "Extremely cool boots.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"}],
 		"item_model": "crazy_adventure:californium_boots",
 		"item_name": {"text": "Californium Boots"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_sword": {
 		"id": "minecraft:netherite_sword",
@@ -243,7 +251,7 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 9,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"}],
 		"item_model": "crazy_adventure:californium_sword",
 		"item_name": {"text": "Californium Sword"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_pickaxe": {
 		"id": "minecraft:netherite_pickaxe",
@@ -254,7 +262,7 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 7,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -2.8,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],
 		"item_model": "crazy_adventure:californium_pickaxe",
 		"item_name": {"text": "Californium Pickaxe"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_axe": {
 		"id": "minecraft:netherite_axe",
@@ -265,7 +273,7 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 11,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -3.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],
 		"item_model": "crazy_adventure:californium_axe",
 		"item_name": {"text": "Californium Axe"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_shovel": {
 		"id": "minecraft:netherite_shovel",
@@ -276,7 +284,7 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 7.5,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -3.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],
 		"item_model": "crazy_adventure:californium_shovel",
 		"item_name": {"text": "Californium Shovel"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"californium_hoe": {
 		"id": "minecraft:netherite_hoe",
@@ -287,15 +295,26 @@
 		"attribute_modifiers": [{"type": "attack_damage","amount": 2,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": 0.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],
 		"item_model": "crazy_adventure:californium_hoe",
 		"item_name": {"text": "Californium Hoe"},
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]]
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"manual": {
 		"id": "minecraft:written_book",
-		"category": "misc",
 		"item_name": "Crazy Adventure Manual",
 		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 1,"group": "manual","category": "misc","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"manual": true}}}}]}],
+		"category": "miscellaneous",
 		"item_model": "crazy_adventure:manual",
-		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy Adventure","italic": true,"color": "blue"}]],
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
 		"custom_data": {"crazy_adventure": {"manual": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"geiger_counter": {
+		"id": "minecraft:warped_fungus_on_a_stick",
+		"category": "miscellaneous",
+		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+		"lore": [{"text": "Allows you to know your radiation amount","italic": false,"color": "gray"},{"text": "[Hold in offhand]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["UU","CC","CC"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}},"C": {"item": "minecraft:copper_ingot"}}}],
+		"wiki_components": [{"text": "Good to know your Tchernobyl rate.","color": "green"},{"text": "\nHold in your offhand to know how much radiation is there is your body.","color": "gray"}],
+		"item_model": "crazy_adventure:geiger_counter",
+		"item_name": {"text": "Geiger Counter"},
+		"custom_data": {"crazy_adventure": {"geiger_counter": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
 	}
 }

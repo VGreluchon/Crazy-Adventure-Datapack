@@ -81,7 +81,7 @@ def beet_default(ctx: Context):
 
     # Add a recipe for the future generated manual (the manual recipe will show up in itself)
     Mem.definitions["manual"] = {
-        "id": "minecraft:written_book", core.CATEGORY: "misc", "item_name": ctx.meta.get("stewbeet", {}).get("manual", {}).get("name") or "Manual",
+        "id": "minecraft:written_book", "item_name": ctx.meta.get("stewbeet", {}).get("manual", {}).get("name") or "Manual",
         core.RESULT_OF_CRAFTING: [
             # Put a book and a steel ingot in the crafting grid to get the manual
             # {"type":"crafting_shapeless","result_count":1,"group":"manual","category":"misc","ingredients": [core.ingr_repr("minecraft:book"), core.ingr_repr("steel_ingot", ns)]},
@@ -91,10 +91,13 @@ def beet_default(ctx: Context):
         ],
     }
 
+    from .additions import main_additions
+    main_additions()
+
     # Add item categories to the remaining items (should select 'shazinho' and 'super_stone')
     for item in Mem.definitions.values():
         if not item.get(core.CATEGORY):
-            item[core.CATEGORY] = "misc"
+            item[core.CATEGORY] = "miscellaneous"
 
     # Final adjustments, you definitively should keep them!
     core.add_item_model_component(black_list=["item_ids","you_don't_want","in_that","list"])

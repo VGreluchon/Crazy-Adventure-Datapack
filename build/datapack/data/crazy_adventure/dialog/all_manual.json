@@ -43,7 +43,8 @@
 		"crazy_adventure:manual/page_32",
 		"crazy_adventure:manual/page_33",
 		"crazy_adventure:manual/page_34",
-		"crazy_adventure:manual/page_35"
+		"crazy_adventure:manual/page_35",
+		"crazy_adventure:manual/page_36"
 	],
 	"exit_action": {
 		"label": {"translate": "gui.back"},

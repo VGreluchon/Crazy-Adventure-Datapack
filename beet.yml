@@ -72,7 +72,7 @@ meta:
             # Paths to copy the resource pack(s) to
             resource_pack: ["C:/Users/tatan/AppData/Roaming/.minecraft/resourcepacks"]
         # Custom item lore configuration. If set to "auto" or unset, uses project icon followed by PROJECT_NAME
-        # source_lore: [{"text":"ICON"},{"text":" Crazy ","color":"green"},{"text":" Adventure","color":"gray"}]
+        source_lore: [{"text":"ICON"},{"text":" Crazy ","color":"green"},{"text":"Adventure","color":"gray"}]
         # Automagically checks for dependencies and their minimum required versions at runtime.
         # The url is used when the dependency is not found to suggest where to get it.
         # The version dict key contains the minimum required version of the dependency in [major, minor, patch] format.

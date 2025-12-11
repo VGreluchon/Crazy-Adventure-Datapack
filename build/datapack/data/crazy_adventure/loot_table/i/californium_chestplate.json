@@ -11,12 +11,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": {
-									"smithed": {
-										"dict": {"armor": {"californium": true,"chestplate": true}},
-										"ignore": {"functionality": true,"crafting": true}
-									},
 									"crazy_adventure": {
+										"radiation": 600,
 										"californium_chestplate": true
+									},
+									"smithed": {
+										"ignore": {"functionality": true,"crafting": true}
 									}
 								},
 								"minecraft:max_damage": 1184,
@@ -51,7 +51,8 @@
 									[
 										"",
 										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
-										{"translate": "crazy_adventure","italic": true,"color": "blue"}
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
 									]
 								]
 							}

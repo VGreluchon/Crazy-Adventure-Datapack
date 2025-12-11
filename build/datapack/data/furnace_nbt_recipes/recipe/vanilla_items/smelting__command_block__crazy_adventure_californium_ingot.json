@@ -35,9 +35,12 @@
 						"font": "crazy_adventure:icons"
 					},
 					{
-						"translate": "crazy_adventure",
-						"italic": true,
-						"color": "blue"
+						"translate": "crazy_adventure.crazy",
+						"color": "green"
+					},
+					{
+						"translate": "crazy_adventure.adventure",
+						"color": "gray"
 					}
 				]
 			]

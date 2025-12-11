@@ -28,6 +28,7 @@
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_axe"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_shovel"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_hoe"}]},
-		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/manual"}]}
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/manual"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/geiger_counter"}]}
 	]
 }
