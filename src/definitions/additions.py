@@ -115,7 +115,7 @@ def main_additions() -> None:
 		},
 		"souls_bag": {
 			"id": CUSTOM_ITEM_VANILLA, CATEGORY: MISC,
-			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["SCS","CFC","CCC"],"ingredients":{"S":ingr_repr("minecraft:string"),"C":ingr_repr("minecraft:charcoal"),"F":ingr_repr("minecraft:fermented_spider_eye")}}],
+			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["SCS","CFC","CCC"],"ingredients":{"S":ingr_repr("minecraft:string"),"C":ingr_repr("simplunium_ingot","simplenergy"),"F":ingr_repr("minecraft:fermented_spider_eye")}}],
 			"lore": [{"text":"Kill mobs while holding in OffHand","italic":False,"color":"gray"},{"text":"When full, can be drop on Boss Altar to spawn it","italic":False,"color":"gray"}],			
 			WIKI_COMPONENT: [
 				{"text":"Texture was made before they add the bundle.","color":"green"},
@@ -124,7 +124,7 @@ def main_additions() -> None:
 		},
 		"boss_altar": {
 			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: MISC,
-			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["BWB","BUB","BSB"],"ingredients":{"B":ingr_repr("minecraft:black_candle"),"W":ingr_repr("minecraft:wither_skeleton_skull"),"U":ingr_repr("uranium_core"),"S":ingr_repr("minecraft:charcoal")}}],
+			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["BWB","BUB","BSB"],"ingredients":{"B":ingr_repr("minecraft:black_candle"),"W":ingr_repr("minecraft:wither_skeleton_skull"),"U":ingr_repr("uranium_core"),"S":ingr_repr("simplunium_block","simplenergy")}}],
 			"lore": [{"text":"Kill mobs while holding in OffHand","italic":False,"color":"gray"},{"text":"When full, can be drop on Boss Altar to spawn it","italic":False,"color":"gray"}],			
 			WIKI_COMPONENT: [
 				{"text":"Texture was made before they add the bundle.","color":"green"},
@@ -178,8 +178,8 @@ def main_additions() -> None:
 		"uranium_battery": {
 			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"storage":0, "max_storage": 150000}},
 			RESULT_OF_CRAFTING:[
-				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["GGG","GXG","CCC"],"ingredients":{"G":ingr_repr("uranium_waste_barrel"),"X":ingr_repr("minecraft:bow"),"C":ingr_repr("minecraft:coal_block")}},
-				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["GAG","GXG","CCC"],"ingredients":{"G":ingr_repr("uranium_waste_barrel"),"A":ingr_repr("uranium_core"),"X":ingr_repr("minecraft:bow"),"C":ingr_repr("minecraft:coal_block")}},
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["GGG","GXG","CCC"],"ingredients":{"G":ingr_repr("uranium_waste_barrel"),"X":ingr_repr("elite_battery","simplenergy"),"C":ingr_repr("simplunium_block","simplenergy")}},
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["GAG","GXG","CCC"],"ingredients":{"G":ingr_repr("uranium_waste_barrel"),"A":ingr_repr("uranium_core"),"X":ingr_repr("elite_battery","simplenergy"),"C":ingr_repr("simplunium_block","simplenergy")}},
 			],
 			WIKI_COMPONENT: [
 				{"text":"Don't mention lithium to me..","color":"green"},

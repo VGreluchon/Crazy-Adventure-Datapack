@@ -103,11 +103,6 @@ def beet_default(ctx: Context):
     from .mobs import main_mobs
     main_mobs()
 
-    # Add item categories to the remaining items (should select 'shazinho' and 'super_stone')
-    for item in Mem.definitions.values():
-        if not item.get(core.CATEGORY):
-            item[core.CATEGORY] = "miscellaneous"
-
     # Final adjustments, you definitively should keep them!
     core.add_item_model_component(black_list=["item_ids","you_don't_want","in_that","list"])
     core.add_item_name_and_lore_if_missing()

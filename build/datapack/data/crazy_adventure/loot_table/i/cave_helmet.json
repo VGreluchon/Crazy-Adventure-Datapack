@@ -20,7 +20,7 @@
 										"cave_helmet": true
 									}
 								},
-								"minecraft:max_damage": 0,
+								"minecraft:max_damage": 165,
 								"minecraft:attribute_modifiers": [
 									{
 										"type": "armor",

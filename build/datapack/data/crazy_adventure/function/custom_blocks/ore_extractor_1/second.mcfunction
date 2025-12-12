@@ -8,7 +8,7 @@
 
 # Consume energy
 scoreboard players operation @s energy.storage -= @s crazy_adventure.energy_rate
-particle block stone ~ ~ ~ 1 1 1 1 10
+particle block{block_state:"minecraft:stone"} ~ ~ ~ .5 .5 .5 0.1 10
 
 scoreboard players add @s crazy_adventure.working 1
 execute if score @s crazy_adventure.working matches 5 run loot insert ~ ~ ~ loot crazy_adventure:ore_extractor/lvl1

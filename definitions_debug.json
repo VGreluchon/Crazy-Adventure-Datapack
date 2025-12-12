@@ -311,7 +311,7 @@
 		"id": "minecraft:iron_helmet",
 		"category": "equipment",
 		"custom_data": {"smithed": {"dict": {"armor": {"cave": true,"helmet": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": -50,"cave_helmet": true}},
-		"max_damage": 0,
+		"max_damage": 165,
 		"attribute_modifiers": [{"type": "armor","amount": 1.0,"operation": "add_value","slot": "head","id": "crazy_adventure:armor.head"}],
 		"wiki_components": [{"text": "Nerf Miner.","color": "green"},{"text": "\nKill miner in Dripstone biome to obtain","color": "gray"},{"text": "\nGives you Night Vision.","color": "gray"}],
 		"item_model": "crazy_adventure:cave_helmet",
@@ -323,7 +323,6 @@
 		"item_name": "Crazy Adventure Manual",
 		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 1,"group": "manual","category": "misc","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"manual": true}}}}]},{"type": "crafting_shapeless","result_count": 1,"category": "misc","ingredients": [{"item": "minecraft:book"},{"item": "minecraft:tnt"}]}],
 		"wiki_components": [{"text": "What a wonderful manual","color": "green"},{"text": "\nVery useful","color": "gray"}],
-		"category": "miscellaneous",
 		"item_model": "crazy_adventure:manual",
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
 		"custom_data": {"crazy_adventure": {"manual": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
@@ -427,7 +426,7 @@
 	"souls_bag": {
 		"id": "minecraft:command_block",
 		"category": "miscellaneous",
-		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["SCS","CFC","CCC"],"ingredients": {"S": {"item": "minecraft:string"},"C": {"item": "minecraft:charcoal"},"F": {"item": "minecraft:fermented_spider_eye"}}}],
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["SCS","CFC","CCC"],"ingredients": {"S": {"item": "minecraft:string"},"C": {"components": {"minecraft:custom_data": {"simplenergy": {"simplunium_ingot": true}}}},"F": {"item": "minecraft:fermented_spider_eye"}}}],
 		"lore": [{"text": "Kill mobs while holding in OffHand","italic": false,"color": "gray"},{"text": "When full, can be drop on Boss Altar to spawn it","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
 		"wiki_components": [{"text": "Texture was made before they add the bundle.","color": "green"},{"text": "\nKill 100 mobs to spawn the boss with Boss Altar","color": "gray"}],
 		"item_model": "crazy_adventure:souls_bag",
@@ -437,7 +436,7 @@
 	"boss_altar": {
 		"id": "minecraft:furnace",
 		"category": "miscellaneous",
-		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["BWB","BUB","BSB"],"ingredients": {"B": {"item": "minecraft:black_candle"},"W": {"item": "minecraft:wither_skeleton_skull"},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"S": {"item": "minecraft:charcoal"}}}],
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["BWB","BUB","BSB"],"ingredients": {"B": {"item": "minecraft:black_candle"},"W": {"item": "minecraft:wither_skeleton_skull"},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"S": {"components": {"minecraft:custom_data": {"simplenergy": {"simplunium_block": true}}}}}}],
 		"lore": [{"text": "Kill mobs while holding in OffHand","italic": false,"color": "gray"},{"text": "When full, can be drop on Boss Altar to spawn it","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
 		"wiki_components": [{"text": "Texture was made before they add the bundle.","color": "green"},{"text": "\nKill 100 mobs to spawn the boss with Boss Altar","color": "gray"}],
 		"vanilla_block": {"id": "minecraft:obsidian","apply_facing": false},
@@ -493,7 +492,7 @@
 		"id": "minecraft:furnace",
 		"category": "energy",
 		"custom_data": {"energy": {"storage": 0,"max_storage": 150000},"crazy_adventure": {"uranium_battery": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
-		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["GGG","GXG","CCC"],"ingredients": {"G": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"X": {"item": "minecraft:bow"},"C": {"item": "minecraft:coal_block"}}},{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["GAG","GXG","CCC"],"ingredients": {"G": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"A": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"X": {"item": "minecraft:bow"},"C": {"item": "minecraft:coal_block"}}}],
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["GGG","GXG","CCC"],"ingredients": {"G": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"X": {"components": {"minecraft:custom_data": {"simplenergy": {"elite_battery": true}}}},"C": {"components": {"minecraft:custom_data": {"simplenergy": {"simplunium_block": true}}}}}},{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["GAG","GXG","CCC"],"ingredients": {"G": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"A": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"X": {"components": {"minecraft:custom_data": {"simplenergy": {"elite_battery": true}}}},"C": {"components": {"minecraft:custom_data": {"simplenergy": {"simplunium_block": true}}}}}}],
 		"wiki_components": [{"text": "Don't mention lithium to me..","color": "green"},{"text": "\nStores up to 150,000 kJ","color": "gray"},{"text": "\nModes: Input Only, Output Only, Both (use Battery Switcher)","color": "gray"},{"text": "\nBreaking the battery preserves stored energy","color": "gray"},{"text": "\nBalances energy storage with adjacent advanced batteries","color": "gray"}],
 		"vanilla_block": {"id": "minecraft:emerald_block","apply_facing": false},
 		"item_model": "crazy_adventure:uranium_battery",
@@ -769,7 +768,6 @@
 		"id": "minecraft:furnace",
 		"no_silk_touch_drop": {"id": "banana","count": 1},
 		"vanilla_block": {"id": "minecraft:end_rod","apply_facing": false},
-		"category": "miscellaneous",
 		"item_model": "crazy_adventure:banana_plant",
 		"item_name": {"text": "Banana Plant"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
@@ -777,7 +775,6 @@
 	},
 	"miner": {
 		"id": "minecraft:command_block",
-		"category": "miscellaneous",
 		"item_model": "crazy_adventure:miner",
 		"item_name": {"text": "Miner"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
@@ -785,7 +782,6 @@
 	},
 	"battle_boss": {
 		"id": "minecraft:command_block",
-		"category": "miscellaneous",
 		"item_model": "crazy_adventure:battle_boss",
 		"item_name": {"text": "Battle Boss"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
