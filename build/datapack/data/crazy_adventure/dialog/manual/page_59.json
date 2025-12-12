@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:notice",
+	"title": [
+		"",
+		{
+			"sprite": "crazy_adventure:item/dialog_sprite/battle_boss",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		},
+		" ",
+		{
+			"translate": "crazy_adventure.battle_boss",
+			"underlined": true
+		},
+		" ",
+		{
+			"sprite": "crazy_adventure:item/dialog_sprite/battle_boss",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		}
+	],
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "V   ","font": "crazy_adventure:manual","color": "white"},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_58"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (58)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_60"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (60)"]}},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_58"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (58)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_60"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (60)"]}}
+			],
+			"width": 400
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
+				"ၚ\n",
+				{"text": "  \n  \n  \n  \n","hover_event": {"action": "show_item","id": "command_block","components": {"item_model": "crazy_adventure:battle_boss","item_name": {"translate": "crazy_adventure.battle_boss"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"battle_boss": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_59"}},
+				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+			],
+			"width": 140
+		}
+	]
+}

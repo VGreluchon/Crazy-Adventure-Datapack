@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"smithed": {
+										"dict": {"armor": {"californium": true,"chestplate": true}},
+										"ignore": {"functionality": true,"crafting": true}
+									},
+									"crazy_adventure": {
+										"radiation": 600,
+										"californium_chestplate": true
+									}
+								},
+								"minecraft:max_damage": 1184,
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "armor",
+										"amount": 11.0,
+										"operation": "add_value",
+										"slot": "chest",
+										"id": "crazy_adventure:armor.chest"
+									},
+									{
+										"type": "armor_toughness",
+										"amount": 3,
+										"operation": "add_value",
+										"slot": "chest",
+										"id": "crazy_adventure:armor_toughness.chest"
+									},
+									{
+										"type": "knockback_resistance",
+										"amount": 0.1,
+										"operation": "add_value",
+										"slot": "chest",
+										"id": "crazy_adventure:knockback_resistance.chest"
+									}
+								],
+								"minecraft:item_model": "crazy_adventure:californium_chestplate",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.californium_chestplate"
+								},
+								"minecraft:lore": [
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
+									]
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

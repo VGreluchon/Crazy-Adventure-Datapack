@@ -1,0 +1,46 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"crazy_adventure": {
+										"radiation": 50,
+										"anti_radiation_boots": true
+									},
+									"smithed": {
+										"ignore": {"functionality": true,"crafting": true}
+									}
+								},
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:unbreakable"
+									]
+								},
+								"minecraft:item_model": "crazy_adventure:anti_radiation_boots",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.anti_radiation_boots"
+								},
+								"minecraft:lore": [
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
+									]
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

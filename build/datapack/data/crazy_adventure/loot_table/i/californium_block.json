@@ -1,0 +1,52 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:furnace",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"smithed": {
+										"dict": {"block": {"californium": true}},
+										"ignore": {"functionality": true,"crafting": true}
+									},
+									"crazy_adventure": {
+										"californium_block": true
+									}
+								},
+								"minecraft:item_model": "crazy_adventure:californium_block",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.californium_block"
+								},
+								"minecraft:lore": [
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
+									]
+								],
+								"minecraft:container": [
+									{
+										"slot": 0,
+										"item": {"id": "minecraft:stone","count": 1,"components": {"minecraft:custom_data": {"smithed": {"block": {"id": "crazy_adventure:californium_block","from": "crazy_adventure"}}}}}
+									}
+								],
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:container"
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:notice",
+	"title": [
+		"",
+		{
+			"sprite": "crazy_adventure:item/californium_waste",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		},
+		" ",
+		{
+			"translate": "crazy_adventure.californium_waste",
+			"underlined": true
+		},
+		" ",
+		{
+			"sprite": "crazy_adventure:item/californium_waste",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		}
+	],
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "V   ","font": "crazy_adventure:manual","color": "white"},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_52"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (52)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_54"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (54)"]}},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_52"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (52)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_54"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (54)"]}}
+			],
+			"width": 400
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
+				"ၔ\n",
+				{"text": "  \n  \n  \n  \n\n","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"item_model": "crazy_adventure:californium_waste","item_name": {"translate": "crazy_adventure.californium_waste"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"californium_waste": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_53"}},
+				{"text": "1##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.that_looks_tasty","color": "green"},{"translate": "crazy_adventure.obtained_with_nuclear_reactors_3_4","color": "gray"}]}},
+				{"text": "茧\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$職"},{"text": "$職"},{"text": "$職"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$職"},{"text": "$苘"},{"text": "$職"},"\"\"",{"text": "$$聹"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$職"},{"text": "$職"},{"text": "$職"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x8 ","color": "gray"},{"translate": "crazy_adventure.californium_waste","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.barrel","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_54"}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.that_looks_tasty","color": "green"},{"translate": "crazy_adventure.obtained_with_nuclear_reactors_3_4","color": "gray"}]}},
+				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$職"},{"text": "$職"},{"text": "$職"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$職"},{"text": "$苘"},{"text": "$職"},"\"\"",{"text": "$$聹"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$職"},{"text": "$職"},{"text": "$職"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x8 ","color": "gray"},{"translate": "crazy_adventure.californium_waste","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.barrel","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_54"}},
+				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+			],
+			"width": 140
+		}
+	]
+}

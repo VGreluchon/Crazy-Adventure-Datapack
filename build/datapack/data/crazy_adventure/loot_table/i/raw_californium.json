@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:command_block",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"smithed": {
+										"dict": {"raw": {"californium": true}},
+										"ignore": {"functionality": true,"crafting": true}
+									},
+									"crazy_adventure": {
+										"raw_californium": true
+									}
+								},
+								"minecraft:item_model": "crazy_adventure:raw_californium",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.raw_californium"
+								},
+								"minecraft:lore": [
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
+									]
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

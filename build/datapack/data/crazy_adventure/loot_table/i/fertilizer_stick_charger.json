@@ -1,0 +1,70 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:furnace",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"energy": {
+										"usage": 30,
+										"max_storage": 3000
+									},
+									"crazy_adventure": {
+										"fertilizer_stick_charger": true
+									},
+									"smithed": {
+										"ignore": {"functionality": true,"crafting": true}
+									}
+								},
+								"minecraft:lore": [
+									{
+										"translate": "crazy_adventure.need_energy_and_chargeless_stick",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"translate": "crazy_adventure.put_farmland_on_top_to_add_1_charges",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"translate": "crazy_adventure.create_1_charge_every_10_seconds",
+										"italic": false,
+										"color": "white"
+									},
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
+									]
+								],
+								"minecraft:item_model": "crazy_adventure:fertilizer_stick_charger",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.fertilizer_stick_charger"
+								},
+								"minecraft:container": [
+									{
+										"slot": 0,
+										"item": {"id": "minecraft:stone","count": 1,"components": {"minecraft:custom_data": {"smithed": {"block": {"id": "crazy_adventure:fertilizer_stick_charger","from": "crazy_adventure"}}}}}
+									}
+								],
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:container"
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

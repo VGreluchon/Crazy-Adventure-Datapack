@@ -1,0 +1,9 @@
+{
+	"parent": "block/orientable_with_bottom",
+	"textures": {
+		"front": "crazy_adventure:item/fireball_stick_charger_front",
+		"bottom": "crazy_adventure:item/fireball_stick_charger_bottom",
+		"side": "crazy_adventure:item/fireball_stick_charger_side",
+		"top": "crazy_adventure:item/fireball_stick_charger_top"
+	}
+}

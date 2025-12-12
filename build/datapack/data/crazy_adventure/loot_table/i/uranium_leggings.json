@@ -1,0 +1,59 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_leggings",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"smithed": {
+										"dict": {"armor": {"uranium": true,"leggings": true}},
+										"ignore": {"functionality": true,"crafting": true}
+									},
+									"crazy_adventure": {
+										"radiation": 210,
+										"uranium_leggings": true
+									}
+								},
+								"minecraft:max_damage": 742,
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "armor",
+										"amount": 6.5,
+										"operation": "add_value",
+										"slot": "legs",
+										"id": "crazy_adventure:armor.legs"
+									},
+									{
+										"type": "armor_toughness",
+										"amount": 2,
+										"operation": "add_value",
+										"slot": "legs",
+										"id": "crazy_adventure:armor_toughness.legs"
+									}
+								],
+								"minecraft:item_model": "crazy_adventure:uranium_leggings",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.uranium_leggings"
+								},
+								"minecraft:lore": [
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
+									]
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

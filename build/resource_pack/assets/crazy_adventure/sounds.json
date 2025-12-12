@@ -1,0 +1,10 @@
+{
+	"dirt_bullet_impact": {
+		"subtitle": "dirt_bullet_impact",
+		"sounds": ["crazy_adventure:dirt_bullet_impact_01","crazy_adventure:dirt_bullet_impact_02","crazy_adventure:dirt_bullet_impact_03"]
+	},
+	"fireselect": {
+		"subtitle": "fireselect",
+		"sounds": ["crazy_adventure:fireselect"]
+	}
+}

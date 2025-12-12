@@ -1,0 +1,51 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": "minecraft:netherite_hoe",
+	"result": {
+		"id": "minecraft:command_block",
+		"count": 1,
+		"components": {
+			"minecraft:custom_data": {
+				"smithed": {
+					"dict": {
+						"nugget": {
+							"californium": true
+						}
+					},
+					"ignore": {
+						"functionality": true,
+						"crafting": true
+					}
+				},
+				"crazy_adventure": {
+					"californium_nugget": true
+				}
+			},
+			"minecraft:item_model": "crazy_adventure:californium_nugget",
+			"minecraft:item_name": {
+				"translate": "crazy_adventure.californium_nugget"
+			},
+			"minecraft:lore": [
+				[
+					"",
+					{
+						"text": "I",
+						"color": "white",
+						"italic": false,
+						"font": "crazy_adventure:icons"
+					},
+					{
+						"translate": "crazy_adventure.crazy",
+						"color": "green"
+					},
+					{
+						"translate": "crazy_adventure.adventure",
+						"color": "gray"
+					}
+				]
+			]
+		}
+	},
+	"experience": 0.8,
+	"cookingtime": 200
+}

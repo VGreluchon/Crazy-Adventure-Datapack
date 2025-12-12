@@ -1,0 +1,86 @@
+{
+	"type": "minecraft:notice",
+	"title": [
+		"",
+		{
+			"sprite": "crazy_adventure:item/dialog_sprite/ore_extractor_2",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		},
+		" ",
+		{
+			"translate": "crazy_adventure.ore_extractor_2",
+			"underlined": true
+		},
+		" ",
+		{
+			"sprite": "crazy_adventure:item/dialog_sprite/ore_extractor_2",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		}
+	],
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "V   ","font": "crazy_adventure:manual","color": "white"},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_66"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (66)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_68"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (68)"]}},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_66"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (66)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_68"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (68)"]}}
+			],
+			"width": 400
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
+				"\"$6\n\"",
+				{"text": "$耡","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_10"}},
+				{"text": "$胸","hover_event": {"action": "show_item","id": "minecraft:stone_pickaxe","components": {}}},
+				{"text": "$耡","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_10"}},
+				"  \n\"",
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_10"}},
+				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:stone_pickaxe","components": {}}},
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_10"}},
+				"  \n\"",
+				{"text": "$耡","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_10"}},
+				{"text": "$肑","hover_event": {"action": "show_item","id": "furnace","components": {"custom_data": {"energy": {"usage": 30,"max_storage": 600},"crazy_adventure": {"ore_extractor_1": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},"item_model": "crazy_adventure:ore_extractor_1","item_name": {"translate": "crazy_adventure.ore_extractor_1"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"container": [{"slot": 0,"item": {"id": "minecraft:stone","count": 1,"components": {"minecraft:custom_data": {"smithed": {"block": {"id": "crazy_adventure:ore_extractor_1","from": "crazy_adventure"}}}}}}],"tooltip_display": {"hidden_components": ["minecraft:container"]}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_66"}},
+				{"text": "$耡","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_10"}},
+				"\"\"",
+				{"text": "$$肓","hover_event": {"action": "show_item","id": "furnace","components": {"custom_data": {"energy": {"usage": 60,"max_storage": 1500},"crazy_adventure": {"ore_extractor_2": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},"item_model": "crazy_adventure:ore_extractor_2","item_name": {"translate": "crazy_adventure.ore_extractor_2"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"container": [{"slot": 0,"item": {"id": "minecraft:stone","count": 1,"components": {"minecraft:custom_data": {"smithed": {"block": {"id": "crazy_adventure:ore_extractor_2","from": "crazy_adventure"}}}}}}],"tooltip_display": {"hidden_components": ["minecraft:container"]}}}},
+				"#$\n\"",
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_10"}},
+				{"text": "U$","hover_event": {"action": "show_item","id": "furnace","components": {"custom_data": {"energy": {"usage": 30,"max_storage": 600},"crazy_adventure": {"ore_extractor_1": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},"item_model": "crazy_adventure:ore_extractor_1","item_name": {"translate": "crazy_adventure.ore_extractor_1"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"container": [{"slot": 0,"item": {"id": "minecraft:stone","count": 1,"components": {"minecraft:custom_data": {"smithed": {"block": {"id": "crazy_adventure:ore_extractor_1","from": "crazy_adventure"}}}}}}],"tooltip_display": {"hidden_components": ["minecraft:container"]}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_66"}},
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_10"}},
+				"\"\"",
+				{"text": "U$","hover_event": {"action": "show_item","id": "furnace","components": {"custom_data": {"energy": {"usage": 60,"max_storage": 1500},"crazy_adventure": {"ore_extractor_2": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},"item_model": "crazy_adventure:ore_extractor_2","item_name": {"translate": "crazy_adventure.ore_extractor_2"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"container": [{"slot": 0,"item": {"id": "minecraft:stone","count": 1,"components": {"minecraft:custom_data": {"smithed": {"block": {"id": "crazy_adventure:ore_extractor_2","from": "crazy_adventure"}}}}}}],"tooltip_display": {"hidden_components": ["minecraft:container"]}}}},
+				"#$\n\"",
+				{"text": "$胺$胺$胺","hover_event": {"action": "show_item","id": "minecraft:exposed_copper","components": {}}},
+				"  \n\"",
+				{"translate": "crazy_adventure.uuu","hover_event": {"action": "show_item","id": "minecraft:exposed_copper","components": {}}},
+				"  \n\n",
+				{"text": "1##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.hey_man_what_an_extractor","color": "green"},{"translate": "crazy_adventure.generate_ores_from_nowhere","color": "gray"},{"translate": "crazy_adventure.is_it_science_no_its_magic","color": "gray"}]}},
+				{"text": "2##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耡"},{"text": "$胸"},{"text": "$耡"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$耡"},{"text": "$肑"},{"text": "$耡"},"\"\"",{"text": "$$肓"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$胺"},{"text": "$胺"},{"text": "$胺"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.uranium_ingot","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.stone_pickaxe","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.ore_extractor_1","color": "gray"},{"text": "\n- x3 ","color": "gray"},{"translate": "crazy_adventure.exposed_copper","color": "gray"}]}},
+				{"text": "莻\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$聫"},{"text": "$芫"},{"text": "$聫"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$聫"},{"text": "$肓"},{"text": "$聫"},"\"\"",{"text": "$$肕"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$膁"},{"text": "$膁"},{"text": "$膁"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.uranium_core","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.iron_pickaxe","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.ore_extractor_2","color": "gray"},{"text": "\n- x3 ","color": "gray"},{"translate": "crazy_adventure.weathered_copper","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_68"}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.hey_man_what_an_extractor","color": "green"},{"translate": "crazy_adventure.generate_ores_from_nowhere","color": "gray"},{"translate": "crazy_adventure.is_it_science_no_its_magic","color": "gray"}]}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耡"},{"text": "$胸"},{"text": "$耡"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$耡"},{"text": "$肑"},{"text": "$耡"},"\"\"",{"text": "$$肓"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$胺"},{"text": "$胺"},{"text": "$胺"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.uranium_ingot","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.stone_pickaxe","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.ore_extractor_1","color": "gray"},{"text": "\n- x3 ","color": "gray"},{"translate": "crazy_adventure.exposed_copper","color": "gray"}]}},
+				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$聫"},{"text": "$芫"},{"text": "$聫"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$聫"},{"text": "$肓"},{"text": "$聫"},"\"\"",{"text": "$$肕"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$膁"},{"text": "$膁"},{"text": "$膁"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.uranium_core","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.iron_pickaxe","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.ore_extractor_2","color": "gray"},{"text": "\n- x3 ","color": "gray"},{"translate": "crazy_adventure.weathered_copper","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_68"}},
+				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+			],
+			"width": 140
+		}
+	]
+}

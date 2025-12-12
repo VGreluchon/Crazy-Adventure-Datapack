@@ -1,0 +1,19 @@
+
+#> crazy_adventure:custom_blocks/californium_ore/replace_item
+#
+# @executed	as @n[type=item,nbt={Item:{id:"minecraft:polished_deepslate"}},distance=..1]
+#
+# @within	crazy_adventure:custom_blocks/californium_ore/destroy [ as @n[type=item,nbt={Item:{id:"minecraft:polished_deepslate"}},distance=..1] ]
+#
+
+# If silk touch applied
+execute if score #is_silk_touch crazy_adventure.data matches 1 run data modify entity @s Item.id set from storage crazy_adventure:items all.californium_ore.id
+execute if score #is_silk_touch crazy_adventure.data matches 1 run data modify entity @s Item.components set from storage crazy_adventure:items all.californium_ore.components
+
+# Else, no silk touch
+execute if score #is_silk_touch crazy_adventure.data matches 0 run data modify entity @s Item.id set from storage crazy_adventure:items all.raw_californium.id
+execute if score #is_silk_touch crazy_adventure.data matches 0 run data modify entity @s Item.components set from storage crazy_adventure:items all.raw_californium.components
+
+# Get item count in every case
+execute store result entity @s Item.count byte 1 run scoreboard players get #item_count crazy_adventure.data
+

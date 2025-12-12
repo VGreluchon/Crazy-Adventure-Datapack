@@ -1,0 +1,76 @@
+{
+	"type": "minecraft:notice",
+	"title": [
+		"",
+		{
+			"sprite": "crazy_adventure:item/dialog_sprite/californium_sword",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		},
+		" ",
+		{
+			"translate": "crazy_adventure.californium_sword",
+			"underlined": true
+		},
+		" ",
+		{
+			"sprite": "crazy_adventure:item/dialog_sprite/californium_sword",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		}
+	],
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "V   ","font": "crazy_adventure:manual","color": "white"},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_33"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (33)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_35"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (35)"]}},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_33"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (33)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_35"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (35)"]}}
+			],
+			"width": 400
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
+				"\"$6\n\"U$",
+				{"text": "$耭","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_16"}},
+				"U$  \n\"U$",
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_16"}},
+				"U$  \n\"U$",
+				{"text": "$耭","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_16"}},
+				"U$\"\"",
+				{"text": "$$聑","hover_event": {"action": "show_item","id": "netherite_sword","components": {"custom_data": {"smithed": {"dict": {"tools": {"californium": true,"sword": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_sword": true}},"max_damage": 4062,"attribute_modifiers": [{"type": "attack_damage","amount": 9,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"}],"item_model": "crazy_adventure:californium_sword","item_name": {"translate": "crazy_adventure.californium_sword"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}}},
+				"#$\n\"U$",
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_16"}},
+				"U$\"\"",
+				{"text": "U$","hover_event": {"action": "show_item","id": "netherite_sword","components": {"custom_data": {"smithed": {"dict": {"tools": {"californium": true,"sword": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_sword": true}},"max_damage": 4062,"attribute_modifiers": [{"type": "attack_damage","amount": 9,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"}],"item_model": "crazy_adventure:californium_sword","item_name": {"translate": "crazy_adventure.californium_sword"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}}},
+				"#$\n\"U$",
+				{"text": "$胗","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
+				"U$  \n\"U$",
+				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
+				"U$  \n\n",
+				{"text": "2##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$",{"text": "$耭"},"U$","\n","\"","U$",{"text": "U$"},"U$","\n","\"","U$",{"text": "$耭"},"U$","\"\"",{"text": "$$聑"},"\n","\"","U$",{"text": "U$"},"U$","\"\"",{"text": "U$"},"\n","\"","U$",{"text": "$胗"},"U$","\n","\"","U$",{"text": "U$"},"U$","\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.californium_ingot","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.stick","color": "gray"}]},"priority": 0},
+				{"text": "舳\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"G\n","\"",{"text": "$聑"},"\n","\"",{"text": "U$"},"\n","\"\"\"\"U$U$",{"text": "$$耯"},"\n","\"\"\"\"U$U$",{"text": "U$"},"\n","\n\n"],{"translate": "crazy_adventure.smelting","color": "yellow"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_sword","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_17"}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$",{"text": "$耭"},"U$","\n","\"","U$",{"text": "U$"},"U$","\n","\"","U$",{"text": "$耭"},"U$","\"\"",{"text": "$$聑"},"\n","\"","U$",{"text": "U$"},"U$","\"\"",{"text": "U$"},"\n","\"","U$",{"text": "$胗"},"U$","\n","\"","U$",{"text": "U$"},"U$","\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.californium_ingot","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.stick","color": "gray"}]},"priority": 0},
+				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"G\n","\"",{"text": "$聑"},"\n","\"",{"text": "U$"},"\n","\"\"\"\"U$U$",{"text": "$$耯"},"\n","\"\"\"\"U$U$",{"text": "U$"},"\n","\n\n"],{"translate": "crazy_adventure.smelting","color": "yellow"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_sword","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_17"}},
+				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+			],
+			"width": 140
+		}
+	]
+}

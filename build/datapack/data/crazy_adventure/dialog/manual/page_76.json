@@ -1,0 +1,75 @@
+{
+	"type": "minecraft:notice",
+	"title": [
+		"",
+		{
+			"sprite": "crazy_adventure:item/dialog_sprite/banana_sapling",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		},
+		" ",
+		{
+			"translate": "crazy_adventure.banana_sapling",
+			"underlined": true
+		},
+		" ",
+		{
+			"sprite": "crazy_adventure:item/dialog_sprite/banana_sapling",
+			"shadow_color": [
+				0,
+				0,
+				0,
+				0
+			],
+			"atlas": "minecraft:items"
+		}
+	],
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "V   ","font": "crazy_adventure:manual","color": "white"},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_75"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (75)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_77"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (77)"]}},
+				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_75"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (75)"]}},
+				" ",
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_77"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (77)"]}}
+			],
+			"width": 400
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": [
+				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
+				"\"$5\n\"",
+				{"text": "$肧","hover_event": {"action": "show_item","id": "apple","components": {"lore": [{"translate": "crazy_adventure.gives_40bq_to_your_body","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:banana","item_name": {"translate": "crazy_adventure.banana"},"custom_data": {"crazy_adventure": {"banana": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_77"}},
+				{"text": "$萦","hover_event": {"action": "show_item","id": "minecraft:bone_meal","components": {}}},
+				"  \n\"",
+				{"text": "U$","hover_event": {"action": "show_item","id": "apple","components": {"lore": [{"translate": "crazy_adventure.gives_40bq_to_your_body","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:banana","item_name": {"translate": "crazy_adventure.banana"},"custom_data": {"crazy_adventure": {"banana": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_77"}},
+				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:bone_meal","components": {}}},
+				"U$",
+				{"text": "$$萤","hover_event": {"action": "show_item","id": "item_frame","components": {"lore": [{"translate": "crazy_adventure.gives_40bq_to_your_body","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:banana_sapling","item_name": {"translate": "crazy_adventure.banana_sapling"},"custom_data": {"crazy_adventure": {"banana_sapling": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},"entity_data": {"id": "minecraft:item_frame","Tags": ["crazy_adventure.new","crazy_adventure.banana_sapling"],"Invisible": true,"Silent": true}}}},
+				"#$\n\"",
+				{"text": "$肧","hover_event": {"action": "show_item","id": "apple","components": {"lore": [{"translate": "crazy_adventure.gives_40bq_to_your_body","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:banana","item_name": {"translate": "crazy_adventure.banana"},"custom_data": {"crazy_adventure": {"banana": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_77"}},
+				{"text": "$萦","hover_event": {"action": "show_item","id": "minecraft:bone_meal","components": {}}},
+				"U$",
+				{"text": "U$","hover_event": {"action": "show_item","id": "item_frame","components": {"lore": [{"translate": "crazy_adventure.gives_40bq_to_your_body","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:banana_sapling","item_name": {"translate": "crazy_adventure.banana_sapling"},"custom_data": {"crazy_adventure": {"banana_sapling": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},"entity_data": {"id": "minecraft:item_frame","Tags": ["crazy_adventure.new","crazy_adventure.banana_sapling"],"Invisible": true,"Silent": true}}}},
+				"#$\n\"",
+				{"text": "U$","hover_event": {"action": "show_item","id": "apple","components": {"lore": [{"translate": "crazy_adventure.gives_40bq_to_your_body","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:banana","item_name": {"translate": "crazy_adventure.banana"},"custom_data": {"crazy_adventure": {"banana": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_77"}},
+				{"text": "U$\n\n","hover_event": {"action": "show_item","id": "minecraft:bone_meal","components": {}}},
+				{"text": "1##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.banana_tree","color": "green"},{"translate": "crazy_adventure.to_find_bananas","color": "gray"}]}},
+				{"text": "2\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"E\n","\"",{"text": "$肧"},{"text": "$萦"},"\n","\"",{"text": "U$"},{"text": "U$"},"U$",{"text": "$$萤"},"\n","\"",{"text": "$肧"},{"text": "$萦"},"U$",{"text": "U$"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.banana","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.bone_meal","color": "gray"}]}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.banana_tree","color": "green"},{"translate": "crazy_adventure.to_find_bananas","color": "gray"}]}},
+				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"E\n","\"",{"text": "$肧"},{"text": "$萦"},"\n","\"",{"text": "U$"},{"text": "U$"},"U$",{"text": "$$萤"},"\n","\"",{"text": "$肧"},{"text": "$萦"},"U$",{"text": "U$"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.banana","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.bone_meal","color": "gray"}]}},
+				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+			],
+			"width": 140
+		}
+	]
+}

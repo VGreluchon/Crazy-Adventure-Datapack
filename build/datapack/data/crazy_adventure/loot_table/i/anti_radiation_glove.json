@@ -1,0 +1,83 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:command_block",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"crazy_adventure": {
+										"radiation": 300,
+										"anti_radiation_glove": true
+									},
+									"smithed": {
+										"ignore": {"functionality": true,"crafting": true}
+									}
+								},
+								"minecraft:max_damage": 1000,
+								"minecraft:blocks_attacks": {
+									"block_delay_seconds": 0.25,
+									"block_sound": "minecraft:item.shield.block",
+									"bypassed_by": "#minecraft:bypasses_shield",
+									"disabled_sound": "minecraft:item.shield.break",
+									"item_damage": {
+										"base": 1,
+										"factor": 1,
+										"threshold": 3
+									}
+								},
+								"minecraft:equippable": {
+									"slot": "offhand",
+									"swappable": false
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:lore": [
+									{
+										"translate": "crazy_adventure.allow_you_to_not_take_radiation_damage_in_california_without_the",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"translate": "crazy_adventure.you_dont_need_the_anti_radiation_armorg",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"translate": "crazy_adventure.need_to_be_in_offhand_to_use",
+										"italic": false,
+										"color": "white"
+									},
+									{
+										"translate": "crazy_adventure.its_a_shield_you_can_block_damage_with",
+										"italic": false,
+										"color": "white"
+									},
+									{
+										"translate": "crazy_adventure.lose_durability_over_time",
+										"italic": false,
+										"color": "white"
+									},
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
+									]
+								],
+								"minecraft:item_model": "crazy_adventure:anti_radiation_glove",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.anti_radiation_glove"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
