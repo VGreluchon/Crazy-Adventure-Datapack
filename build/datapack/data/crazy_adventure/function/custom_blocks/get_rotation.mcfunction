@@ -1,7 +1,14 @@
 
 #> crazy_adventure:custom_blocks/get_rotation
 #
-# @within	???
+# @within	crazy_adventure:custom_blocks/nuclear_reactor/place_main
+#			crazy_adventure:custom_blocks/better_nuclear_reactor/place_main
+#			crazy_adventure:custom_blocks/amazing_nuclear_reactor/place_main
+#			crazy_adventure:custom_blocks/incredible_nuclear_reactor/place_main
+#			crazy_adventure:custom_blocks/ore_extractor_1/place_main
+#			crazy_adventure:custom_blocks/ore_extractor_2/place_main
+#			crazy_adventure:custom_blocks/ore_extractor_3/place_main
+#			crazy_adventure:custom_blocks/ore_extractor_4/place_main
 #
 
 # Set up score

@@ -44,7 +44,19 @@
 		"crazy_adventure:manual/page_33",
 		"crazy_adventure:manual/page_34",
 		"crazy_adventure:manual/page_35",
-		"crazy_adventure:manual/page_36"
+		"crazy_adventure:manual/page_36",
+		"crazy_adventure:manual/page_37",
+		"crazy_adventure:manual/page_38",
+		"crazy_adventure:manual/page_39",
+		"crazy_adventure:manual/page_40",
+		"crazy_adventure:manual/page_41",
+		"crazy_adventure:manual/page_42",
+		"crazy_adventure:manual/page_43",
+		"crazy_adventure:manual/page_44",
+		"crazy_adventure:manual/page_45",
+		"crazy_adventure:manual/page_46",
+		"crazy_adventure:manual/page_47",
+		"crazy_adventure:manual/page_48"
 	],
 	"exit_action": {
 		"label": {"translate": "gui.back"},

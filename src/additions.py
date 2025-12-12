@@ -34,7 +34,7 @@ def main_additions() -> None:
 		"uranium_core": {
 			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: MISC,
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":[" U ","UIU"," U "],"ingredients":{"U":ingr_repr("uranium_ingot"),"I":ingr_repr("iron_block")}}],
+			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":[" U ","UIU"," U "],"ingredients":{"U":ingr_repr("uranium_ingot"),"I":ingr_repr("minecraft:iron_block")}}],
 			OVERRIDE_MODEL: {"parent":"item/handheld"},
 			WIKI_COMPONENT: [
 				{"text":"Very interesting right ?","color":"green"},
@@ -43,16 +43,105 @@ def main_additions() -> None:
 			
 		},
 		"californium_core": {
-			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: MISC,
-			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":[" C ","CUC"," C "],"ingredients":{"U":ingr_repr("uranium_core"),"C":ingr_repr("Californium_ingot")}}],
-			OVERRIDE_MODEL: {"parent":"item/handheld"},
-			WIKI_COMPONENT: [
-				{"text":"Extremely interesting right ?","color":"green"},
-				{"text":"\nUsed to craft a lot of things","color":"gray"},
-			],
-			
+   			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: MISC,
+   			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+   			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":[" C ","CUC"," C "],"ingredients":{"C":ingr_repr("californium_ingot"),"U":ingr_repr("uranium_core")}}],
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+  			WIKI_COMPONENT: [
+        		{"text":"Extremely interesting right ?","color":"green"},
+        		{"text":"\nUsed to craft a lot of things (Well, not really ATM)","color":"gray"},
+    		],
 		},
+		
+		# Machines (Generator)
+		"nuclear_reactor": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "generator", "custom_data": {"energy": {"generation":150, "max_storage": 30000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["CUC","UFU","CUC"],"ingredients":{"U":ingr_repr("uranium_ingot"),"F":ingr_repr("minecraft:furnace"),"C":ingr_repr("minecraft:copper_block")}},
+			],
+			WIKI_COMPONENT: [
+				{"text":"Pretty nuclear Reactor.","color":"green"},
+				{"text":"\nConsume the item seen on the texture ^^","color":"gray"},
+			],
+		},
+		"better_nuclear_reactor": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "generator", "custom_data": {"energy": {"generation":150, "max_storage": 105000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["CUC","UFU","CUC"],"ingredients":{"U":ingr_repr("uranium_core"),"F":ingr_repr("nuclear_reactor"),"C":ingr_repr("minecraft:exposed_copper")}},
+			],
+			WIKI_COMPONENT: [
+				{"text":"Prettier nuclear Reactor!","color":"green"},
+				{"text":"\nConsume the item seen on the texture ^^","color":"gray"},
+			],
+		},
+		"amazing_nuclear_reactor": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "generator", "custom_data": {"energy": {"generation":150, "max_storage": 105000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["CUC","UFU","CUC"],"ingredients":{"U":ingr_repr("californium_ingot"),"F":ingr_repr("better_nuclear_reactor"),"C":ingr_repr("minecraft:weathered_copper")}},
+			],
+			WIKI_COMPONENT: [
+				{"text":"Very Cool nuclear Reactor!!","color":"green"},
+				{"text":"\nConsume the item seen on the texture ^^","color":"gray"},
+			],
+		},
+		"incredible_nuclear_reactor": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "generator", "custom_data": {"energy": {"generation":150, "max_storage": 105000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["CUC","UFU","CUC"],"ingredients":{"U":ingr_repr("californium_core"),"F":ingr_repr("amazing_nuclear_reactor"),"C":ingr_repr("minecraft:oxidized_copper")}},
+			],
+			WIKI_COMPONENT: [
+				{"text":"Ultra Badass nuclear Reactor!!!","color":"green"},
+				{"text":"\nConsume the item seen on the texture ^^","color":"gray"},
+			],
+		},
+
+		# Machines (Consumer)
+		"ore_extractor_1": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"usage":30, "max_storage": 600}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["IGI","SWS","CCC"],"ingredients":{"I":ingr_repr("minecraft:iron_block"),"G":ingr_repr("minecraft:gold_block"),"S":ingr_repr("minecraft:coal_block"),"W":ingr_repr("minecraft:wooden_pickaxe"),"C":ingr_repr("minecraft:copper_block")}},
+			],
+			WIKI_COMPONENT: [
+				{"text":"It's a cool extractor you got.","color":"green"},
+				{"text":"\nGenerate ores from nowhere !","color":"gray"},
+				{"text":"\nIs it science ? No, it's magic !","color":"gray"},
+			],
+		},
+		"ore_extractor_2": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"usage":60, "max_storage": 1500}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["IGI","IWI","CCC"],"ingredients":{"I":ingr_repr("uranium_ingot"),"G":ingr_repr("minecraft:stone_pickaxe"),"W":ingr_repr("ore_extractor_1"),"C":ingr_repr("minecraft:exposed_copper")}},
+			],
+			WIKI_COMPONENT: [
+				{"text":"Hey man, what an extractor !","color":"green"},
+				{"text":"\nGenerate ores from nowhere !","color":"gray"},
+				{"text":"\nIs it science ? No, it's magic !","color":"gray"},
+			],
+		},
+		"ore_extractor_3": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"usage":100, "max_storage": 3000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["IGI","IWI","CCC"],"ingredients":{"I":ingr_repr("uranium_core"),"G":ingr_repr("minecraft:iron_pickaxe"),"W":ingr_repr("ore_extractor_2"),"C":ingr_repr("minecraft:weathered_copper")}},
+			],
+			WIKI_COMPONENT: [
+				{"text":"Never judge a man by his extractor, but your's huge !!","color":"green"},
+				{"text":"\nGenerate ores from nowhere !","color":"gray"},
+				{"text":"\nIs it science ? No, it's magic !","color":"gray"},
+			],
+		},
+		"ore_extractor_4": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"usage":300, "max_storage": 15000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["IGI","IWI","CCC"],"ingredients":{"I":ingr_repr("uranium_block"),"G":ingr_repr("californium_pickaxe"),"W":ingr_repr("ore_extractor_3"),"C":ingr_repr("minecraft:oxidized_copper")}},
+			],
+			WIKI_COMPONENT: [
+				{"text":"Sorry for making eyes contact, but your extractor impress me so much !!!","color":"green"},
+				{"text":"\nGenerate ores from nowhere !","color":"gray"},
+				{"text":"\nIs it science ? No, it's magic !","color":"gray"},
+			],
+		},
+				# 	RESULT_OF_CRAFTING:[
+
 		# Equipement
 		"uranium_helmet":{
 			"custom_data": {ns: {"radiation": 150}},
@@ -115,6 +204,14 @@ def main_additions() -> None:
 	# Raw materials
 
 	# Custom blocks
+	additions["nuclear_reactor"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
+	additions["better_nuclear_reactor"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
+	additions["amazing_nuclear_reactor"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
+	additions["incredible_nuclear_reactor"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
+	additions["ore_extractor_1"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
+	additions["ore_extractor_2"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
+	additions["ore_extractor_3"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
+	additions["ore_extractor_4"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
 
 	# additions["geiger_counter"] = {VANILLA_BLOCK: {"id": "minecraft:iron_block", "apply_facing": False}}
 

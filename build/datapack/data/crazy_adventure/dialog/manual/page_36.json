@@ -3,7 +3,7 @@
 	"title": [
 		"",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/geiger_counter",
+			"sprite": "crazy_adventure:item/dialog_sprite/californium_hoe",
 			"shadow_color": [
 				0,
 				0,
@@ -14,12 +14,12 @@
 		},
 		" ",
 		{
-			"translate": "crazy_adventure.geiger_counter",
+			"translate": "crazy_adventure.californium_hoe",
 			"underlined": true
 		},
 		" ",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/geiger_counter",
+			"sprite": "crazy_adventure:item/dialog_sprite/californium_hoe",
 			"shadow_color": [
 				0,
 				0,
@@ -36,10 +36,10 @@
 				{"text": "V   ","font": "crazy_adventure:manual","color": "white"},
 				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_35"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (35)"]}},
 				" ",
-				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_36"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (36)"]}},
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_37"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (37)"]}},
 				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_35"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (35)"]}},
 				" ",
-				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_36"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (36)"]}}
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_37"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (37)"]}}
 			],
 			"width": 400
 		},
@@ -48,26 +48,26 @@
 			"contents": [
 				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
 				"\"$6\n\"",
-				{"text": "$耡$耡","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_7"}},
+				{"text": "$耫$耫","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_14"}},
 				"U$  \n\"",
-				{"text": "U$U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_7"}},
-				"U$  \n\"",
-				{"text": "$肏$肏","hover_event": {"action": "show_item","id": "minecraft:copper_ingot","components": {}}},
+				{"text": "U$U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_14"}},
+				"U$  \n\"U$",
+				{"text": "$肏","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
 				"U$\"\"",
-				{"text": "$$聛","hover_event": {"action": "show_item","id": "warped_fungus_on_a_stick","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"lore": [{"translate": "crazy_adventure.allows_you_to_know_your_radiation_amount","italic": false,"color": "gray"},{"translate": "crazy_adventure.hold_in_offhand","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:geiger_counter","item_name": {"translate": "crazy_adventure.geiger_counter"},"custom_data": {"crazy_adventure": {"geiger_counter": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
-				"#$\n\"",
-				{"text": "U$U$","hover_event": {"action": "show_item","id": "minecraft:copper_ingot","components": {}}},
+				{"text": "$$聗","hover_event": {"action": "show_item","id": "netherite_hoe","components": {"custom_data": {"smithed": {"dict": {"tools": {"californium": true,"hoe": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_hoe": true}},"max_damage": 4062,"attribute_modifiers": [{"type": "attack_damage","amount": 2,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": 0.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],"item_model": "crazy_adventure:californium_hoe","item_name": {"translate": "crazy_adventure.californium_hoe"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}}},
+				"#$\n\"U$",
+				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
 				"U$\"\"",
-				{"text": "U$","hover_event": {"action": "show_item","id": "warped_fungus_on_a_stick","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"lore": [{"translate": "crazy_adventure.allows_you_to_know_your_radiation_amount","italic": false,"color": "gray"},{"translate": "crazy_adventure.hold_in_offhand","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:geiger_counter","item_name": {"translate": "crazy_adventure.geiger_counter"},"custom_data": {"crazy_adventure": {"geiger_counter": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
-				"#$\n\"",
-				{"text": "$肏$肏","hover_event": {"action": "show_item","id": "minecraft:copper_ingot","components": {}}},
-				"U$  \n\"",
-				{"text": "U$U$","hover_event": {"action": "show_item","id": "minecraft:copper_ingot","components": {}}},
+				{"text": "U$","hover_event": {"action": "show_item","id": "netherite_hoe","components": {"custom_data": {"smithed": {"dict": {"tools": {"californium": true,"hoe": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_hoe": true}},"max_damage": 4062,"attribute_modifiers": [{"type": "attack_damage","amount": 2,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": 0.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 2,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],"item_model": "crazy_adventure:californium_hoe","item_name": {"translate": "crazy_adventure.californium_hoe"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}}},
+				"#$\n\"U$",
+				{"text": "$肏","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
+				"U$  \n\"U$",
+				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
 				"U$  \n\n",
-				{"text": "1##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.good_to_know_your_tchernobyl_rate","color": "green"},{"translate": "crazy_adventure.hold_in_your_offhand_to_know_how_much_radiation_is_there_is_your","color": "gray"}]}},
-				{"text": "2\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耡"},{"text": "$耡"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$肏"},{"text": "$肏"},"U$\"\"",{"text": "$$聛"},"\n","\"",{"text": "U$"},{"text": "U$"},"U$\"\"",{"text": "U$"},"\n","\"",{"text": "$肏"},{"text": "$肏"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.uranium_ingot","color": "gray"},{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.copper_ingot","color": "gray"}]}},
-				{"text": "0##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.good_to_know_your_tchernobyl_rate","color": "green"},{"translate": "crazy_adventure.hold_in_your_offhand_to_know_how_much_radiation_is_there_is_your","color": "gray"}]}},
-				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耡"},{"text": "$耡"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$肏"},{"text": "$肏"},"U$\"\"",{"text": "$$聛"},"\n","\"",{"text": "U$"},{"text": "U$"},"U$\"\"",{"text": "U$"},"\n","\"",{"text": "$肏"},{"text": "$肏"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.uranium_ingot","color": "gray"},{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.copper_ingot","color": "gray"}]}},
+				{"text": "2##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耫"},{"text": "$耫"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n","\"","U$",{"text": "$肏"},"U$\"\"",{"text": "$$聗"},"\n","\"","U$",{"text": "U$"},"U$\"\"",{"text": "U$"},"\n","\"","U$",{"text": "$肏"},"\n","\"","U$",{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.californium_ingot","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.stick","color": "gray"}]},"priority": 0},
+				{"text": "自\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"G\n","\"",{"text": "$聗"},"\n","\"",{"text": "U$"},"\n","\"\"\"\"U$U$",{"text": "$$耭"},"\n","\"\"\"\"U$U$",{"text": "U$"},"\n","\n\n"],{"translate": "crazy_adventure.smelting","color": "yellow"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_hoe","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_15"}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耫"},{"text": "$耫"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n","\"","U$",{"text": "$肏"},"U$\"\"",{"text": "$$聗"},"\n","\"","U$",{"text": "U$"},"U$\"\"",{"text": "U$"},"\n","\"","U$",{"text": "$肏"},"\n","\"","U$",{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.californium_ingot","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.stick","color": "gray"}]},"priority": 0},
+				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"G\n","\"",{"text": "$聗"},"\n","\"",{"text": "U$"},"\n","\"\"\"\"U$U$",{"text": "$$耭"},"\n","\"\"\"\"U$U$",{"text": "U$"},"\n","\n\n"],{"translate": "crazy_adventure.smelting","color": "yellow"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_hoe","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_15"}},
 				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 			],
 			"width": 140

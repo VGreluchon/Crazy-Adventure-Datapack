@@ -1,6 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "crazy_adventure:item/gui/upgrader/haste_upgrade_off"
-	}
-}
