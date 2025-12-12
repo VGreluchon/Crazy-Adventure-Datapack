@@ -33,7 +33,7 @@ def main_additions() -> None:
 			},
 		# Materials
 		"uranium_core": {
-			"id": "minecraft:command_block", CATEGORY: "material",
+			"id": "minecraft:command_block", CATEGORY: MISC,
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":[" U ","UIU"," U "],"ingredients":{"U":ingr_repr("uranium_ingot"),"I":ingr_repr("minecraft:iron_block")}}],
 			OVERRIDE_MODEL: {"parent":"item/handheld"},
@@ -42,8 +42,14 @@ def main_additions() -> None:
 				{"text":"\nUsed to craft a lot of things","color":"gray"},
 			],
 		},
+		"manual": {
+			WIKI_COMPONENT: [
+				{"text":"What a wonderful manual","color":"green"},
+				{"text":"\nObtainable by dropping a TNT on a heavy workbench","color":"gray"},
+			],
+		},
 		"uranium_waste": {
-			"id": "minecraft:command_block", CATEGORY: "material",
+			"id": "minecraft:command_block", CATEGORY: MISC,
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 			OVERRIDE_MODEL: {"parent":"item/handheld"},
 			WIKI_COMPONENT: [
@@ -52,7 +58,7 @@ def main_additions() -> None:
 			],
 		},
 		"uranium_waste_barrel": {
-			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "material",
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: MISC,
 			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["UUU","UIU","UUU"],"ingredients":{"U":ingr_repr("uranium_waste"),"I":ingr_repr("minecraft:barrel")}}],
 			WIKI_COMPONENT: [
 				{"text":"Safe storage of radioactive waste.","color":"green"},
@@ -60,7 +66,7 @@ def main_additions() -> None:
 			],
 		},
 		"uranium_shard": {
-			"id": "minecraft:command_block", CATEGORY: "material",
+			"id": "minecraft:command_block", CATEGORY: MISC,
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 			OVERRIDE_MODEL: {"parent":"item/handheld"},
 			WIKI_COMPONENT: [
@@ -69,7 +75,7 @@ def main_additions() -> None:
 			],
 		},
 		"uranium_book": {
-			"id": "minecraft:command_block", CATEGORY: "material",
+			"id": "minecraft:command_block", CATEGORY: MISC,
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["   ","BU ","   "],"ingredients":{"U":ingr_repr("uranium_shard"),"B":ingr_repr("uranium_book")}}],
 			OVERRIDE_MODEL: {"parent":"item/handheld"},
@@ -79,7 +85,7 @@ def main_additions() -> None:
 			],
 		},
 		"californium_core": {
-   			"id": "minecraft:command_block", CATEGORY: "material",
+   			"id": "minecraft:command_block", CATEGORY: MISC,
    			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
    			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":[" C ","CUC"," C "],"ingredients":{"C":ingr_repr("californium_ingot"),"U":ingr_repr("uranium_core")}}],
   			OVERRIDE_MODEL: {"parent":"item/handheld"},
@@ -89,7 +95,7 @@ def main_additions() -> None:
     		],
 		},
 		"californium_waste": {
-			"id": "minecraft:command_block", CATEGORY: "material",
+			"id": "minecraft:command_block", CATEGORY: MISC,
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 			OVERRIDE_MODEL: {"parent":"item/handheld"},
 			WIKI_COMPONENT: [
@@ -98,11 +104,29 @@ def main_additions() -> None:
 			],
 		},
 		"californium_waste_barrel": {
-			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "material",
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: MISC,
 			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["UUU","UIU","UUU"],"ingredients":{"U":ingr_repr("californium_waste"),"I":ingr_repr("minecraft:barrel")}}],
 			WIKI_COMPONENT: [
 				{"text":"Safe storage of radioactive waste.","color":"green"},
 				{"text":"\nMade with Californium Waste","color":"gray"},
+			],
+		},
+		"souls_bag": {
+			"id": "minecraft:command_block", CATEGORY: MISC,
+			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["SCS","CFC","CCC"],"ingredients":{"S":ingr_repr("minecraft:string"),"C":ingr_repr("minecraft:charcoal"),"F":ingr_repr("minecraft:fermented_spider_eye")}}],
+			"lore": [{"text":"Kill mobs while holding in OffHand","italic":False,"color":"gray"},{"text":"When full, can be drop on Boss Altar to spawn it","italic":False,"color":"gray"}],			
+			WIKI_COMPONENT: [
+				{"text":"Texture was made before they add the bundle.","color":"green"},
+				{"text":"\nKill 100 mobs to spawn the boss with Boss Altar","color":"gray"},
+			],
+		},
+		"boss_altar": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: MISC,
+			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["BWB","BUB","BSB"],"ingredients":{"B":ingr_repr("minecraft:black_candle"),"W":ingr_repr("minecraft:wither_skeleton_skull"),"U":ingr_repr("uranium_core"),"S":ingr_repr("minecraft:charcoal")}}],
+			"lore": [{"text":"Kill mobs while holding in OffHand","italic":False,"color":"gray"},{"text":"When full, can be drop on Boss Altar to spawn it","italic":False,"color":"gray"}],			
+			WIKI_COMPONENT: [
+				{"text":"Texture was made before they add the bundle.","color":"green"},
+				{"text":"\nKill 100 mobs to spawn the boss with Boss Altar","color":"gray"},
 			],
 		},
 
@@ -244,6 +268,54 @@ def main_additions() -> None:
 				{"text":"\nMake a copper block fully oxidized in 15 seconds","color":"gray"},
 			],
 		},
+		"storm_stick_charger": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"usage":30, "max_storage": 3000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" L ","UCU","III"],"ingredients":{"L":ingr_repr("minecraft:lightning_rod"),"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste_barrel"),"I":ingr_repr("minecraft:iron_block")}},
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" L ","UCU","IRI"],"ingredients":{"L":ingr_repr("minecraft:lightning_rod"),"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste_barrel"),"I":ingr_repr("minecraft:iron_block"),"R":ingr_repr("minecraft:redstone_block")}},
+			],
+			"lore": [{"text":"Need Energy, Lightning rod on top and Chargeless stick","italic":False,"color":"gray"},{"text":"If a lightning stroke the lighting rod, it add a charge","italic":False,"color":"gray"},{"text":"[Create 1 charge every 20 seconds]","italic":False,"color":"white"}],
+			WIKI_COMPONENT: [
+				{"text":"To make Storm Stick","color":"green"},
+				{"text":"\nNeed energy, lightning rod on top and chargeless stick","color":"gray"},
+			],
+		},
+		"fireball_stick_charger": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"usage":30, "max_storage": 3000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" L ","UCU","III"],"ingredients":{"L":ingr_repr("minecraft:fire_charge"),"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste_barrel"),"I":ingr_repr("minecraft:iron_block")}},
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" L ","UCU","IRI"],"ingredients":{"L":ingr_repr("minecraft:fire_charge"),"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste_barrel"),"I":ingr_repr("minecraft:iron_block"),"R":ingr_repr("minecraft:redstone_block")}},
+			],
+			"lore": [{"text":"Need Energy and Chargeless stick","italic":False,"color":"gray"},{"text":"Put fire on top to add a charge","italic":False,"color":"gray"},{"text":"[Create 1 charge every 20 seconds]","italic":False,"color":"white"}],
+			WIKI_COMPONENT: [
+				{"text":"To make Fireball Stick","color":"green"},
+				{"text":"\nNeed energy and chargeless stick","color":"gray"},
+			],
+		},
+		"shield_stick_charger": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"usage":30, "max_storage": 3000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" L ","UCU","III"],"ingredients":{"L":ingr_repr("minecraft:crying_obsidian"),"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste_barrel"),"I":ingr_repr("minecraft:iron_block")}},
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" L ","UCU","IRI"],"ingredients":{"L":ingr_repr("minecraft:crying_obsidian"),"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste_barrel"),"I":ingr_repr("minecraft:iron_block"),"R":ingr_repr("minecraft:redstone_block")}},
+			],
+			"lore": [{"text":"Need Energy and Chargeless stick","italic":False,"color":"gray"},{"text":"Put obsidian on top to add 3 charges","italic":False,"color":"gray"},{"text":"[Create 1 charge every 20 seconds]","italic":False,"color":"white"}],
+			WIKI_COMPONENT: [
+				{"text":"To make Shield Stick","color":"green"},
+				{"text":"\nNeed energy and chargeless stick","color":"gray"},
+			],
+		},
+		"fertilizer_stick_charger": {
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"usage":30, "max_storage": 3000}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" L ","UCU","III"],"ingredients":{"L":ingr_repr("minecraft:bone_block"),"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste_barrel"),"I":ingr_repr("minecraft:iron_block")}},
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" L ","UCU","IRI"],"ingredients":{"L":ingr_repr("minecraft:bone_block"),"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste_barrel"),"I":ingr_repr("minecraft:iron_block"),"R":ingr_repr("minecraft:redstone_block")}},
+			],
+			"lore": [{"text":"Need Energy and Chargeless stick","italic":False,"color":"gray"},{"text":"Put farmland on top to add 1 charges","italic":False,"color":"gray"},{"text":"[Create 1 charge every 10 seconds]","italic":False,"color":"white"}],
+			WIKI_COMPONENT: [
+				{"text":"To make Fertilizer Stick","color":"green"},
+				{"text":"\nNeed energy and chargeless stick","color":"gray"},
+			],
+		},
 
 		# Equipement
 		"uranium_helmet":{
@@ -305,58 +377,169 @@ def main_additions() -> None:
 			],
 		},
 
-		# "anti_radiation_helmet": {
-		# 	"id": "minecraft:leather_helmet", CATEGORY: "material",
-		# 	"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-		# 	RESULT_OF_CRAFTING:[
-		# 		{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["YBY","YCY","   "],"ingredients":{"C":ingr_repr("californium_nugget"),"B":ingr_repr("minecraft:blue_stained_glass_pane"),"Y":ingr_repr("minecraft:yellow_wool")}},
-		# 	],
+		"anti_radiation_helmet": {
+			"id": "minecraft:leather_helmet", CATEGORY: "equipment",
+			"custom_data": {ns: {"radiation": 80}},
+			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["YBY","YCY","   "],"ingredients":{"C":ingr_repr("californium_nugget"),"B":ingr_repr("minecraft:blue_stained_glass_pane"),"Y":ingr_repr("minecraft:yellow_wool")}},
+			],
 			
-		# 	OVERRIDE_MODEL: {"parent":"item/handheld"},
-		# 	WIKI_COMPONENT: [
-		# 		{"text":"Anti Radiation Armor.","color":"green"},
-		# 		{"text":"\nAllow to not takes damage in California (Need full armor)","color":"gray"},
-		# 	],
-		# },
-		# "anti_radiation_chestplate": {
-		# 	"id": "minecraft:leather_chestplate", CATEGORY: "material",
-		# 	"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-		# 	RESULT_OF_CRAFTING:[
-		# 		{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["Y Y","YUY","YYY"],"ingredients":{"U":ingr_repr("uranium_core"),"Y":ingr_repr("minecraft:yellow_wool")}},
-		# 	],
-		# 	OVERRIDE_MODEL: {"parent":"item/handheld"},
-		# 	WIKI_COMPONENT: [
-		# 		{"text":"Anti Radiation Armor.","color":"green"},
-		# 		{"text":"\nAllow to not takes damage in California (Need full armor)","color":"gray"},
-		# 	],
-		# },
-		# "anti_radiation_leggings": {
-		# 	"id": "minecraft:leather_leggings", CATEGORY: "material",
-		# 	"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-		# 	RESULT_OF_CRAFTING:[
-		# 		{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["YYY","Y Y","Y Y"],"ingredients":{"Y":ingr_repr("minecraft:yellow_wool")}},
-		# 	],
-		# 	OVERRIDE_MODEL: {"parent":"item/handheld"},
-		# 	WIKI_COMPONENT: [
-		# 		{"text":"Anti Radiation Armor.","color":"green"},
-		# 		{"text":"\nAllow to not takes damage in California (Need full armor)","color":"gray"},
-		# 	],
-		# },
-		# "anti_radiation_boots": {
-		# 	"id": "minecraft:leather_boots", CATEGORY: "material",
-		# 	"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-		# 	RESULT_OF_CRAFTING:[
-		# 		{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["   ","Y Y","YMY"],"ingredients":{"M":ingr_repr("manual"),"Y":ingr_repr("minecraft:yellow_wool")}},
-		# 	],
-		# 	OVERRIDE_MODEL: {"parent":"item/handheld"},
-		# 	WIKI_COMPONENT: [
-		# 		{"text":"Anti Radiation Armor.","color":"green"},
-		# 		{"text":"\nAllow to not takes damage in California (Need full armor)","color":"gray"},
-		# 	],
-		# },
-	},
+			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			WIKI_COMPONENT: [
+				{"text":"Anti Radiation Armor.","color":"green"},
+				{"text":"\nAllow to not takes damage in California (Need full armor)","color":"gray"},
+			],
+		},
+		"anti_radiation_chestplate": {
+			"id": "minecraft:leather_chestplate", CATEGORY: "equipment",
+			"custom_data": {ns: {"radiation": 130}},
+			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["Y Y","YUY","YYY"],"ingredients":{"U":ingr_repr("uranium_core"),"Y":ingr_repr("minecraft:yellow_wool")}},
+			],
+			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			WIKI_COMPONENT: [
+				{"text":"Anti Radiation Armor.","color":"green"},
+				{"text":"\nAllow to not takes damage in California (Need full armor)","color":"gray"},
+			],
+		},
+		"anti_radiation_leggings": {
+			"id": "minecraft:leather_leggings", CATEGORY: "equipment",
+			"custom_data": {ns: {"radiation": 70}},
+			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["YYY","Y Y","Y Y"],"ingredients":{"Y":ingr_repr("minecraft:yellow_wool")}},
+			],
+			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			WIKI_COMPONENT: [
+				{"text":"Anti Radiation Armor.","color":"green"},
+				{"text":"\nAllow to not takes damage in California (Need full armor)","color":"gray"},
+			],
+		},
+		"anti_radiation_boots": {
+			"id": "minecraft:leather_boots", CATEGORY: "equipment",
+			"custom_data": {ns: {"radiation": 50}},
+			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["   ","Y Y","YMY"],"ingredients":{"M":ingr_repr("manual"),"Y":ingr_repr("minecraft:yellow_wool")}},
+			],
+			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			WIKI_COMPONENT: [
+				{"text":"Anti Radiation Armor.","color":"green"},
+				{"text":"\nAllow to not takes damage in California (Need full armor)","color":"gray"},
+			],
+		},
+		"anti_radiation_glove": {
+			"id": "minecraft:shield", CATEGORY: "equipment",
+			"custom_data": {ns: {"radiation": 300}},
+			RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["BCB","BUB"," B "],"ingredients":{"U":ingr_repr("uranium_core"),"C":ingr_repr("californium_ingot"),"B":ingr_repr("minecraft:blue_wool")}},
+			],
+			"lore": [{"text":"Allow you to not take radiation damage in California (without the anti radiation armor)","italic":False,"color":"gray"},{"text":"You don't need the Anti Radiation Armorg","italic":False,"color":"gray"},{"text":"[Need to be in Offhand to use]","italic":False,"color":"white"},{"text":"[It's a shield, you can block damage with]","italic":False,"color":"white"},{"text":"[Lose durability over time]","italic":False,"color":"white"}],
+			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			WIKI_COMPONENT: [
+				{"text":"Anti Radiation Glove.","color":"green"},
+				{"text":"\nAllow you to not take radiation damage in California (without the anti radiation armor)","color":"gray"},
+				{"text":"\n[Need to be in Offhand to use]","color":"white"},
+				{"text":"\n[It's a shield, you can block damage with]","color":"white"},
+				{"text":"\n[Lose durability over time]","color":"white"},
+			],
+		},
 
-		
+		#Radioactivity Items
+		"banana": {
+   			"id": "minecraft:apple", CATEGORY: "radiactivity",
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			"lore": [{"text":"Gives 40Bq to your Body","italic":False,"color":"gray"}],
+  			WIKI_COMPONENT: [
+        		{"text":"Banana","color":"green"},
+        		{"text":"\nFound on banana trees","color":"gray"},
+    		],
+		},
+		"banana": {
+   			"id": "minecraft:apple", CATEGORY: "radiactivity",
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			"lore": [{"text":"Gives 40Bq to your Body","italic":False,"color":"gray"}],
+  			WIKI_COMPONENT: [
+        		{"text":"Banana","color":"green"},
+        		{"text":"\nFound on banana trees","color":"gray"},
+    		],
+		},
+		"uranium_banana": {
+   			"id": "minecraft:golden_apple", CATEGORY: "radiactivity",
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			"lore": [{"text":"Gives 200Bq to your Body","italic":False,"color":"gray"},{"text":"Gives Resistance 1 effect for 60 seconds","italic":False,"color":"gray"},{"text":"Gives Wither 1 effect for 90 seconds","italic":False,"color":"gray"}],
+						RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["UUU","UBU","UUU"],"ingredients":{"U":ingr_repr("uranium_ingot"),"B":ingr_repr("banana")}},
+			],
+  			WIKI_COMPONENT: [
+        		{"text":"Banana with weird color","color":"green"},
+        		{"text":"\nAre you really gonna eat that ?","color":"gray"},
+    		],
+		},
+		"uranium_apple": {
+   			"id": "minecraft:golden_apple", CATEGORY: "radiactivity",
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			"lore": [{"text":"Gives 1.000Bq to your Body","italic":False,"color":"gray"},{"text":"Gives Resistance 2 effect for 60 seconds","italic":False,"color":"gray"},{"text":"Gives Wither 1 effect for 90 seconds","italic":False,"color":"gray"}],
+						RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["UUU","UAU","UUU"],"ingredients":{"U":ingr_repr("uranium_block"),"A":ingr_repr("minecraft:golden_apple")}},
+			],
+  			WIKI_COMPONENT: [
+        		{"text":"Apple with weird color","color":"green"},
+        		{"text":"\nAre you really gonna eat that ?\nGives Wither effect due to excessive radioactivity ","color":"gray"},
+    		],
+		},
+		"chargeless_stick": {
+   			"id": "minecraft:command_block", CATEGORY: "radiactivity",
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			"lore": [{"text":"No effect, need a Stick Charger","italic":False,"color":"gray"}],
+						RESULT_OF_CRAFTING:[
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" UC"," BU","B  "],"ingredients":{"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste"),"B":ingr_repr("minecraft:blaze_rod")}},
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":[" UC"," BU","B  "],"ingredients":{"C":ingr_repr("uranium_core"),"U":ingr_repr("uranium_waste"),"B":ingr_repr("minecraft:breeze_rod")}},
+			],
+  			WIKI_COMPONENT: [
+        		{"text":"Stick with no charges","color":"green"},
+        		{"text":"\nPut it in a Stick Charger ","color":"gray"},
+    		],
+		},
+		"fireball_stick": {
+   			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: "radiactivity",
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			"lore": [{"text":"Launch fireball where you are looking","italic":False,"color":"gray"},{"text":"[Cost 120Bq to launch]","italic":False,"color":"white"},{"text":"[10s Cooldown]","italic":False,"color":"white"},{"text":"[10 Charges]","italic":False,"color":"white"}],
+  			WIKI_COMPONENT: [
+        		{"text":"Is it a bird, is it a plane ? NO IT'S A (not that) HUGE FIREBALL","color":"green"},
+        		{"text":"\nPut a chargeless stick in the Fireball Stick Charger","color":"gray"},
+    		],
+		},
+		"storm_stick": {
+   			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: "radiactivity",
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			"lore": [{"text":"Summon Lightings where you are looking","italic":False,"color":"gray"},{"text":"[Cost 120Bq to launch]","italic":False,"color":"white"},{"text":"[10s Cooldown]","italic":False,"color":"white"},{"text":"[10 Charges]","italic":False,"color":"white"}],
+  			WIKI_COMPONENT: [
+        		{"text":"Starting apocalypse at your level","color":"green"},
+        		{"text":"\nPut a chargeless stick in the Storm Stick Charger","color":"gray"},
+    		],
+		},
+		"shield_stick": {
+   			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: "radiactivity",
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			"lore": [{"text":"Gives you Regeneration 3, Resistance 3, Slowness 1 for 10 seconds","italic":False,"color":"gray"},{"text":"[Cost 170Bq to launch]","italic":False,"color":"white"},{"text":"[30s Cooldown]","italic":False,"color":"white"},{"text":"[5 Charges]","italic":False,"color":"white"}],
+  			WIKI_COMPONENT: [
+        		{"text":"Not overpowered at all...","color":"green"},
+        		{"text":"\nPut a chargeless stick in the Shield Stick Charger","color":"gray"},
+    		],
+		},
+		"fertilizer_stick": {
+   			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: "radiactivity",
+  			OVERRIDE_MODEL: {"parent":"item/handheld"},
+			"lore": [{"text":"Grow your seeds","italic":False,"color":"gray"},{"text":"[Cost 30Bq to launch]","italic":False,"color":"white"},{"text":"[1s Cooldown]","italic":False,"color":"white"},{"text":"[30 Charges]","italic":False,"color":"white"}],
+  			WIKI_COMPONENT: [
+        		{"text":"Give me your seed !","color":"green"},
+        		{"text":"\nPut a chargeless stick in the Fertilizer Stick Charger","color":"gray"},
+    		],
+		},
+	}
 
 
 	# Raw materials
@@ -376,6 +559,12 @@ def main_additions() -> None:
 	additions["uranium_battery"][VANILLA_BLOCK] = {"id": "minecraft:emerald_block", "apply_facing": False}
 	additions["californium_battery"][VANILLA_BLOCK] = {"id": "minecraft:iron_block", "apply_facing": False}
 	additions["oxidizer"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
+	additions["boss_altar"][VANILLA_BLOCK] = {"id": "minecraft:obsidian", "apply_facing": False}
+	additions["storm_stick_charger"][VANILLA_BLOCK] = {"id": "minecraft:furnace", "apply_facing": True}
+	additions["fireball_stick_charger"][VANILLA_BLOCK] = {"id": "minecraft:furnace", "apply_facing": True}
+	additions["shield_stick_charger"][VANILLA_BLOCK] = {"id": "minecraft:furnace", "apply_facing": True}
+	additions["fertilizer_stick_charger"][VANILLA_BLOCK] = {"id": "minecraft:furnace", "apply_facing": True}
+
 
 
 

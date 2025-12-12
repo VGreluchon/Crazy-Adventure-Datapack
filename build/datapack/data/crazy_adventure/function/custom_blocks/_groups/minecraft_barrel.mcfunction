@@ -15,4 +15,5 @@ execute if score #total_ore_extractor_2 crazy_adventure.data matches 1.. if enti
 execute if score #total_ore_extractor_3 crazy_adventure.data matches 1.. if entity @s[tag=crazy_adventure.ore_extractor_3] run function crazy_adventure:custom_blocks/ore_extractor_3/destroy
 execute if score #total_ore_extractor_4 crazy_adventure.data matches 1.. if entity @s[tag=crazy_adventure.ore_extractor_4] run function crazy_adventure:custom_blocks/ore_extractor_4/destroy
 execute if score #total_uranium_upgrader crazy_adventure.data matches 1.. if entity @s[tag=crazy_adventure.uranium_upgrader] run function crazy_adventure:custom_blocks/uranium_upgrader/destroy
+execute if score #total_oxidizer crazy_adventure.data matches 1.. if entity @s[tag=crazy_adventure.oxidizer] run function crazy_adventure:custom_blocks/oxidizer/destroy
 

@@ -1,0 +1,61 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:furnace",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"translate": "crazy_adventure.kill_mobs_while_holding_in_offhand",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"translate": "crazy_adventure.when_full_can_be_drop_on_boss_altar_to_spawn_it",
+										"italic": false,
+										"color": "gray"
+									},
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
+									]
+								],
+								"minecraft:item_model": "crazy_adventure:boss_altar",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.boss_altar"
+								},
+								"minecraft:custom_data": {
+									"crazy_adventure": {
+										"boss_altar": true
+									},
+									"smithed": {
+										"ignore": {"functionality": true,"crafting": true}
+									}
+								},
+								"minecraft:container": [
+									{
+										"slot": 0,
+										"item": {"id": "minecraft:stone","count": 1,"components": {"minecraft:custom_data": {"smithed": {"block": {"id": "crazy_adventure:boss_altar","from": "crazy_adventure"}}}}}
+									}
+								],
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:container"
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

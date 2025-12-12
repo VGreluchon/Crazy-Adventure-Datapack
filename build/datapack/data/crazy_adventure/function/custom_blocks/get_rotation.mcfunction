@@ -10,6 +10,11 @@
 #			crazy_adventure:custom_blocks/ore_extractor_3/place_main
 #			crazy_adventure:custom_blocks/ore_extractor_4/place_main
 #			crazy_adventure:custom_blocks/uranium_upgrader/place_main
+#			crazy_adventure:custom_blocks/oxidizer/place_main
+#			crazy_adventure:custom_blocks/storm_stick_charger/place_main
+#			crazy_adventure:custom_blocks/fireball_stick_charger/place_main
+#			crazy_adventure:custom_blocks/shield_stick_charger/place_main
+#			crazy_adventure:custom_blocks/fertilizer_stick_charger/place_main
 #
 
 # Set up score

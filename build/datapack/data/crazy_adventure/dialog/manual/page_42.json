@@ -3,7 +3,7 @@
 	"title": [
 		"",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/californium_shovel",
+			"sprite": "crazy_adventure:item/dialog_sprite/manual",
 			"shadow_color": [
 				0,
 				0,
@@ -14,12 +14,12 @@
 		},
 		" ",
 		{
-			"translate": "crazy_adventure.californium_shovel",
+			"translate": "crazy_adventure_manual",
 			"underlined": true
 		},
 		" ",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/californium_shovel",
+			"sprite": "crazy_adventure:item/dialog_sprite/manual",
 			"shadow_color": [
 				0,
 				0,
@@ -47,28 +47,22 @@
 			"type": "minecraft:plain_message",
 			"contents": [
 				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
-				"\"$6\n\"U$",
-				{"text": "$耫","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_13"}},
-				"U$  \n\"U$",
-				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_13"}},
-				"U$  \n\"U$",
-				{"text": "$股","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
-				"U$\"\"",
-				{"text": "$$聥","hover_event": {"action": "show_item","id": "netherite_shovel","components": {"custom_data": {"smithed": {"dict": {"tools": {"californium": true,"shovel": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_shovel": true}},"max_damage": 4062,"attribute_modifiers": [{"type": "attack_damage","amount": 7.5,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -3.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 3,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],"item_model": "crazy_adventure:californium_shovel","item_name": {"translate": "crazy_adventure.californium_shovel"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}}},
-				"#$\n\"U$",
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
-				"U$\"\"",
-				{"text": "U$","hover_event": {"action": "show_item","id": "netherite_shovel","components": {"custom_data": {"smithed": {"dict": {"tools": {"californium": true,"shovel": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_shovel": true}},"max_damage": 4062,"attribute_modifiers": [{"type": "attack_damage","amount": 7.5,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": -3.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 3,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],"item_model": "crazy_adventure:californium_shovel","item_name": {"translate": "crazy_adventure.californium_shovel"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}}},
-				"#$\n\"U$",
-				{"text": "$股","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
-				"U$  \n\"U$",
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
-				"U$  \n\n",
-				{"text": "2##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$",{"text": "$耫"},"U$","\n","\"","U$",{"text": "U$"},"U$","\n","\"","U$",{"text": "$股"},"U$","\"\"",{"text": "$$聥"},"\n","\"","U$",{"text": "U$"},"U$","\"\"",{"text": "U$"},"\n","\"","U$",{"text": "$股"},"U$","\n","\"","U$",{"text": "U$"},"U$","\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_ingot","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.stick","color": "gray"}]},"priority": 0},
-				{"text": "艙\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"G\n","\"",{"text": "$聥"},"\n","\"",{"text": "U$"},"\n","\"\"\"\"U$U$",{"text": "$$耭"},"\n","\"\"\"\"U$U$",{"text": "U$"},"\n","\n\n"],{"translate": "crazy_adventure.smelting","color": "yellow"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_shovel","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_14"}},
-				{"text": "0##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$",{"text": "$耫"},"U$","\n","\"","U$",{"text": "U$"},"U$","\n","\"","U$",{"text": "$股"},"U$","\"\"",{"text": "$$聥"},"\n","\"","U$",{"text": "U$"},"U$","\"\"",{"text": "U$"},"\n","\"","U$",{"text": "$股"},"U$","\n","\"","U$",{"text": "U$"},"U$","\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_ingot","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.stick","color": "gray"}]},"priority": 0},
-				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"G\n","\"",{"text": "$聥"},"\n","\"",{"text": "U$"},"\n","\"\"\"\"U$U$",{"text": "$$耭"},"\n","\"\"\"\"U$U$",{"text": "U$"},"\n","\n\n"],{"translate": "crazy_adventure.smelting","color": "yellow"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_shovel","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_14"}},
-				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+				"\"$5\n\"",
+				{"text": "$聣","hover_event": {"action": "show_item","id": "written_book","components": {"item_name": "Crazy Adventure Manual","item_model": "crazy_adventure:manual","lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"manual": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_42"}},
+				"U$  \n\"",
+				{"text": "U$","hover_event": {"action": "show_item","id": "written_book","components": {"item_name": "Crazy Adventure Manual","item_model": "crazy_adventure:manual","lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"manual": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_42"}},
+				"U$U$",
+				{"text": "$$聣","hover_event": {"action": "show_item","id": "written_book","components": {"item_name": "Crazy Adventure Manual","item_model": "crazy_adventure:manual","lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"manual": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
+				"#$\n\"U$U$U$",
+				{"text": "U$","hover_event": {"action": "show_item","id": "written_book","components": {"item_name": "Crazy Adventure Manual","item_model": "crazy_adventure:manual","lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"manual": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
+				"#$\n\n\n",
+				{"text": "1##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.what_a_wonderful_manual","color": "green"},{"translate": "crazy_adventure.obtainable_by_dropping_a_tnt_on_a_heavy_workbench","color": "gray"}]}},
+				{"text": "2##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"E\n","\"",{"text": "$聣"},"\n","\"",{"text": "U$"},"U$U$",{"text": "$$聣"},"\n\"","U$U$U$",{"text": "U$"},"\n","\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure_manual","color": "gray"}]}},
+				{"text": "艬\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$","U$","U$","\n","\"","U$","U$","U$","\n","\"",{"text": "$膏"},"U$",{"text": "$膏"},"\"\"",{"text": "$$聟"},"\n","\"",{"text": "U$"},"U$",{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$膏"},{"text": "$聣"},{"text": "$膏"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure_manual","color": "gray"},{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.yellow_wool","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_40"}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.what_a_wonderful_manual","color": "green"},{"translate": "crazy_adventure.obtainable_by_dropping_a_tnt_on_a_heavy_workbench","color": "gray"}]}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"E\n","\"",{"text": "$聣"},"\n","\"",{"text": "U$"},"U$U$",{"text": "$$聣"},"\n\"","U$U$U$",{"text": "U$"},"\n","\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure_manual","color": "gray"}]}},
+				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$","U$","U$","\n","\"","U$","U$","U$","\n","\"",{"text": "$膏"},"U$",{"text": "$膏"},"\"\"",{"text": "$$聟"},"\n","\"",{"text": "U$"},"U$",{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$膏"},{"text": "$聣"},{"text": "$膏"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure_manual","color": "gray"},{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.yellow_wool","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_40"}},
+				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 			],
 			"width": 140
 		}

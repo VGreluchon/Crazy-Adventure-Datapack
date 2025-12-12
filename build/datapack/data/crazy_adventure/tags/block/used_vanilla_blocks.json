@@ -3,8 +3,10 @@
 		"minecraft:barrel",
 		"minecraft:cobblestone",
 		"minecraft:emerald_block",
+		"minecraft:furnace",
 		"minecraft:gold_block",
 		"minecraft:iron_block",
+		"minecraft:obsidian",
 		"minecraft:polished_deepslate"
 	]
 }

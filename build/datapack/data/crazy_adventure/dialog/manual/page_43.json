@@ -3,7 +3,7 @@
 	"title": [
 		"",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/californium_hoe",
+			"sprite": "crazy_adventure:item/dialog_sprite/geiger_counter",
 			"shadow_color": [
 				0,
 				0,
@@ -14,12 +14,12 @@
 		},
 		" ",
 		{
-			"translate": "crazy_adventure.californium_hoe",
+			"translate": "crazy_adventure.geiger_counter",
 			"underlined": true
 		},
 		" ",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/californium_hoe",
+			"sprite": "crazy_adventure:item/dialog_sprite/geiger_counter",
 			"shadow_color": [
 				0,
 				0,
@@ -48,26 +48,26 @@
 			"contents": [
 				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
 				"\"$6\n\"",
-				{"text": "$耫$耫","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_13"}},
+				{"text": "$耡$耡","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_9"}},
 				"U$  \n\"",
-				{"text": "U$U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"californium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_ingot": true}},"item_model": "crazy_adventure:californium_ingot","item_name": {"translate": "crazy_adventure.californium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_13"}},
-				"U$  \n\"U$",
-				{"text": "$股","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
+				{"text": "U$U$","hover_event": {"action": "show_item","id": "command_block","components": {"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},"item_model": "crazy_adventure:uranium_ingot","item_name": {"translate": "crazy_adventure.uranium_ingot"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_9"}},
+				"U$  \n\"",
+				{"text": "$胝$胝","hover_event": {"action": "show_item","id": "minecraft:copper_ingot","components": {}}},
 				"U$\"\"",
-				{"text": "$$聧","hover_event": {"action": "show_item","id": "netherite_hoe","components": {"custom_data": {"smithed": {"dict": {"tools": {"californium": true,"hoe": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_hoe": true}},"max_damage": 4062,"attribute_modifiers": [{"type": "attack_damage","amount": 2,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": 0.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 3,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],"item_model": "crazy_adventure:californium_hoe","item_name": {"translate": "crazy_adventure.californium_hoe"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}}},
-				"#$\n\"U$",
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
+				{"text": "$$聥","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"lore": [{"translate": "crazy_adventure.allows_you_to_know_your_radiation_amount","italic": false,"color": "gray"},{"translate": "crazy_adventure.hold_in_offhand","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:geiger_counter","item_name": {"translate": "crazy_adventure.geiger_counter"},"custom_data": {"crazy_adventure": {"geiger_counter": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
+				"#$\n\"",
+				{"text": "U$U$","hover_event": {"action": "show_item","id": "minecraft:copper_ingot","components": {}}},
 				"U$\"\"",
-				{"text": "U$","hover_event": {"action": "show_item","id": "netherite_hoe","components": {"custom_data": {"smithed": {"dict": {"tools": {"californium": true,"hoe": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"californium_hoe": true}},"max_damage": 4062,"attribute_modifiers": [{"type": "attack_damage","amount": 2,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_damage"},{"type": "attack_speed","amount": 0.0,"operation": "add_value","slot": "mainhand","id": "minecraft:base_attack_speed"},{"type": "mining_efficiency","amount": 3,"operation": "add_value","slot": "mainhand","id": "crazy_adventure:mining_efficiency.mainhand"}],"item_model": "crazy_adventure:californium_hoe","item_name": {"translate": "crazy_adventure.californium_hoe"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]]}}},
-				"#$\n\"U$",
-				{"text": "$股","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
-				"U$  \n\"U$",
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:stick","components": {}}},
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"lore": [{"translate": "crazy_adventure.allows_you_to_know_your_radiation_amount","italic": false,"color": "gray"},{"translate": "crazy_adventure.hold_in_offhand","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:geiger_counter","item_name": {"translate": "crazy_adventure.geiger_counter"},"custom_data": {"crazy_adventure": {"geiger_counter": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
+				"#$\n\"",
+				{"text": "$胝$胝","hover_event": {"action": "show_item","id": "minecraft:copper_ingot","components": {}}},
+				"U$  \n\"",
+				{"text": "U$U$","hover_event": {"action": "show_item","id": "minecraft:copper_ingot","components": {}}},
 				"U$  \n\n",
-				{"text": "2##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耫"},{"text": "$耫"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n","\"","U$",{"text": "$股"},"U$\"\"",{"text": "$$聧"},"\n","\"","U$",{"text": "U$"},"U$\"\"",{"text": "U$"},"\n","\"","U$",{"text": "$股"},"\n","\"","U$",{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.californium_ingot","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.stick","color": "gray"}]},"priority": 0},
-				{"text": "艢\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"G\n","\"",{"text": "$聧"},"\n","\"",{"text": "U$"},"\n","\"\"\"\"U$U$",{"text": "$$耭"},"\n","\"\"\"\"U$U$",{"text": "U$"},"\n","\n\n"],{"translate": "crazy_adventure.smelting","color": "yellow"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_hoe","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_14"}},
-				{"text": "0##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耫"},{"text": "$耫"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n","\"","U$",{"text": "$股"},"U$\"\"",{"text": "$$聧"},"\n","\"","U$",{"text": "U$"},"U$\"\"",{"text": "U$"},"\n","\"","U$",{"text": "$股"},"\n","\"","U$",{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.californium_ingot","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.stick","color": "gray"}]},"priority": 0},
-				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"G\n","\"",{"text": "$聧"},"\n","\"",{"text": "U$"},"\n","\"\"\"\"U$U$",{"text": "$$耭"},"\n","\"\"\"\"U$U$",{"text": "U$"},"\n","\n\n"],{"translate": "crazy_adventure.smelting","color": "yellow"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.californium_hoe","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_14"}},
+				{"text": "1##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.good_to_know_your_tchernobyl_rate","color": "green"},{"translate": "crazy_adventure.hold_in_your_offhand_to_know_how_much_radiation_is_there_is_your","color": "gray"}]}},
+				{"text": "2\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耡"},{"text": "$耡"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$胝"},{"text": "$胝"},"U$\"\"",{"text": "$$聥"},"\n","\"",{"text": "U$"},{"text": "U$"},"U$\"\"",{"text": "U$"},"\n","\"",{"text": "$胝"},{"text": "$胝"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.uranium_ingot","color": "gray"},{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.copper_ingot","color": "gray"}]}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.good_to_know_your_tchernobyl_rate","color": "green"},{"translate": "crazy_adventure.hold_in_your_offhand_to_know_how_much_radiation_is_there_is_your","color": "gray"}]}},
+				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$耡"},{"text": "$耡"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$胝"},{"text": "$胝"},"U$\"\"",{"text": "$$聥"},"\n","\"",{"text": "U$"},{"text": "U$"},"U$\"\"",{"text": "U$"},"\n","\"",{"text": "$胝"},{"text": "$胝"},"\n","\"",{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.uranium_ingot","color": "gray"},{"text": "\n- x4 ","color": "gray"},{"translate": "crazy_adventure.copper_ingot","color": "gray"}]}},
 				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 			],
 			"width": 140

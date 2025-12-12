@@ -301,6 +301,7 @@
 		"id": "minecraft:written_book",
 		"item_name": "Crazy Adventure Manual",
 		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 1,"group": "manual","category": "misc","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"manual": true}}}}]}],
+		"wiki_components": [{"text": "What a wonderful manual","color": "green"},{"text": "\nObtainable by dropping a TNT on a heavy workbench","color": "gray"}],
 		"category": "miscellaneous",
 		"item_model": "crazy_adventure:manual",
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
@@ -319,7 +320,7 @@
 	},
 	"uranium_core": {
 		"id": "minecraft:command_block",
-		"category": "material",
+		"category": "miscellaneous",
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": [" U ","UIU"," U "],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}},"I": {"item": "minecraft:iron_block"}}}],
 		"wiki_components": [{"text": "Very interesting right ?","color": "green"},{"text": "\nUsed to craft a lot of things","color": "gray"}],
@@ -330,7 +331,7 @@
 	},
 	"uranium_waste": {
 		"id": "minecraft:command_block",
-		"category": "material",
+		"category": "miscellaneous",
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 		"wiki_components": [{"text": "That looks tasty.","color": "green"},{"text": "\nObtained with nuclear reactors 1 & 2","color": "gray"}],
 		"item_model": "crazy_adventure:uranium_waste",
@@ -340,7 +341,7 @@
 	},
 	"uranium_waste_barrel": {
 		"id": "minecraft:furnace",
-		"category": "material",
+		"category": "miscellaneous",
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["UUU","UIU","UUU"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste": true}}}},"I": {"item": "minecraft:barrel"}}}],
 		"wiki_components": [{"text": "Safe storage of radioactive waste.","color": "green"},{"text": "\nMade with Uranium Waste","color": "gray"}],
 		"vanilla_block": {"id": "minecraft:emerald_block","apply_facing": false},
@@ -351,7 +352,7 @@
 	},
 	"uranium_shard": {
 		"id": "minecraft:command_block",
-		"category": "material",
+		"category": "miscellaneous",
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 		"wiki_components": [{"text": "Shard covered with Uranium.","color": "green"},{"text": "\nObtained by killing monsters summoned by the Battle Bus","color": "gray"}],
 		"item_model": "crazy_adventure:uranium_shard",
@@ -361,7 +362,7 @@
 	},
 	"uranium_book": {
 		"id": "minecraft:command_block",
-		"category": "material",
+		"category": "miscellaneous",
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["   ","BU ","   "],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_shard": true}}}},"B": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_book": true}}}}}}],
 		"wiki_components": [{"text": "Magic Book for Radioactive Uses","color": "green"},{"text": "\nUse it in Uranium Upgrader to upgrade Uranium stuff","color": "gray"}],
@@ -372,7 +373,7 @@
 	},
 	"californium_core": {
 		"id": "minecraft:command_block",
-		"category": "material",
+		"category": "miscellaneous",
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": [" C ","CUC"," C "],"ingredients": {"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}}}}],
 		"wiki_components": [{"text": "Extremely interesting right ?","color": "green"},{"text": "\nUsed to craft a lot of things (Well, not really ATM)","color": "gray"}],
@@ -383,7 +384,7 @@
 	},
 	"californium_waste": {
 		"id": "minecraft:command_block",
-		"category": "material",
+		"category": "miscellaneous",
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 		"wiki_components": [{"text": "That looks tasty.","color": "green"},{"text": "\nObtained with nuclear reactors 3 & 4","color": "gray"}],
 		"item_model": "crazy_adventure:californium_waste",
@@ -393,7 +394,7 @@
 	},
 	"californium_waste_barrel": {
 		"id": "minecraft:furnace",
-		"category": "material",
+		"category": "miscellaneous",
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["UUU","UIU","UUU"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_waste": true}}}},"I": {"item": "minecraft:barrel"}}}],
 		"wiki_components": [{"text": "Safe storage of radioactive waste.","color": "green"},{"text": "\nMade with Californium Waste","color": "gray"}],
 		"vanilla_block": {"id": "minecraft:gold_block","apply_facing": false},
@@ -401,6 +402,27 @@
 		"item_name": {"text": "Californium Waste Barrel"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
 		"custom_data": {"crazy_adventure": {"californium_waste_barrel": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"souls_bag": {
+		"id": "minecraft:command_block",
+		"category": "miscellaneous",
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["SCS","CFC","CCC"],"ingredients": {"S": {"item": "minecraft:string"},"C": {"item": "minecraft:charcoal"},"F": {"item": "minecraft:fermented_spider_eye"}}}],
+		"lore": [{"text": "Kill mobs while holding in OffHand","italic": false,"color": "gray"},{"text": "When full, can be drop on Boss Altar to spawn it","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "Texture was made before they add the bundle.","color": "green"},{"text": "\nKill 100 mobs to spawn the boss with Boss Altar","color": "gray"}],
+		"item_model": "crazy_adventure:souls_bag",
+		"item_name": {"text": "Souls Bag"},
+		"custom_data": {"crazy_adventure": {"souls_bag": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"boss_altar": {
+		"id": "minecraft:furnace",
+		"category": "miscellaneous",
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["BWB","BUB","BSB"],"ingredients": {"B": {"item": "minecraft:black_candle"},"W": {"item": "minecraft:wither_skeleton_skull"},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"S": {"item": "minecraft:charcoal"}}}],
+		"lore": [{"text": "Kill mobs while holding in OffHand","italic": false,"color": "gray"},{"text": "When full, can be drop on Boss Altar to spawn it","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "Texture was made before they add the bundle.","color": "green"},{"text": "\nKill 100 mobs to spawn the boss with Boss Altar","color": "gray"}],
+		"vanilla_block": {"id": "minecraft:obsidian","apply_facing": false},
+		"item_model": "crazy_adventure:boss_altar",
+		"item_name": {"text": "Boss Altar"},
+		"custom_data": {"crazy_adventure": {"boss_altar": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
 	},
 	"nuclear_reactor": {
 		"id": "minecraft:furnace",
@@ -522,5 +544,189 @@
 		"item_model": "crazy_adventure:uranium_upgrader",
 		"item_name": {"text": "Uranium Upgrader"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
+	},
+	"oxidizer": {
+		"id": "minecraft:furnace",
+		"category": "energy",
+		"custom_data": {"energy": {"usage": 100,"max_storage": 10000},"crazy_adventure": {"oxidizer": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["CCC","III","III"],"ingredients": {"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_nugget": true}}}},"I": {"item": "minecraft:iron_block"}}}],
+		"wiki_components": [{"text": "Copper Washing","color": "green"},{"text": "\nMake a copper block fully oxidized in 15 seconds","color": "gray"}],
+		"vanilla_block": {"id": "minecraft:barrel","apply_facing": true},
+		"item_model": "crazy_adventure:oxidizer",
+		"item_name": {"text": "Oxidizer"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
+	},
+	"storm_stick_charger": {
+		"id": "minecraft:furnace",
+		"category": "energy",
+		"custom_data": {"energy": {"usage": 30,"max_storage": 3000},"crazy_adventure": {"storm_stick_charger": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" L ","UCU","III"],"ingredients": {"L": {"item": "minecraft:lightning_rod"},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"I": {"item": "minecraft:iron_block"}}},{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" L ","UCU","IRI"],"ingredients": {"L": {"item": "minecraft:lightning_rod"},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"I": {"item": "minecraft:iron_block"},"R": {"item": "minecraft:redstone_block"}}}],
+		"lore": [{"text": "Need Energy, Lightning rod on top and Chargeless stick","italic": false,"color": "gray"},{"text": "If a lightning stroke the lighting rod, it add a charge","italic": false,"color": "gray"},{"text": "[Create 1 charge every 20 seconds]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "To make Storm Stick","color": "green"},{"text": "\nNeed energy, lightning rod on top and chargeless stick","color": "gray"}],
+		"vanilla_block": {"id": "minecraft:furnace","apply_facing": true},
+		"item_model": "crazy_adventure:storm_stick_charger",
+		"item_name": {"text": "Storm Stick Charger"}
+	},
+	"fireball_stick_charger": {
+		"id": "minecraft:furnace",
+		"category": "energy",
+		"custom_data": {"energy": {"usage": 30,"max_storage": 3000},"crazy_adventure": {"fireball_stick_charger": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" L ","UCU","III"],"ingredients": {"L": {"item": "minecraft:fire_charge"},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"I": {"item": "minecraft:iron_block"}}},{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" L ","UCU","IRI"],"ingredients": {"L": {"item": "minecraft:fire_charge"},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"I": {"item": "minecraft:iron_block"},"R": {"item": "minecraft:redstone_block"}}}],
+		"lore": [{"text": "Need Energy and Chargeless stick","italic": false,"color": "gray"},{"text": "Put fire on top to add a charge","italic": false,"color": "gray"},{"text": "[Create 1 charge every 20 seconds]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "To make Fireball Stick","color": "green"},{"text": "\nNeed energy and chargeless stick","color": "gray"}],
+		"vanilla_block": {"id": "minecraft:furnace","apply_facing": true},
+		"item_model": "crazy_adventure:fireball_stick_charger",
+		"item_name": {"text": "Fireball Stick Charger"}
+	},
+	"shield_stick_charger": {
+		"id": "minecraft:furnace",
+		"category": "energy",
+		"custom_data": {"energy": {"usage": 30,"max_storage": 3000},"crazy_adventure": {"shield_stick_charger": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" L ","UCU","III"],"ingredients": {"L": {"item": "minecraft:crying_obsidian"},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"I": {"item": "minecraft:iron_block"}}},{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" L ","UCU","IRI"],"ingredients": {"L": {"item": "minecraft:crying_obsidian"},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"I": {"item": "minecraft:iron_block"},"R": {"item": "minecraft:redstone_block"}}}],
+		"lore": [{"text": "Need Energy and Chargeless stick","italic": false,"color": "gray"},{"text": "Put obsidian on top to add 3 charges","italic": false,"color": "gray"},{"text": "[Create 1 charge every 20 seconds]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "To make Shield Stick","color": "green"},{"text": "\nNeed energy and chargeless stick","color": "gray"}],
+		"vanilla_block": {"id": "minecraft:furnace","apply_facing": true},
+		"item_model": "crazy_adventure:shield_stick_charger",
+		"item_name": {"text": "Shield Stick Charger"}
+	},
+	"fertilizer_stick_charger": {
+		"id": "minecraft:furnace",
+		"category": "energy",
+		"custom_data": {"energy": {"usage": 30,"max_storage": 3000},"crazy_adventure": {"fertilizer_stick_charger": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" L ","UCU","III"],"ingredients": {"L": {"item": "minecraft:bone_block"},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"I": {"item": "minecraft:iron_block"}}},{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" L ","UCU","IRI"],"ingredients": {"L": {"item": "minecraft:bone_block"},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste_barrel": true}}}},"I": {"item": "minecraft:iron_block"},"R": {"item": "minecraft:redstone_block"}}}],
+		"lore": [{"text": "Need Energy and Chargeless stick","italic": false,"color": "gray"},{"text": "Put farmland on top to add 1 charges","italic": false,"color": "gray"},{"text": "[Create 1 charge every 10 seconds]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "To make Fertilizer Stick","color": "green"},{"text": "\nNeed energy and chargeless stick","color": "gray"}],
+		"vanilla_block": {"id": "minecraft:furnace","apply_facing": true},
+		"item_model": "crazy_adventure:fertilizer_stick_charger",
+		"item_name": {"text": "Fertilizer Stick Charger"}
+	},
+	"anti_radiation_helmet": {
+		"id": "minecraft:leather_helmet",
+		"category": "equipment",
+		"custom_data": {"crazy_adventure": {"radiation": 80,"anti_radiation_helmet": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["YBY","YCY","   "],"ingredients": {"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_nugget": true}}}},"B": {"item": "minecraft:blue_stained_glass_pane"},"Y": {"item": "minecraft:yellow_wool"}}}],
+		"wiki_components": [{"text": "Anti Radiation Armor.","color": "green"},{"text": "\nAllow to not takes damage in California (Need full armor)","color": "gray"}],
+		"item_model": "crazy_adventure:anti_radiation_helmet",
+		"item_name": {"text": "Anti Radiation Helmet"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
+	},
+	"anti_radiation_chestplate": {
+		"id": "minecraft:leather_chestplate",
+		"category": "equipment",
+		"custom_data": {"crazy_adventure": {"radiation": 130,"anti_radiation_chestplate": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["Y Y","YUY","YYY"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"Y": {"item": "minecraft:yellow_wool"}}}],
+		"wiki_components": [{"text": "Anti Radiation Armor.","color": "green"},{"text": "\nAllow to not takes damage in California (Need full armor)","color": "gray"}],
+		"item_model": "crazy_adventure:anti_radiation_chestplate",
+		"item_name": {"text": "Anti Radiation Chestplate"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
+	},
+	"anti_radiation_leggings": {
+		"id": "minecraft:leather_leggings",
+		"category": "equipment",
+		"custom_data": {"crazy_adventure": {"radiation": 70,"anti_radiation_leggings": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["YYY","Y Y","Y Y"],"ingredients": {"Y": {"item": "minecraft:yellow_wool"}}}],
+		"wiki_components": [{"text": "Anti Radiation Armor.","color": "green"},{"text": "\nAllow to not takes damage in California (Need full armor)","color": "gray"}],
+		"item_model": "crazy_adventure:anti_radiation_leggings",
+		"item_name": {"text": "Anti Radiation Leggings"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
+	},
+	"anti_radiation_boots": {
+		"id": "minecraft:leather_boots",
+		"category": "equipment",
+		"custom_data": {"crazy_adventure": {"radiation": 50,"anti_radiation_boots": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["   ","Y Y","YMY"],"ingredients": {"M": {"components": {"minecraft:custom_data": {"crazy_adventure": {"manual": true}}}},"Y": {"item": "minecraft:yellow_wool"}}}],
+		"wiki_components": [{"text": "Anti Radiation Armor.","color": "green"},{"text": "\nAllow to not takes damage in California (Need full armor)","color": "gray"}],
+		"item_model": "crazy_adventure:anti_radiation_boots",
+		"item_name": {"text": "Anti Radiation Boots"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
+	},
+	"anti_radiation_glove": {
+		"id": "minecraft:shield",
+		"category": "equipment",
+		"custom_data": {"crazy_adventure": {"radiation": 300,"anti_radiation_glove": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["BCB","BUB"," B "],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}},"B": {"item": "minecraft:blue_wool"}}}],
+		"lore": [{"text": "Allow you to not take radiation damage in California (without the anti radiation armor)","italic": false,"color": "gray"},{"text": "You don't need the Anti Radiation Armorg","italic": false,"color": "gray"},{"text": "[Need to be in Offhand to use]","italic": false,"color": "white"},{"text": "[It's a shield, you can block damage with]","italic": false,"color": "white"},{"text": "[Lose durability over time]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "Anti Radiation Glove.","color": "green"},{"text": "\nAllow you to not take radiation damage in California (without the anti radiation armor)","color": "gray"},{"text": "\n[Need to be in Offhand to use]","color": "white"},{"text": "\n[It's a shield, you can block damage with]","color": "white"},{"text": "\n[Lose durability over time]","color": "white"}],
+		"item_model": "crazy_adventure:anti_radiation_glove",
+		"item_name": {"text": "Anti Radiation Glove"}
+	},
+	"banana": {
+		"id": "minecraft:apple",
+		"category": "radiactivity",
+		"lore": [{"text": "Gives 40Bq to your Body","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "Banana","color": "green"},{"text": "\nFound on banana trees","color": "gray"}],
+		"item_model": "crazy_adventure:banana",
+		"item_name": {"text": "Banana"},
+		"custom_data": {"crazy_adventure": {"banana": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"uranium_banana": {
+		"id": "minecraft:golden_apple",
+		"category": "radiactivity",
+		"lore": [{"text": "Gives 200Bq to your Body","italic": false,"color": "gray"},{"text": "Gives Resistance 1 effect for 60 seconds","italic": false,"color": "gray"},{"text": "Gives Wither 1 effect for 90 seconds","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["UUU","UBU","UUU"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}},"B": {"components": {"minecraft:custom_data": {"crazy_adventure": {"banana": true}}}}}}],
+		"wiki_components": [{"text": "Banana with weird color","color": "green"},{"text": "\nAre you really gonna eat that ?","color": "gray"}],
+		"item_model": "crazy_adventure:uranium_banana",
+		"item_name": {"text": "Uranium Banana"},
+		"custom_data": {"crazy_adventure": {"uranium_banana": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"uranium_apple": {
+		"id": "minecraft:golden_apple",
+		"category": "radiactivity",
+		"lore": [{"text": "Gives 1.000Bq to your Body","italic": false,"color": "gray"},{"text": "Gives Resistance 2 effect for 60 seconds","italic": false,"color": "gray"},{"text": "Gives Wither 1 effect for 90 seconds","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["UUU","UAU","UUU"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_block": true}}}},"A": {"item": "minecraft:golden_apple"}}}],
+		"wiki_components": [{"text": "Apple with weird color","color": "green"},{"text": "\nAre you really gonna eat that ?\nGives Wither effect due to excessive radioactivity ","color": "gray"}],
+		"item_model": "crazy_adventure:uranium_apple",
+		"item_name": {"text": "Uranium Apple"},
+		"custom_data": {"crazy_adventure": {"uranium_apple": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"chargeless_stick": {
+		"id": "minecraft:command_block",
+		"category": "radiactivity",
+		"lore": [{"text": "No effect, need a Stick Charger","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" UC"," BU","B  "],"ingredients": {"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste": true}}}},"B": {"item": "minecraft:blaze_rod"}}},{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": [" UC"," BU","B  "],"ingredients": {"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_waste": true}}}},"B": {"item": "minecraft:breeze_rod"}}}],
+		"wiki_components": [{"text": "Stick with no charges","color": "green"},{"text": "\nPut it in a Stick Charger ","color": "gray"}],
+		"item_model": "crazy_adventure:chargeless_stick",
+		"item_name": {"text": "Chargeless Stick"},
+		"custom_data": {"crazy_adventure": {"chargeless_stick": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"fireball_stick": {
+		"id": "minecraft:warped_fungus_on_a_stick",
+		"category": "radiactivity",
+		"lore": [{"text": "Launch fireball where you are looking","italic": false,"color": "gray"},{"text": "[Cost 120Bq to launch]","italic": false,"color": "white"},{"text": "[10s Cooldown]","italic": false,"color": "white"},{"text": "[10 Charges]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "Is it a bird, is it a plane ? NO IT'S A (not that) HUGE FIREBALL","color": "green"},{"text": "\nPut a chargeless stick in the Fireball Stick Charger","color": "gray"}],
+		"item_model": "crazy_adventure:fireball_stick",
+		"item_name": {"text": "Fireball Stick"},
+		"custom_data": {"crazy_adventure": {"fireball_stick": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"storm_stick": {
+		"id": "minecraft:warped_fungus_on_a_stick",
+		"category": "radiactivity",
+		"lore": [{"text": "Summon Lightings where you are looking","italic": false,"color": "gray"},{"text": "[Cost 120Bq to launch]","italic": false,"color": "white"},{"text": "[10s Cooldown]","italic": false,"color": "white"},{"text": "[10 Charges]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "Starting apocalypse at your level","color": "green"},{"text": "\nPut a chargeless stick in the Storm Stick Charger","color": "gray"}],
+		"item_model": "crazy_adventure:storm_stick",
+		"item_name": {"text": "Storm Stick"},
+		"custom_data": {"crazy_adventure": {"storm_stick": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"shield_stick": {
+		"id": "minecraft:warped_fungus_on_a_stick",
+		"category": "radiactivity",
+		"lore": [{"text": "Gives you Regeneration 3, Resistance 3, Slowness 1 for 10 seconds","italic": false,"color": "gray"},{"text": "[Cost 170Bq to launch]","italic": false,"color": "white"},{"text": "[30s Cooldown]","italic": false,"color": "white"},{"text": "[5 Charges]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "Not overpowered at all...","color": "green"},{"text": "\nPut a chargeless stick in the Shield Stick Charger","color": "gray"}],
+		"item_model": "crazy_adventure:shield_stick",
+		"item_name": {"text": "Shield Stick"},
+		"custom_data": {"crazy_adventure": {"shield_stick": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"fertilizer_stick": {
+		"id": "minecraft:warped_fungus_on_a_stick",
+		"category": "radiactivity",
+		"lore": [{"text": "Grow your seeds","italic": false,"color": "gray"},{"text": "[Cost 30Bq to launch]","italic": false,"color": "white"},{"text": "[1s Cooldown]","italic": false,"color": "white"},{"text": "[30 Charges]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "Give me your seed !","color": "green"},{"text": "\nPut a chargeless stick in the Fertilizer Stick Charger","color": "gray"}],
+		"item_model": "crazy_adventure:fertilizer_stick",
+		"item_name": {"text": "Fertilizer Stick"},
+		"custom_data": {"crazy_adventure": {"fertilizer_stick": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
 	}
 }

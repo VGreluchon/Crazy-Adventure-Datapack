@@ -1,0 +1,65 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"group": "souls_bag",
+	"pattern": [
+		"SCS",
+		"CFC",
+		"CCC"
+	],
+	"key": {
+		"S": "minecraft:string",
+		"C": "minecraft:charcoal",
+		"F": "minecraft:fermented_spider_eye"
+	},
+	"result": {
+		"id": "minecraft:command_block",
+		"count": 1,
+		"components": {
+			"minecraft:lore": [
+				{
+					"translate": "crazy_adventure.kill_mobs_while_holding_in_offhand",
+					"italic": false,
+					"color": "gray"
+				},
+				{
+					"translate": "crazy_adventure.when_full_can_be_drop_on_boss_altar_to_spawn_it",
+					"italic": false,
+					"color": "gray"
+				},
+				[
+					"",
+					{
+						"text": "I",
+						"color": "white",
+						"italic": false,
+						"font": "crazy_adventure:icons"
+					},
+					{
+						"translate": "crazy_adventure.crazy",
+						"color": "green"
+					},
+					{
+						"translate": "crazy_adventure.adventure",
+						"color": "gray"
+					}
+				]
+			],
+			"minecraft:item_model": "crazy_adventure:souls_bag",
+			"minecraft:item_name": {
+				"translate": "crazy_adventure.souls_bag"
+			},
+			"minecraft:custom_data": {
+				"crazy_adventure": {
+					"souls_bag": true
+				},
+				"smithed": {
+					"ignore": {
+						"functionality": true,
+						"crafting": true
+					}
+				}
+			}
+		}
+	}
+}
