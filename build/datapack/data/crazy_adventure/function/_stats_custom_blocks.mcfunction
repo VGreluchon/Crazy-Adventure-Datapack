@@ -10,9 +10,11 @@ scoreboard players add #total_vanilla_obsidian crazy_adventure.data 0
 scoreboard players add #total_vanilla_iron_block crazy_adventure.data 0
 scoreboard players add #total_vanilla_gold_block crazy_adventure.data 0
 scoreboard players add #total_vanilla_furnace crazy_adventure.data 0
+scoreboard players add #total_vanilla_end_rod crazy_adventure.data 0
 scoreboard players add #total_vanilla_emerald_block crazy_adventure.data 0
 scoreboard players add #total_vanilla_cobblestone crazy_adventure.data 0
 scoreboard players add #total_vanilla_barrel crazy_adventure.data 0
+scoreboard players add #total_banana_plant crazy_adventure.data 0
 scoreboard players add #total_fertilizer_stick_charger crazy_adventure.data 0
 scoreboard players add #total_shield_stick_charger crazy_adventure.data 0
 scoreboard players add #total_fireball_stick_charger crazy_adventure.data 0
@@ -34,10 +36,12 @@ scoreboard players add #total_californium_waste_barrel crazy_adventure.data 0
 scoreboard players add #total_uranium_waste_barrel crazy_adventure.data 0
 scoreboard players add #total_californium_ore crazy_adventure.data 0
 scoreboard players add #total_californium_block crazy_adventure.data 0
+scoreboard players add #total_deepslate_uranium_ore crazy_adventure.data 0
 scoreboard players add #total_uranium_ore crazy_adventure.data 0
 scoreboard players add #total_uranium_block crazy_adventure.data 0
 tellraw @s [{"translate": "crazy_adventure.total_uranium_block","color":"gold"},{"score":{"name":"#total_uranium_block","objective":"crazy_adventure.data"},"color":"yellow"}]
 tellraw @s [{"translate": "crazy_adventure.total_uranium_ore","color":"gold"},{"score":{"name":"#total_uranium_ore","objective":"crazy_adventure.data"},"color":"yellow"}]
+tellraw @s [{"translate": "crazy_adventure.total_deepslate_uranium_ore","color":"gold"},{"score":{"name":"#total_deepslate_uranium_ore","objective":"crazy_adventure.data"},"color":"yellow"}]
 tellraw @s [{"translate": "crazy_adventure.total_californium_block","color":"gold"},{"score":{"name":"#total_californium_block","objective":"crazy_adventure.data"},"color":"yellow"}]
 tellraw @s [{"translate": "crazy_adventure.total_californium_ore","color":"gold"},{"score":{"name":"#total_californium_ore","objective":"crazy_adventure.data"},"color":"yellow"}]
 tellraw @s [{"translate": "crazy_adventure.total_uranium_waste_barrel","color":"gold"},{"score":{"name":"#total_uranium_waste_barrel","objective":"crazy_adventure.data"},"color":"yellow"}]
@@ -59,9 +63,11 @@ tellraw @s [{"translate": "crazy_adventure.total_storm_stick_charger","color":"g
 tellraw @s [{"translate": "crazy_adventure.total_fireball_stick_charger","color":"gold"},{"score":{"name":"#total_fireball_stick_charger","objective":"crazy_adventure.data"},"color":"yellow"}]
 tellraw @s [{"translate": "crazy_adventure.total_shield_stick_charger","color":"gold"},{"score":{"name":"#total_shield_stick_charger","objective":"crazy_adventure.data"},"color":"yellow"}]
 tellraw @s [{"translate": "crazy_adventure.total_fertilizer_stick_charger","color":"gold"},{"score":{"name":"#total_fertilizer_stick_charger","objective":"crazy_adventure.data"},"color":"yellow"}]
+tellraw @s [{"translate": "crazy_adventure.total_banana_plant","color":"gold"},{"score":{"name":"#total_banana_plant","objective":"crazy_adventure.data"},"color":"yellow"}]
 tellraw @s [{"translate": "crazy_adventure.vanilla_minecraft_barrel","color":"gray"},{"score":{"name":"#total_vanilla_barrel","objective":"crazy_adventure.data"},"color":"white"}]
 tellraw @s [{"translate": "crazy_adventure.vanilla_minecraft_cobblestone","color":"gray"},{"score":{"name":"#total_vanilla_cobblestone","objective":"crazy_adventure.data"},"color":"white"}]
 tellraw @s [{"translate": "crazy_adventure.vanilla_minecraft_emerald_block","color":"gray"},{"score":{"name":"#total_vanilla_emerald_block","objective":"crazy_adventure.data"},"color":"white"}]
+tellraw @s [{"translate": "crazy_adventure.vanilla_minecraft_end_rod","color":"gray"},{"score":{"name":"#total_vanilla_end_rod","objective":"crazy_adventure.data"},"color":"white"}]
 tellraw @s [{"translate": "crazy_adventure.vanilla_minecraft_furnace","color":"gray"},{"score":{"name":"#total_vanilla_furnace","objective":"crazy_adventure.data"},"color":"white"}]
 tellraw @s [{"translate": "crazy_adventure.vanilla_minecraft_gold_block","color":"gray"},{"score":{"name":"#total_vanilla_gold_block","objective":"crazy_adventure.data"},"color":"white"}]
 tellraw @s [{"translate": "crazy_adventure.vanilla_minecraft_iron_block","color":"gray"},{"score":{"name":"#total_vanilla_iron_block","objective":"crazy_adventure.data"},"color":"white"}]

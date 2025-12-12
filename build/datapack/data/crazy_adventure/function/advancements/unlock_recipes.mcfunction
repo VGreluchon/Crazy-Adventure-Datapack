@@ -10,6 +10,16 @@
 advancement revoke @s only crazy_adventure:unlock_recipes
 
 ## For each ingredient in inventory, unlock the recipes
+# minecraft:book
+scoreboard players set #success crazy_adventure.data 0
+execute store success score #success crazy_adventure.data if items entity @s container.* minecraft:book
+execute if score #success crazy_adventure.data matches 1 run recipe give @s crazy_adventure:manual
+
+# minecraft:tnt
+scoreboard players set #success crazy_adventure.data 0
+execute store success score #success crazy_adventure.data if items entity @s container.* minecraft:tnt
+execute if score #success crazy_adventure.data matches 1 run recipe give @s crazy_adventure:manual
+
 # minecraft:string
 scoreboard players set #success crazy_adventure.data 0
 execute store success score #success crazy_adventure.data if items entity @s container.* minecraft:string
@@ -56,6 +66,7 @@ execute store success score #success crazy_adventure.data if items entity @s con
 execute if score #success crazy_adventure.data matches 1 run recipe give @s crazy_adventure:anti_radiation_leggings
 
 ## Add result items
+execute if items entity @s container.* *[custom_data~{"crazy_adventure": {"manual":true} }] run recipe give @s crazy_adventure:manual
 execute if items entity @s container.* *[custom_data~{"crazy_adventure": {"souls_bag":true} }] run recipe give @s crazy_adventure:souls_bag
 execute if items entity @s container.* *[custom_data~{"crazy_adventure": {"ore_extractor_1":true} }] run recipe give @s crazy_adventure:ore_extractor_1
 execute if items entity @s container.* *[custom_data~{"crazy_adventure": {"anti_radiation_leggings":true} }] run recipe give @s crazy_adventure:anti_radiation_leggings

@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_bottom_top",
+	"parent": "block/cube_front_bottom_top",
 	"textures": {
+		"front": "crazy_adventure:item/oxidizer_front",
 		"bottom": "crazy_adventure:item/oxidizer_bottom",
 		"side": "crazy_adventure:item/oxidizer_side",
 		"top": "crazy_adventure:item/oxidizer_top"

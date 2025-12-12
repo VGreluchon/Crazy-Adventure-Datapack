@@ -4,6 +4,7 @@
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_barrel\"]}","location": {"block": {"blocks": "minecraft:barrel"}}}},
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_cobblestone\"]}","location": {"block": {"blocks": "minecraft:cobblestone"}}}},
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_emerald_block\"]}","location": {"block": {"blocks": "minecraft:emerald_block"}}}},
+		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_end_rod\"]}","location": {"block": {"blocks": "minecraft:end_rod"}}}},
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_furnace\"]}","location": {"block": {"blocks": "minecraft:furnace"}}}},
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_gold_block\"]}","location": {"block": {"blocks": "minecraft:gold_block"}}}},
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_iron_block\"]}","location": {"block": {"blocks": "minecraft:iron_block"}}}},

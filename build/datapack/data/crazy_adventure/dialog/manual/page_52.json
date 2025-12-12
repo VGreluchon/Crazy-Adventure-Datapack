@@ -3,7 +3,7 @@
 	"title": [
 		"",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/souls_bag",
+			"sprite": "crazy_adventure:item/californium_waste",
 			"shadow_color": [
 				0,
 				0,
@@ -14,12 +14,12 @@
 		},
 		" ",
 		{
-			"translate": "crazy_adventure.souls_bag",
+			"translate": "crazy_adventure.californium_waste",
 			"underlined": true
 		},
 		" ",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/souls_bag",
+			"sprite": "crazy_adventure:item/californium_waste",
 			"shadow_color": [
 				0,
 				0,
@@ -47,36 +47,13 @@
 			"type": "minecraft:plain_message",
 			"contents": [
 				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
-				"\"$6\n\"",
-				{"text": "$茙","hover_event": {"action": "show_item","id": "minecraft:string","components": {}}},
-				{"text": "$芁","hover_event": {"action": "show_item","id": "minecraft:charcoal","components": {}}},
-				{"text": "$茙","hover_event": {"action": "show_item","id": "minecraft:string","components": {}}},
-				"  \n\"",
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:string","components": {}}},
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:charcoal","components": {}}},
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:string","components": {}}},
-				"  \n\"",
-				{"text": "$芁","hover_event": {"action": "show_item","id": "minecraft:charcoal","components": {}}},
-				{"text": "$茛","hover_event": {"action": "show_item","id": "minecraft:fermented_spider_eye","components": {}}},
-				{"text": "$芁","hover_event": {"action": "show_item","id": "minecraft:charcoal","components": {}}},
-				"\"\"",
-				{"text": "$$職","hover_event": {"action": "show_item","id": "command_block","components": {"lore": [{"translate": "crazy_adventure.kill_mobs_while_holding_in_offhand","italic": false,"color": "gray"},{"translate": "crazy_adventure.when_full_can_be_drop_on_boss_altar_to_spawn_it","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:souls_bag","item_name": {"translate": "crazy_adventure.souls_bag"},"custom_data": {"crazy_adventure": {"souls_bag": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
-				"#$\n\"",
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:charcoal","components": {}}},
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:fermented_spider_eye","components": {}}},
-				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:charcoal","components": {}}},
-				"\"\"",
-				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"lore": [{"translate": "crazy_adventure.kill_mobs_while_holding_in_offhand","italic": false,"color": "gray"},{"translate": "crazy_adventure.when_full_can_be_drop_on_boss_altar_to_spawn_it","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:souls_bag","item_name": {"translate": "crazy_adventure.souls_bag"},"custom_data": {"crazy_adventure": {"souls_bag": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
-				"#$\n\"",
-				{"text": "$芁$芁$芁","hover_event": {"action": "show_item","id": "minecraft:charcoal","components": {}}},
-				"  \n\"",
-				{"translate": "crazy_adventure.uuu","hover_event": {"action": "show_item","id": "minecraft:charcoal","components": {}}},
-				"  \n\n",
-				{"text": "1##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.texture_was_made_before_they_add_the_bundle","color": "green"},{"translate": "crazy_adventure.kill_100_mobs_to_spawn_the_boss_with_boss_altar","color": "gray"}]}},
-				{"text": "2\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$茙"},{"text": "$芁"},{"text": "$茙"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$芁"},{"text": "$茛"},{"text": "$芁"},"\"\"",{"text": "$$職"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$芁"},{"text": "$芁"},{"text": "$芁"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.string","color": "gray"},{"text": "\n- x6 ","color": "gray"},{"translate": "crazy_adventure.charcoal","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.fermented_spider_eye","color": "gray"}]}},
-				{"text": "0##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.texture_was_made_before_they_add_the_bundle","color": "green"},{"translate": "crazy_adventure.kill_100_mobs_to_spawn_the_boss_with_boss_altar","color": "gray"}]}},
-				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$茙"},{"text": "$芁"},{"text": "$茙"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$芁"},{"text": "$茛"},{"text": "$芁"},"\"\"",{"text": "$$職"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$芁"},{"text": "$芁"},{"text": "$芁"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.string","color": "gray"},{"text": "\n- x6 ","color": "gray"},{"translate": "crazy_adventure.charcoal","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.fermented_spider_eye","color": "gray"}]}},
-				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+				"ၓ\n",
+				{"text": "  \n  \n  \n  \n\n","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"item_model": "crazy_adventure:californium_waste","item_name": {"translate": "crazy_adventure.californium_waste"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"californium_waste": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_52"}},
+				{"text": "1##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.that_looks_tasty","color": "green"},{"translate": "crazy_adventure.obtained_with_nuclear_reactors_3_4","color": "gray"}]}},
+				{"text": "茠\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$聵"},{"text": "$聵"},{"text": "$聵"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$聵"},{"text": "$苑"},{"text": "$聵"},"\"\"",{"text": "$$職"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$聵"},{"text": "$聵"},{"text": "$聵"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x8 ","color": "gray"},{"translate": "crazy_adventure.californium_waste","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.barrel","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_53"}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.that_looks_tasty","color": "green"},{"translate": "crazy_adventure.obtained_with_nuclear_reactors_3_4","color": "gray"}]}},
+				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"",{"text": "$聵"},{"text": "$聵"},{"text": "$聵"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n","\"",{"text": "$聵"},{"text": "$苑"},{"text": "$聵"},"\"\"",{"text": "$$職"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$聵"},{"text": "$聵"},{"text": "$聵"},"\n","\"",{"text": "U$"},{"text": "U$"},{"text": "U$"},"\n"],{"text": "\n- x8 ","color": "gray"},{"translate": "crazy_adventure.californium_waste","color": "gray"},{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.barrel","color": "gray"}]},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_53"}},
+				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 			],
 			"width": 140
 		}

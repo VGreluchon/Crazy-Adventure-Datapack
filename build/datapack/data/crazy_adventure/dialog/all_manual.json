@@ -85,7 +85,10 @@
 		"crazy_adventure:manual/page_74",
 		"crazy_adventure:manual/page_75",
 		"crazy_adventure:manual/page_76",
-		"crazy_adventure:manual/page_77"
+		"crazy_adventure:manual/page_77",
+		"crazy_adventure:manual/page_78",
+		"crazy_adventure:manual/page_79",
+		"crazy_adventure:manual/page_80"
 	],
 	"exit_action": {
 		"label": {"translate": "gui.back"},

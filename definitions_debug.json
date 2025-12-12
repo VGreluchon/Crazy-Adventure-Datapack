@@ -3,7 +3,7 @@
 		"id": "minecraft:command_block",
 		"category": "material",
 		"custom_data": {"smithed": {"dict": {"ingot": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"uranium_ingot": true}},
-		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 9,"category": "misc","group": "uranium","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_block": true}}}}]},{"type": "crafting_shaped","result_count": 1,"category": "misc","group": "uranium","shape": ["XXX","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_nugget": true}}}}}},{"type": "smelting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"raw_uranium": true}}}}},{"type": "blasting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 100,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"raw_uranium": true}}}}},{"type": "smelting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ore": true}}}}},{"type": "blasting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 100,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ore": true}}}}}],
+		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 9,"category": "misc","group": "uranium","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_block": true}}}}]},{"type": "crafting_shaped","result_count": 1,"category": "misc","group": "uranium","shape": ["XXX","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_nugget": true}}}}}},{"type": "smelting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"raw_uranium": true}}}}},{"type": "blasting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 100,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"raw_uranium": true}}}}},{"type": "smelting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ore": true}}}}},{"type": "blasting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 100,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ore": true}}}}},{"type": "smelting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 200,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"deepslate_uranium_ore": true}}}}},{"type": "blasting","result_count": 1,"category": "misc","group": "uranium","experience": 0.8,"cookingtime": 100,"ingredient": {"components": {"minecraft:custom_data": {"crazy_adventure": {"deepslate_uranium_ore": true}}}}}],
 		"item_model": "crazy_adventure:uranium_ingot",
 		"item_name": {"text": "Uranium Ingot"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
@@ -43,6 +43,16 @@
 		"no_silk_touch_drop": "raw_uranium",
 		"item_model": "crazy_adventure:uranium_ore",
 		"item_name": {"text": "Uranium Ore"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
+	},
+	"deepslate_uranium_ore": {
+		"id": "minecraft:furnace",
+		"category": "material",
+		"custom_data": {"smithed": {"dict": {"block": {"uranium": true},"ore": {"uranium": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"deepslate_uranium_ore": true}},
+		"vanilla_block": {"id": "minecraft:polished_deepslate","apply_facing": false},
+		"no_silk_touch_drop": "raw_uranium",
+		"item_model": "crazy_adventure:deepslate_uranium_ore",
+		"item_name": {"text": "Deepslate Uranium Ore"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"uranium_helmet": {
@@ -300,7 +310,7 @@
 	"manual": {
 		"id": "minecraft:written_book",
 		"item_name": "Crazy Adventure Manual",
-		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 1,"group": "manual","category": "misc","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"manual": true}}}}]}],
+		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 1,"group": "manual","category": "misc","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"manual": true}}}}]},{"type": "crafting_shapeless","result_count": 1,"category": "misc","ingredients": [{"item": "minecraft:book"},{"item": "minecraft:tnt"}]}],
 		"wiki_components": [{"text": "What a wonderful manual","color": "green"},{"text": "\nObtainable by dropping a TNT on a heavy workbench","color": "gray"}],
 		"category": "miscellaneous",
 		"item_model": "crazy_adventure:manual",
@@ -308,7 +318,7 @@
 		"custom_data": {"crazy_adventure": {"manual": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
 	},
 	"geiger_counter": {
-		"id": "minecraft:command_block",
+		"id": "minecraft:warped_fungus_on_a_stick",
 		"category": "miscellaneous",
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 		"lore": [{"text": "Allows you to know your radiation amount","italic": false,"color": "gray"},{"text": "[Hold in offhand]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
@@ -364,7 +374,7 @@
 		"id": "minecraft:command_block",
 		"category": "miscellaneous",
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["   ","BU ","   "],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_shard": true}}}},"B": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_book": true}}}}}}],
+		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 1,"category": "equipment","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_shard": true}}}},{"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_book": true}}}}]}],
 		"wiki_components": [{"text": "Magic Book for Radioactive Uses","color": "green"},{"text": "\nUse it in Uranium Upgrader to upgrade Uranium stuff","color": "gray"}],
 		"item_model": "crazy_adventure:uranium_book",
 		"item_name": {"text": "Uranium Book"},
@@ -426,7 +436,7 @@
 	},
 	"nuclear_reactor": {
 		"id": "minecraft:furnace",
-		"category": "energy",
+		"category": "generator",
 		"custom_data": {"energy": {"generation": 150,"max_storage": 30000},"crazy_adventure": {"nuclear_reactor": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["CUC","UFU","CUC"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}},"F": {"item": "minecraft:furnace"},"C": {"item": "minecraft:copper_block"}}}],
 		"wiki_components": [{"text": "Pretty nuclear Reactor.","color": "green"},{"text": "\nConsume the item seen on the texture ^^","color": "gray"}],
@@ -437,7 +447,7 @@
 	},
 	"better_nuclear_reactor": {
 		"id": "minecraft:furnace",
-		"category": "energy",
+		"category": "generator",
 		"custom_data": {"energy": {"generation": 150,"max_storage": 105000},"crazy_adventure": {"better_nuclear_reactor": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["CUC","UFU","CUC"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"F": {"components": {"minecraft:custom_data": {"crazy_adventure": {"nuclear_reactor": true}}}},"C": {"item": "minecraft:exposed_copper"}}}],
 		"wiki_components": [{"text": "Prettier nuclear Reactor!","color": "green"},{"text": "\nConsume the item seen on the texture ^^","color": "gray"}],
@@ -448,7 +458,7 @@
 	},
 	"amazing_nuclear_reactor": {
 		"id": "minecraft:furnace",
-		"category": "energy",
+		"category": "generator",
 		"custom_data": {"energy": {"generation": 150,"max_storage": 105000},"crazy_adventure": {"amazing_nuclear_reactor": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["CUC","UFU","CUC"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}},"F": {"components": {"minecraft:custom_data": {"crazy_adventure": {"better_nuclear_reactor": true}}}},"C": {"item": "minecraft:weathered_copper"}}}],
 		"wiki_components": [{"text": "Very Cool nuclear Reactor!!","color": "green"},{"text": "\nConsume the item seen on the texture ^^","color": "gray"}],
@@ -459,7 +469,7 @@
 	},
 	"incredible_nuclear_reactor": {
 		"id": "minecraft:furnace",
-		"category": "energy",
+		"category": "generator",
 		"custom_data": {"energy": {"generation": 150,"max_storage": 105000},"crazy_adventure": {"incredible_nuclear_reactor": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["CUC","UFU","CUC"],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_core": true}}}},"F": {"components": {"minecraft:custom_data": {"crazy_adventure": {"amazing_nuclear_reactor": true}}}},"C": {"item": "minecraft:oxidized_copper"}}}],
 		"wiki_components": [{"text": "Ultra Badass nuclear Reactor!!!","color": "green"},{"text": "\nConsume the item seen on the texture ^^","color": "gray"}],
@@ -645,9 +655,13 @@
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
 	"anti_radiation_glove": {
-		"id": "minecraft:shield",
+		"id": "minecraft:command_block",
 		"category": "equipment",
 		"custom_data": {"crazy_adventure": {"radiation": 300,"anti_radiation_glove": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"max_damage": 1000,
+		"blocks_attacks": {"block_delay_seconds": 0.25,"block_sound": "minecraft:item.shield.block","bypassed_by": "#minecraft:bypasses_shield","disabled_sound": "minecraft:item.shield.break","item_damage": {"base": 1,"factor": 1,"threshold": 3}},
+		"equippable": {"slot": "offhand","swappable": false},
+		"max_stack_size": 1,
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["BCB","BUB"," B "],"ingredients": {"U": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_core": true}}}},"C": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}},"B": {"item": "minecraft:blue_wool"}}}],
 		"lore": [{"text": "Allow you to not take radiation damage in California (without the anti radiation armor)","italic": false,"color": "gray"},{"text": "You don't need the Anti Radiation Armorg","italic": false,"color": "gray"},{"text": "[Need to be in Offhand to use]","italic": false,"color": "white"},{"text": "[It's a shield, you can block damage with]","italic": false,"color": "white"},{"text": "[Lose durability over time]","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
 		"wiki_components": [{"text": "Anti Radiation Glove.","color": "green"},{"text": "\nAllow you to not take radiation damage in California (without the anti radiation armor)","color": "gray"},{"text": "\n[Need to be in Offhand to use]","color": "white"},{"text": "\n[It's a shield, you can block damage with]","color": "white"},{"text": "\n[Lose durability over time]","color": "white"}],
@@ -728,5 +742,15 @@
 		"item_model": "crazy_adventure:fertilizer_stick",
 		"item_name": {"text": "Fertilizer Stick"},
 		"custom_data": {"crazy_adventure": {"fertilizer_stick": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"banana_plant": {
+		"id": "minecraft:furnace",
+		"no_silk_touch_drop": {"id": "banana","count": 1},
+		"vanilla_block": {"id": "minecraft:end_rod","apply_facing": false},
+		"category": "miscellaneous",
+		"item_model": "crazy_adventure:banana_plant",
+		"item_name": {"text": "Banana Plant"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"custom_data": {"crazy_adventure": {"banana_plant": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
 	}
 }

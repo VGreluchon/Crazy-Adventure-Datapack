@@ -5,6 +5,7 @@
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/raw_uranium"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_block"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_ore"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/deepslate_uranium_ore"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_helmet"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_chestplate"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_leggings"}]},
@@ -68,6 +69,7 @@
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/fireball_stick"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/storm_stick"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/shield_stick"}]},
-		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/fertilizer_stick"}]}
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/fertilizer_stick"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/banana_plant"}]}
 	]
 }

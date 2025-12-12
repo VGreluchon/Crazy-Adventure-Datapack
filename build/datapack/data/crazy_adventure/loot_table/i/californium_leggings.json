@@ -11,12 +11,13 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": {
+									"smithed": {
+										"dict": {"armor": {"californium": true,"leggings": true}},
+										"ignore": {"functionality": true,"crafting": true}
+									},
 									"crazy_adventure": {
 										"radiation": 525,
 										"californium_leggings": true
-									},
-									"smithed": {
-										"ignore": {"functionality": true,"crafting": true}
 									}
 								},
 								"minecraft:max_damage": 1110,

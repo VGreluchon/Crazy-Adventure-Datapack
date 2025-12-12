@@ -8,32 +8,32 @@
 function #smart_ore_generation:v1/slots/random_position
 
 # Placing Uranium Ore patch
-execute at @s if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~-0.4 ~-0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~-0.4 ~-0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~-0.4 ~-0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~-0.4 ~0.0 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~-0.4 ~0.0 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~-0.4 ~0.0 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~-0.4 ~0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~-0.4 ~0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~-0.4 ~0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.0 ~-0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.0 ~-0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.0 ~-0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.0 ~0.0 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.0 ~0.0 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.0 ~0.0 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.0 ~0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.0 ~0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.0 ~0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.4 ~-0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.4 ~-0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.4 ~-0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.4 ~0.0 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.4 ~0.0 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.4 ~0.0 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.4 ~0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.4 ~0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
-execute at @s positioned ~0.4 ~0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~-0.4 ~-0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~-0.4 ~-0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~-0.4 ~-0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~-0.4 ~0.0 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~-0.4 ~0.0 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~-0.4 ~0.0 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~-0.4 ~0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~-0.4 ~0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~-0.4 ~0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.0 ~-0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.0 ~-0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.0 ~-0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.0 ~0.0 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.0 ~0.0 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.0 ~0.0 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.0 ~0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.0 ~0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.0 ~0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.4 ~-0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.4 ~-0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.4 ~-0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.4 ~0.0 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.4 ~0.0 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.4 ~0.0 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.4 ~0.4 ~-0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.4 ~0.4 ~0.0 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
+execute at @s positioned ~0.4 ~0.4 ~0.4 if block ~ ~ ~ #minecraft:overworld_carver_replaceables unless block ~ ~ ~ minecraft:deepslate run function crazy_adventure:custom_blocks/uranium_ore/place_main
 

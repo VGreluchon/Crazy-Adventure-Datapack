@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:shield",
+					"name": "minecraft:command_block",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -19,6 +19,23 @@
 										"ignore": {"functionality": true,"crafting": true}
 									}
 								},
+								"minecraft:max_damage": 1000,
+								"minecraft:blocks_attacks": {
+									"block_delay_seconds": 0.25,
+									"block_sound": "minecraft:item.shield.block",
+									"bypassed_by": "#minecraft:bypasses_shield",
+									"disabled_sound": "minecraft:item.shield.break",
+									"item_damage": {
+										"base": 1,
+										"factor": 1,
+										"threshold": 3
+									}
+								},
+								"minecraft:equippable": {
+									"slot": "offhand",
+									"swappable": false
+								},
+								"minecraft:max_stack_size": 1,
 								"minecraft:lore": [
 									{
 										"translate": "crazy_adventure.allow_you_to_not_take_radiation_damage_in_california_without_the",
