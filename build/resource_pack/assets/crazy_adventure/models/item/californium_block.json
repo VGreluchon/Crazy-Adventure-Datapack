@@ -1,6 +1,0 @@
-{
-	"parent": "block/cube_all",
-	"textures": {
-		"all": "crazy_adventure:item/californium_block"
-	}
-}

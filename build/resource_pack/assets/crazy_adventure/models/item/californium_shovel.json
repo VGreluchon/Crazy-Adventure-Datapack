@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:item/netherite_shovel",
-	"textures": {
-		"layer0": "crazy_adventure:item/californium_shovel"
-	}
-}

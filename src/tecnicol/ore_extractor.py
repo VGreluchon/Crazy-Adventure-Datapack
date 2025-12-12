@@ -5,7 +5,7 @@ from stewbeet import *
 
 
 # Setup ore_extractor_1 work and visuals
-def ore_ectractor(gui: dict[str, str]) -> None:
+def ore_extractor(gui: dict[str, str]) -> None:
 	ns: str = Mem.ctx.project_id
 	ORE_EXTRACTOR_SLOTS: int = 8
 	ORE_EXTRACTOR_TIME: int = 200

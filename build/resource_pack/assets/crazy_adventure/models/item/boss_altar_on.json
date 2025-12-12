@@ -1,8 +1,0 @@
-{
-	"parent": "block/cube_bottom_top",
-	"textures": {
-		"bottom": "crazy_adventure:item/boss_altar_bottom",
-		"side": "crazy_adventure:item/boss_altar_side_on",
-		"top": "crazy_adventure:item/boss_altar_top"
-	}
-}

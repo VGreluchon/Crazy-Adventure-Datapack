@@ -1,8 +1,0 @@
-{
-	"parent": "block/cube_bottom_top",
-	"textures": {
-		"bottom": "crazy_adventure:item/ore_extractor_2_bottom",
-		"side": "crazy_adventure:item/ore_extractor_2_side",
-		"top": "crazy_adventure:item/ore_extractor_2_top"
-	}
-}
