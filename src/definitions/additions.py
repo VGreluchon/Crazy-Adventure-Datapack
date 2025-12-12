@@ -21,7 +21,7 @@ def main_additions() -> None:
 
 		# Miscellaneous items
 		"geiger_counter": {
-			"id": CUSTOM_ITEM_VANILLA, CATEGORY: MISC,
+			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: MISC,
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 			"lore": [{"text":"Allows you to know your radiation amount","italic":False,"color":"gray"},{"text":"[Hold in offhand]","italic":False,"color":"white"}],
 			RESULT_OF_CRAFTING:[{"type":"crafting_shaped","result_count":1,"category":"equipment","shape":["UU","CC","CC"],"ingredients":{"U":ingr_repr("uranium_ingot"),"C":ingr_repr("minecraft:copper_ingot")}}],
@@ -134,7 +134,7 @@ def main_additions() -> None:
 
 		# Machines (Generator)
 		"nuclear_reactor": {
-			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"generation":150, "max_storage": 30000}},
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "generator", "custom_data": {"energy": {"generation":150, "max_storage": 30000}},
 			RESULT_OF_CRAFTING:[
 				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["CUC","UFU","CUC"],"ingredients":{"U":ingr_repr("uranium_ingot"),"F":ingr_repr("minecraft:furnace"),"C":ingr_repr("minecraft:copper_block")}},
 			],
@@ -144,7 +144,7 @@ def main_additions() -> None:
 			],
 		},
 		"better_nuclear_reactor": {
-			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"generation":150, "max_storage": 105000}},
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "generator", "custom_data": {"energy": {"generation":150, "max_storage": 105000}},
 			RESULT_OF_CRAFTING:[
 				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["CUC","UFU","CUC"],"ingredients":{"U":ingr_repr("uranium_core"),"F":ingr_repr("nuclear_reactor"),"C":ingr_repr("minecraft:exposed_copper")}},
 			],
@@ -154,7 +154,7 @@ def main_additions() -> None:
 			],
 		},
 		"amazing_nuclear_reactor": {
-			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"generation":150, "max_storage": 105000}},
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "generator", "custom_data": {"energy": {"generation":150, "max_storage": 105000}},
 			RESULT_OF_CRAFTING:[
 				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["CUC","UFU","CUC"],"ingredients":{"U":ingr_repr("californium_ingot"),"F":ingr_repr("better_nuclear_reactor"),"C":ingr_repr("minecraft:weathered_copper")}},
 			],
@@ -164,7 +164,7 @@ def main_additions() -> None:
 			],
 		},
 		"incredible_nuclear_reactor": {
-			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "energy", "custom_data": {"energy": {"generation":150, "max_storage": 105000}},
+			"id": CUSTOM_BLOCK_VANILLA, CATEGORY: "generator", "custom_data": {"energy": {"generation":150, "max_storage": 105000}},
 			RESULT_OF_CRAFTING:[
 				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["CUC","UFU","CUC"],"ingredients":{"U":ingr_repr("californium_core"),"F":ingr_repr("amazing_nuclear_reactor"),"C":ingr_repr("minecraft:oxidized_copper")}},
 			],
