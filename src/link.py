@@ -32,6 +32,15 @@ def beet_default(ctx: Context):
                 vein_size_logic = 0.4,
             )
         ],
+        "deepslate_uranium_ore": [
+            CustomOreGeneration(
+                dimensions = ["minecraft:overworld","stardust:cavern","some_other:dimension"],
+                maximum_height = 0,
+                minimum_height = -50,
+                veins_per_region = 1.3,
+                vein_size_logic = 0.4,
+            )
+        ],
     })
 
 

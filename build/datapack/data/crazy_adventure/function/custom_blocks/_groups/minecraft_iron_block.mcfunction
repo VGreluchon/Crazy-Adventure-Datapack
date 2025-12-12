@@ -7,4 +7,5 @@
 #
 
 execute if score #total_californium_block crazy_adventure.data matches 1.. if entity @s[tag=crazy_adventure.californium_block] run function crazy_adventure:custom_blocks/californium_block/destroy
+execute if score #total_californium_battery crazy_adventure.data matches 1.. if entity @s[tag=crazy_adventure.californium_battery] run function crazy_adventure:custom_blocks/californium_battery/destroy
 

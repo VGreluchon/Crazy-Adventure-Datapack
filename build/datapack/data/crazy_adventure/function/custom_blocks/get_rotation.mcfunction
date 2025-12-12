@@ -9,6 +9,7 @@
 #			crazy_adventure:custom_blocks/ore_extractor_2/place_main
 #			crazy_adventure:custom_blocks/ore_extractor_3/place_main
 #			crazy_adventure:custom_blocks/ore_extractor_4/place_main
+#			crazy_adventure:custom_blocks/uranium_upgrader/place_main
 #
 
 # Set up score

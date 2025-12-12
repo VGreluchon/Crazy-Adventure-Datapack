@@ -31,14 +31,23 @@
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/manual"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/geiger_counter"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_core"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_waste"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_waste_barrel"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_shard"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_book"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_core"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_waste"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_waste_barrel"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/nuclear_reactor"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/better_nuclear_reactor"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/amazing_nuclear_reactor"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/incredible_nuclear_reactor"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_battery"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_battery"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/ore_extractor_1"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/ore_extractor_2"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/ore_extractor_3"}]},
-		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/ore_extractor_4"}]}
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/ore_extractor_4"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_upgrader"}]}
 	]
 }

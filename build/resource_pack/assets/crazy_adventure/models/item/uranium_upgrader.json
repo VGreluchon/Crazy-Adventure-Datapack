@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"bottom": "crazy_adventure:item/uranium_upgrader_bottom",
+		"side": "crazy_adventure:item/uranium_upgrader_side",
+		"top": "crazy_adventure:item/uranium_upgrader_top"
+	}
+}

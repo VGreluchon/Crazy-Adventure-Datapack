@@ -11,10 +11,5 @@
 			0
 		]
 	},
-	"id": "crazy_adventure",
-	"overlays": {
-		"entries": [
-			{"directory": "before_format_73","min_format": [69,0],"max_format": [69,0]}
-		]
-	}
+	"id": "crazy_adventure"
 }

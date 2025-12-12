@@ -14,7 +14,7 @@ ORES_CONFIGS: dict[str, core.EquipmentsConfig|None] = {
         pickaxe_durability = 1.5 * core.VanillaEquipments.PICKAXE.value[core.DefaultOre.DIAMOND]["durability"],
 
         # And, does 1 more damage per hit (mainhand), and has 0.5 more armor, and mines 15% faster (pickaxe)
-        attributes = {"attack_damage": 1, "armor": 0.5, "mining_efficiency": 2}
+        attributes = {"attack_damage": 1, "armor": 0.5, "mining_efficiency": 3}
     ),
 
     "californium_ingot":	core.EquipmentsConfig(
@@ -25,7 +25,7 @@ ORES_CONFIGS: dict[str, core.EquipmentsConfig|None] = {
         pickaxe_durability = 2 * core.VanillaEquipments.PICKAXE.value[core.DefaultOre.NETHERITE]["durability"],
 
         # Stronger tools/armor and improved mining speed
-        attributes = {"attack_damage": 2, "armor": 3.0, "mining_efficiency": 2}
+        attributes = {"attack_damage": 2, "armor": 3.0, "mining_efficiency": 3}
     ),
 
     # Simple material stone, this will automatically detect stone stick and rod textures.
