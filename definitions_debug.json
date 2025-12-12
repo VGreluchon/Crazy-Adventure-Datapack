@@ -62,7 +62,7 @@
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 544,
 		"attribute_modifiers": [{"type": "armor","amount": 3.5,"operation": "add_value","slot": "head","id": "crazy_adventure:armor.head"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "head","id": "crazy_adventure:armor_toughness.head"}],
-		"wiki_components": [{"text": "Very cool helmet.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 150Bq to your Radiation Limit].","color": "gray"}],
+		"wiki_components": [{"text": "Very cool helmet.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 150Bq to your Radiation Limit].","color": "white"}],
 		"item_model": "crazy_adventure:uranium_helmet",
 		"item_name": {"text": "Uranium Helmet"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
@@ -74,7 +74,7 @@
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 791,
 		"attribute_modifiers": [{"type": "armor","amount": 8.5,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor.chest"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor_toughness.chest"}],
-		"wiki_components": [{"text": "Very cool chestplate.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 240Bq to your Radiation Limit].","color": "gray"}],
+		"wiki_components": [{"text": "Very cool chestplate.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 240Bq to your Radiation Limit].","color": "white"}],
 		"item_model": "crazy_adventure:uranium_chestplate",
 		"item_name": {"text": "Uranium Chestplate"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
@@ -86,7 +86,7 @@
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 742,
 		"attribute_modifiers": [{"type": "armor","amount": 6.5,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor.legs"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor_toughness.legs"}],
-		"wiki_components": [{"text": "Very cool leggings.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 210Bq to your Radiation Limit].","color": "gray"}],
+		"wiki_components": [{"text": "Very cool leggings.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 210Bq to your Radiation Limit].","color": "white"}],
 		"item_model": "crazy_adventure:uranium_leggings",
 		"item_name": {"text": "Uranium Leggings"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
@@ -98,7 +98,7 @@
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 643,
 		"attribute_modifiers": [{"type": "armor","amount": 3.5,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor.feet"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor_toughness.feet"}],
-		"wiki_components": [{"text": "Very cool boots.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 120Bq to your Radiation Limit].","color": "gray"}],
+		"wiki_components": [{"text": "Very cool boots.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 120Bq to your Radiation Limit].","color": "white"}],
 		"item_model": "crazy_adventure:uranium_boots",
 		"item_name": {"text": "Uranium Boots"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
@@ -211,7 +211,7 @@
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 814,
 		"attribute_modifiers": [{"type": "armor","amount": 6.0,"operation": "add_value","slot": "head","id": "crazy_adventure:armor.head"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "head","id": "crazy_adventure:armor_toughness.head"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "head","id": "crazy_adventure:knockback_resistance.head"}],
-		"wiki_components": [{"text": "Extremely cool helmet.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 375Bq to your Radiation Limit].","color": "gray"}],
+		"wiki_components": [{"text": "Extremely cool helmet.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 375Bq to your Radiation Limit].","color": "white"}],
 		"item_model": "crazy_adventure:californium_helmet",
 		"item_name": {"text": "Californium Helmet"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
@@ -223,7 +223,7 @@
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 1184,
 		"attribute_modifiers": [{"type": "armor","amount": 11.0,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor.chest"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor_toughness.chest"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "chest","id": "crazy_adventure:knockback_resistance.chest"}],
-		"wiki_components": [{"text": "Extremely cool chestplate.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 600Bq to your Radiation Limit].","color": "gray"}],
+		"wiki_components": [{"text": "Extremely cool chestplate.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 600Bq to your Radiation Limit].","color": "white"}],
 		"item_model": "crazy_adventure:californium_chestplate",
 		"item_name": {"text": "Californium Chestplate"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
@@ -235,7 +235,7 @@
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 1110,
 		"attribute_modifiers": [{"type": "armor","amount": 9.0,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor.legs"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor_toughness.legs"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "legs","id": "crazy_adventure:knockback_resistance.legs"}],
-		"wiki_components": [{"text": "Extremely cool leggings.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 525Bq to your Radiation Limit].","color": "gray"}],
+		"wiki_components": [{"text": "Extremely cool leggings.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 525Bq to your Radiation Limit].","color": "white"}],
 		"item_model": "crazy_adventure:californium_leggings",
 		"item_name": {"text": "Californium Leggings"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
@@ -247,7 +247,7 @@
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 962,
 		"attribute_modifiers": [{"type": "armor","amount": 6.0,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor.feet"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor_toughness.feet"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "feet","id": "crazy_adventure:knockback_resistance.feet"}],
-		"wiki_components": [{"text": "Extremely cool boots.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 300Bq to your Radiation Limit].","color": "gray"}],
+		"wiki_components": [{"text": "Extremely cool boots.","color": "green"},{"text": "\nUse radioactive items and food to generate radioactivity.","color": "gray"},{"text": "\n[Add 300Bq to your Radiation Limit].","color": "white"}],
 		"item_model": "crazy_adventure:californium_boots",
 		"item_name": {"text": "Californium Boots"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
@@ -307,11 +307,22 @@
 		"item_name": {"text": "Californium Hoe"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
 	},
+	"cave_helmet": {
+		"id": "minecraft:iron_helmet",
+		"category": "equipment",
+		"custom_data": {"smithed": {"dict": {"armor": {"cave": true,"helmet": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": -50,"cave_helmet": true}},
+		"max_damage": 0,
+		"attribute_modifiers": [{"type": "armor","amount": 1.0,"operation": "add_value","slot": "head","id": "crazy_adventure:armor.head"}],
+		"wiki_components": [{"text": "Nerf Miner.","color": "green"},{"text": "\nKill miner in Dripstone biome to obtain","color": "gray"},{"text": "\nGives you Night Vision.","color": "gray"}],
+		"item_model": "crazy_adventure:cave_helmet",
+		"item_name": {"text": "Cave Helmet"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]]
+	},
 	"manual": {
 		"id": "minecraft:written_book",
 		"item_name": "Crazy Adventure Manual",
 		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 1,"group": "manual","category": "misc","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"manual": true}}}}]},{"type": "crafting_shapeless","result_count": 1,"category": "misc","ingredients": [{"item": "minecraft:book"},{"item": "minecraft:tnt"}]}],
-		"wiki_components": [{"text": "What a wonderful manual","color": "green"},{"text": "\nObtainable by dropping a TNT on a heavy workbench","color": "gray"}],
+		"wiki_components": [{"text": "What a wonderful manual","color": "green"},{"text": "\nVery useful","color": "gray"}],
 		"category": "miscellaneous",
 		"item_model": "crazy_adventure:manual",
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
@@ -374,7 +385,7 @@
 		"id": "minecraft:command_block",
 		"category": "miscellaneous",
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 1,"category": "equipment","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_shard": true}}}},{"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_book": true}}}}]}],
+		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 1,"category": "equipment","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_shard": true}}}},{"components": {"minecraft:custom_data": {"crazy_adventure": {"manual": true}}}}]}],
 		"wiki_components": [{"text": "Magic Book for Radioactive Uses","color": "green"},{"text": "\nUse it in Uranium Upgrader to upgrade Uranium stuff","color": "gray"}],
 		"item_model": "crazy_adventure:uranium_book",
 		"item_name": {"text": "Uranium Book"},
@@ -648,7 +659,7 @@
 		"category": "equipment",
 		"custom_data": {"crazy_adventure": {"radiation": 50,"anti_radiation_boots": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["   ","Y Y","YMY"],"ingredients": {"M": {"components": {"minecraft:custom_data": {"crazy_adventure": {"manual": true}}}},"Y": {"item": "minecraft:yellow_wool"}}}],
+		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["   ","Y Y","Y Y"],"ingredients": {"Y": {"item": "minecraft:yellow_wool"}}}],
 		"wiki_components": [{"text": "Anti Radiation Armor.","color": "green"},{"text": "\nAllow to not takes damage in California (Need full armor)","color": "gray"}],
 		"item_model": "crazy_adventure:anti_radiation_boots",
 		"item_name": {"text": "Anti Radiation Boots"},
@@ -667,6 +678,17 @@
 		"wiki_components": [{"text": "Anti Radiation Glove.","color": "green"},{"text": "\nAllow you to not take radiation damage in California (without the anti radiation armor)","color": "gray"},{"text": "\n[Need to be in Offhand to use]","color": "white"},{"text": "\n[It's a shield, you can block damage with]","color": "white"},{"text": "\n[Lose durability over time]","color": "white"}],
 		"item_model": "crazy_adventure:anti_radiation_glove",
 		"item_name": {"text": "Anti Radiation Glove"}
+	},
+	"banana_sapling": {
+		"id": "minecraft:item_frame",
+		"category": "radiactivity",
+		"result_of_crafting": [{"type": "crafting_shapeless","result_count": 2,"category": "equipment","ingredients": [{"components": {"minecraft:custom_data": {"crazy_adventure": {"banana": true}}}},{"item": "minecraft:bone_meal"},{"components": {"minecraft:custom_data": {"crazy_adventure": {"banana": true}}}},{"item": "minecraft:bone_meal"}]}],
+		"lore": [{"text": "Gives 40Bq to your Body","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"wiki_components": [{"text": "Banana Tree","color": "green"},{"text": "\nTo find bananas","color": "gray"}],
+		"vanilla_block": {"id": "minecraft:jungle_sapling","apply_facing": false},
+		"item_model": "crazy_adventure:banana_sapling",
+		"item_name": {"text": "Banana Sapling"},
+		"custom_data": {"crazy_adventure": {"banana_sapling": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
 	},
 	"banana": {
 		"id": "minecraft:apple",
@@ -752,5 +774,21 @@
 		"item_name": {"text": "Banana Plant"},
 		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
 		"custom_data": {"crazy_adventure": {"banana_plant": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"miner": {
+		"id": "minecraft:command_block",
+		"category": "miscellaneous",
+		"item_model": "crazy_adventure:miner",
+		"item_name": {"text": "Miner"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"custom_data": {"crazy_adventure": {"miner": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
+	},
+	"battle_boss": {
+		"id": "minecraft:command_block",
+		"category": "miscellaneous",
+		"item_model": "crazy_adventure:battle_boss",
+		"item_name": {"text": "Battle Boss"},
+		"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"text": " Crazy ","color": "green"},{"text": "Adventure","color": "gray"}]],
+		"custom_data": {"crazy_adventure": {"battle_boss": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}
 	}
 }

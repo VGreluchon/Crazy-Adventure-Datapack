@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/iron_helmet",
+	"textures": {
+		"layer0": "crazy_adventure:item/cave_helmet"
+	}
+}

@@ -27,6 +27,13 @@ ORES_CONFIGS: dict[str, core.EquipmentsConfig|None] = {
         # Stronger tools/armor and improved mining speed
         attributes = {"attack_damage": 2, "armor": 3.0, "mining_efficiency": 3}
     ),
+    "cave!":	core.EquipmentsConfig(
+        # High-tier material (generate tools/armor like diamond tier)
+        equivalent_to = core.DefaultOre.IRON,
+        # Stronger tools/armor and improved mining speed
+        attributes = {"armor": -1.0},
+        ignore_recipes=True
+    ),
 
     # Simple material stone, this will automatically detect stone stick and rod textures.
     "minecraft:stone": None,
@@ -93,6 +100,8 @@ def beet_default(ctx: Context):
 
     from .additions import main_additions
     main_additions()
+    from .mobs import main_mobs
+    main_mobs()
 
     # Add item categories to the remaining items (should select 'shazinho' and 'super_stone')
     for item in Mem.definitions.values():

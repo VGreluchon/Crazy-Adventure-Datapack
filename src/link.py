@@ -1,16 +1,41 @@
-
+from stewbeet.contrib.simplenergy import (
+    GuiTranslation,
+    energy_cables_models,
+    insert_lib_calls,
+    item_cables_models,
+    keep_energy_for_batteries,
+    servo_mechanisms_models,
+    setup_energy_balancing,
+    setup_gui_in_resource_packs,
+    setup_wrench,
+)
 # Imports
 from beet import Context
 from beet.core.utils import JsonDict
 from stewbeet.core import Mem, CustomOreGeneration
 from stewbeet.core.utils.io import *
-
+from .tecnicol.ore_extractor import ore_extractor
 
 # Main entry point (ran just before making finalyzing the build process (zip, headers, lang, ...))
 def beet_default(ctx: Context):
+    # Add commands to place and destroy functions for energy items
+    insert_lib_calls()
     ns: str = ctx.project_id
     definitions: JsonDict = Mem.definitions  # noqa: F841
-
+    # Setup GUI in resource packs
+    gui: dict[str, str] = setup_gui_in_resource_packs(
+        {
+            "electric_brewing_stand": GuiTranslation.brewing_stand,
+            "electric_furnace": GuiTranslation.furnace_bottom,
+            "electric_smelter": GuiTranslation.furnace_bottom,
+            "furnace_generator": GuiTranslation.furnace_top,
+            "redstone_generator": GuiTranslation.furnace_bottom,
+            "pulverizer": GuiTranslation.barrel_bottom_right,
+        } # pyright: ignore[reportArgumentType]
+    )
+    # Setup machines
+    ore_extractor(gui)
+    
     # Generate ores in the world
     CustomOreGeneration.all_with_config(ore_configs = {
         "californium_ore": [

@@ -29,6 +29,7 @@
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_axe"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_shovel"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/californium_hoe"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/cave_helmet"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/manual"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/geiger_counter"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_core"}]},
@@ -62,6 +63,7 @@
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/anti_radiation_leggings"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/anti_radiation_boots"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/anti_radiation_glove"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/banana_sapling"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/banana"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_banana"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/uranium_apple"}]},
@@ -70,6 +72,8 @@
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/storm_stick"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/shield_stick"}]},
 		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/fertilizer_stick"}]},
-		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/banana_plant"}]}
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/banana_plant"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/miner"}]},
+		{"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "crazy_adventure:i/battle_boss"}]}
 	]
 }

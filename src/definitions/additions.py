@@ -35,7 +35,7 @@ def main_additions() -> None:
 			RESULT_OF_CRAFTING:[{"type":"crafting_shapeless","result_count":1,"category":"misc","ingredients":[ingr_repr("minecraft:book"),ingr_repr("minecraft:tnt")]}],
 			WIKI_COMPONENT: [
 				{"text":"What a wonderful manual","color":"green"},
-				{"text":"\nObtainable by dropping a TNT on a heavy workbench","color":"gray"},
+				{"text":"\nVery useful","color":"gray"},
 			],
 		},
 
@@ -79,7 +79,7 @@ def main_additions() -> None:
 		"uranium_book": {
 			"id": CUSTOM_ITEM_VANILLA, CATEGORY: MISC,
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
-			RESULT_OF_CRAFTING:[{"type":"crafting_shapeless","result_count":1,"category":"equipment","ingredients":[ingr_repr("uranium_shard"),ingr_repr("uranium_book")]}],
+			RESULT_OF_CRAFTING:[{"type":"crafting_shapeless","result_count":1,"category":"equipment","ingredients":[ingr_repr("uranium_shard"),ingr_repr("manual")]}],
 			OVERRIDE_MODEL: {"parent":"item/handheld"},
 			WIKI_COMPONENT: [
 				{"text":"Magic Book for Radioactive Uses","color":"green"},
@@ -320,12 +320,20 @@ def main_additions() -> None:
 		},
 
 		# Equipement
+		"cave_helmet":{
+			"custom_data": {ns: {"radiation": -50}},
+			WIKI_COMPONENT: [
+				{"text":"Nerf Miner.","color":"green"},
+				{"text":"\nKill miner in Dripstone biome to obtain","color":"gray"},
+				{"text":"\nGives you Night Vision.","color":"gray"},
+			]
+		},
 		"uranium_helmet":{
 			"custom_data": {ns: {"radiation": 150}},
 			WIKI_COMPONENT: [
 				{"text":"Very cool helmet.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 150Bq to your Radiation Limit].","color":"gray"},
+				{"text":"\n[Add 150Bq to your Radiation Limit].","color":"white"},
 			]
 		},
 		"uranium_chestplate":{
@@ -333,7 +341,7 @@ def main_additions() -> None:
 			WIKI_COMPONENT: [
 				{"text":"Very cool chestplate.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 240Bq to your Radiation Limit].","color":"gray"},
+				{"text":"\n[Add 240Bq to your Radiation Limit].","color":"white"},
 			]
 		},
 		"uranium_leggings":{
@@ -341,7 +349,7 @@ def main_additions() -> None:
 			WIKI_COMPONENT: [
 				{"text":"Very cool leggings.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 210Bq to your Radiation Limit].","color":"gray"},
+				{"text":"\n[Add 210Bq to your Radiation Limit].","color":"white"},
 			]
 		},
 		"uranium_boots":{
@@ -349,7 +357,7 @@ def main_additions() -> None:
 			WIKI_COMPONENT: [
 				{"text":"Very cool boots.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 120Bq to your Radiation Limit].","color":"gray"},
+				{"text":"\n[Add 120Bq to your Radiation Limit].","color":"white"},
 			]
 		},
 		"californium_helmet":{
@@ -357,7 +365,7 @@ def main_additions() -> None:
 			WIKI_COMPONENT: [
 				{"text":"Extremely cool helmet.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 375Bq to your Radiation Limit].","color":"gray"},
+				{"text":"\n[Add 375Bq to your Radiation Limit].","color":"white"},
 			]
 		},
 		"californium_chestplate":{
@@ -365,7 +373,7 @@ def main_additions() -> None:
 			WIKI_COMPONENT: [
 				{"text":"Extremely cool chestplate.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 600Bq to your Radiation Limit].","color":"gray"},
+				{"text":"\n[Add 600Bq to your Radiation Limit].","color":"white"},
 			]
 		},
 		"californium_leggings":{
@@ -373,7 +381,7 @@ def main_additions() -> None:
 			WIKI_COMPONENT: [
 				{"text":"Extremely cool leggings.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 525Bq to your Radiation Limit].","color":"gray"},
+				{"text":"\n[Add 525Bq to your Radiation Limit].","color":"white"},
 			]
 		},
 		"californium_boots":{
@@ -381,7 +389,7 @@ def main_additions() -> None:
 			WIKI_COMPONENT: [
 				{"text":"Extremely cool boots.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 300Bq to your Radiation Limit].","color":"gray"},
+				{"text":"\n[Add 300Bq to your Radiation Limit].","color":"white"},
 			],
 		},
 
@@ -430,7 +438,7 @@ def main_additions() -> None:
 			"custom_data": {ns: {"radiation": 50}},
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
 			RESULT_OF_CRAFTING:[
-				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["   ","Y Y","YMY"],"ingredients":{"M":ingr_repr("manual"),"Y":ingr_repr("minecraft:yellow_wool")}},
+				{"type":"crafting_shaped","result_count":1,"category":"misc","shape":["   ","Y Y","Y Y"],"ingredients":{"Y":ingr_repr("minecraft:yellow_wool")}},
 			],
 			OVERRIDE_MODEL: {"parent":"item/handheld"},
 			WIKI_COMPONENT: [
@@ -473,6 +481,15 @@ def main_additions() -> None:
 		},
 
 		#Radioactivity Items
+		"banana_sapling": {
+   			"id": CUSTOM_BLOCK_ALTERNATIVE, CATEGORY: "radiactivity",
+			RESULT_OF_CRAFTING:[{"type":"crafting_shapeless","result_count":2,"category":"equipment","ingredients":2*[ingr_repr("banana"),ingr_repr("minecraft:bone_meal")]}],
+			"lore": [{"text":"Gives 40Bq to your Body","italic":False,"color":"gray"}],
+  			WIKI_COMPONENT: [
+        		{"text":"Banana Tree","color":"green"},
+        		{"text":"\nTo find bananas","color":"gray"},
+    		],
+		},
 		"banana": {
    			"id": "minecraft:apple", CATEGORY: "radiactivity",
   			OVERRIDE_MODEL: {"parent":"item/handheld"},
@@ -589,6 +606,7 @@ def main_additions() -> None:
 	additions["shield_stick_charger"][VANILLA_BLOCK] = {"id": "minecraft:furnace", "apply_facing": True}
 	additions["fertilizer_stick_charger"][VANILLA_BLOCK] = {"id": "minecraft:furnace", "apply_facing": True}
 	additions["banana_plant"][VANILLA_BLOCK] = {"id": "minecraft:end_rod", "apply_facing": False}
+	additions["banana_sapling"][VANILLA_BLOCK] = {"id": "minecraft:jungle_sapling", "apply_facing": False}
 
 	# Update the definitions with new data
 	Mem.definitions = super_merge_dict(Mem.definitions, additions)

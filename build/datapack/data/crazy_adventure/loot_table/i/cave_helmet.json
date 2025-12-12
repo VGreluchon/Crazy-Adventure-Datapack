@@ -1,0 +1,52 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"smithed": {
+										"dict": {"armor": {"cave": true,"helmet": true}},
+										"ignore": {"functionality": true,"crafting": true}
+									},
+									"crazy_adventure": {
+										"radiation": -50,
+										"cave_helmet": true
+									}
+								},
+								"minecraft:max_damage": 0,
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "armor",
+										"amount": 1.0,
+										"operation": "add_value",
+										"slot": "head",
+										"id": "crazy_adventure:armor.head"
+									}
+								],
+								"minecraft:item_model": "crazy_adventure:cave_helmet",
+								"minecraft:item_name": {
+									"translate": "crazy_adventure.cave_helmet"
+								},
+								"minecraft:lore": [
+									[
+										"",
+										{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},
+										{"translate": "crazy_adventure.crazy","color": "green"},
+										{"translate": "crazy_adventure.adventure","color": "gray"}
+									]
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

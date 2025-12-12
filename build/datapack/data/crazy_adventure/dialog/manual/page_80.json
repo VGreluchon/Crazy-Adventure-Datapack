@@ -3,7 +3,7 @@
 	"title": [
 		"",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/fertilizer_stick",
+			"sprite": "crazy_adventure:item/dialog_sprite/chargeless_stick",
 			"shadow_color": [
 				0,
 				0,
@@ -14,12 +14,12 @@
 		},
 		" ",
 		{
-			"translate": "crazy_adventure.fertilizer_stick",
+			"translate": "crazy_adventure.chargeless_stick",
 			"underlined": true
 		},
 		" ",
 		{
-			"sprite": "crazy_adventure:item/dialog_sprite/fertilizer_stick",
+			"sprite": "crazy_adventure:item/dialog_sprite/chargeless_stick",
 			"shadow_color": [
 				0,
 				0,
@@ -36,10 +36,10 @@
 				{"text": "V   ","font": "crazy_adventure:manual","color": "white"},
 				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_79"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (79)"]}},
 				" ",
-				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_80"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (80)"]}},
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_81"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (81)"]}},
 				{"text": "\n   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_79"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_previous_page"}," (79)"]}},
 				" ",
-				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_80"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (80)"]}}
+				{"text": "   ","click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_81"},"hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.go_to_next_page"}," (81)"]}}
 			],
 			"width": 400
 		},
@@ -47,10 +47,34 @@
 			"type": "minecraft:plain_message",
 			"contents": [
 				{"text": "","font": "crazy_adventure:manual","color": "white","shadow_color": [0,0,0,0]},
-				"ၯ\n",
-				{"text": "  \n  \n  \n  \n\n","hover_event": {"action": "show_item","id": "warped_fungus_on_a_stick","components": {"lore": [{"translate": "crazy_adventure.grow_your_seeds","italic": false,"color": "gray"},{"translate": "crazy_adventure.cost_30bq_to_launch","italic": false,"color": "white"},{"translate": "crazy_adventure.1s_cooldown","italic": false,"color": "white"},{"translate": "crazy_adventure.30_charges","italic": false,"color": "white"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:fertilizer_stick","item_name": {"translate": "crazy_adventure.fertilizer_stick"},"custom_data": {"crazy_adventure": {"fertilizer_stick": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_80"}},
-				{"text": "1\n0","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.give_me_your_seed","color": "green"},{"translate": "crazy_adventure.put_a_chargeless_stick_in_the_fertilizer_stick_charger","color": "gray"}]}},
-				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+				"\"$6\n\"U$",
+				{"text": "$聭","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"item_model": "crazy_adventure:uranium_waste","item_name": {"translate": "crazy_adventure.uranium_waste"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"uranium_waste": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_48"}},
+				{"text": "$聫","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"item_model": "crazy_adventure:uranium_core","item_name": {"translate": "crazy_adventure.uranium_core"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"uranium_core": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_47"}},
+				"  \n\"U$",
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"item_model": "crazy_adventure:uranium_waste","item_name": {"translate": "crazy_adventure.uranium_waste"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"uranium_waste": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_48"}},
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"item_model": "crazy_adventure:uranium_core","item_name": {"translate": "crazy_adventure.uranium_core"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"uranium_core": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_47"}},
+				"  \n\"U$",
+				{"text": "$苓","hover_event": {"action": "show_item","id": "minecraft:blaze_rod","components": {}}},
+				{"text": "$聭","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"item_model": "crazy_adventure:uranium_waste","item_name": {"translate": "crazy_adventure.uranium_waste"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"uranium_waste": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_48"}},
+				"\"\"",
+				{"text": "$$肭","hover_event": {"action": "show_item","id": "command_block","components": {"lore": [{"translate": "crazy_adventure.no_effect_need_a_stick_charger","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:chargeless_stick","item_name": {"translate": "crazy_adventure.chargeless_stick"},"custom_data": {"crazy_adventure": {"chargeless_stick": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
+				"#$\n\"U$",
+				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:blaze_rod","components": {}}},
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},"item_model": "crazy_adventure:uranium_waste","item_name": {"translate": "crazy_adventure.uranium_waste"},"lore": [["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"custom_data": {"crazy_adventure": {"uranium_waste": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}},"click_event": {"action": "show_dialog","dialog": "crazy_adventure:manual/page_48"}},
+				"\"\"",
+				{"text": "U$","hover_event": {"action": "show_item","id": "command_block","components": {"lore": [{"translate": "crazy_adventure.no_effect_need_a_stick_charger","italic": false,"color": "gray"},["",{"text": "I","color": "white","italic": false,"font": "crazy_adventure:icons"},{"translate": "crazy_adventure.crazy","color": "green"},{"translate": "crazy_adventure.adventure","color": "gray"}]],"item_model": "crazy_adventure:chargeless_stick","item_name": {"translate": "crazy_adventure.chargeless_stick"},"custom_data": {"crazy_adventure": {"chargeless_stick": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}}}}},
+				"#$\n\"",
+				{"text": "$苓","hover_event": {"action": "show_item","id": "minecraft:blaze_rod","components": {}}},
+				"U$U$  \n\"",
+				{"text": "U$","hover_event": {"action": "show_item","id": "minecraft:blaze_rod","components": {}}},
+				"U$U$  \n\n",
+				{"text": "1##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.stick_with_no_charges","color": "green"},{"translate": "crazy_adventure.put_it_in_a_stick_charger","color": "gray"}]}},
+				{"text": "2##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$",{"text": "$聭"},{"text": "$聫"},"\n","\"","U$",{"text": "U$"},{"text": "U$"},"\n","\"","U$",{"text": "$苓"},{"text": "$聭"},"\"\"",{"text": "$$肭"},"\n","\"","U$",{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$苓"},"U$","U$","\n","\"",{"text": "U$"},"U$","U$","\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.uranium_core","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.uranium_waste","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.blaze_rod","color": "gray"}]}},
+				{"text": "2\n","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$",{"text": "$聭"},{"text": "$聫"},"\n","\"","U$",{"text": "U$"},{"text": "U$"},"\n","\"","U$",{"text": "$葎"},{"text": "$聭"},"\"\"",{"text": "$$肭"},"\n","\"","U$",{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$葎"},"U$","U$","\n","\"",{"text": "U$"},"U$","U$","\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.uranium_core","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.uranium_waste","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.breeze_rod","color": "gray"}]}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"translate": "crazy_adventure.stick_with_no_charges","color": "green"},{"translate": "crazy_adventure.put_it_in_a_stick_charger","color": "gray"}]}},
+				{"text": "0##","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$",{"text": "$聭"},{"text": "$聫"},"\n","\"","U$",{"text": "U$"},{"text": "U$"},"\n","\"","U$",{"text": "$苓"},{"text": "$聭"},"\"\"",{"text": "$$肭"},"\n","\"","U$",{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$苓"},"U$","U$","\n","\"",{"text": "U$"},"U$","U$","\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.uranium_core","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.uranium_waste","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.blaze_rod","color": "gray"}]}},
+				{"text": "0","hover_event": {"action": "show_text","value": [{"text": ""},[{"text": "","font": "crazy_adventure:manual","color": "white"},"\"F\n","\"","U$",{"text": "$聭"},{"text": "$聫"},"\n","\"","U$",{"text": "U$"},{"text": "U$"},"\n","\"","U$",{"text": "$葎"},{"text": "$聭"},"\"\"",{"text": "$$肭"},"\n","\"","U$",{"text": "U$"},{"text": "U$"},"\"\"",{"text": "U$"},"\n","\"",{"text": "$葎"},"U$","U$","\n","\"",{"text": "U$"},"U$","U$","\n"],{"text": "\n- x1 ","color": "gray"},{"translate": "crazy_adventure.uranium_core","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.uranium_waste","color": "gray"},{"text": "\n- x2 ","color": "gray"},{"translate": "crazy_adventure.breeze_rod","color": "gray"}]}},
+				"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 			],
 			"width": 140
 		}

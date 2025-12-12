@@ -63,6 +63,7 @@ execute if score #success crazy_adventure.data matches 1 run recipe give @s craz
 # minecraft:yellow_wool
 scoreboard players set #success crazy_adventure.data 0
 execute store success score #success crazy_adventure.data if items entity @s container.* minecraft:yellow_wool
+execute if score #success crazy_adventure.data matches 1 run recipe give @s crazy_adventure:anti_radiation_boots
 execute if score #success crazy_adventure.data matches 1 run recipe give @s crazy_adventure:anti_radiation_leggings
 
 ## Add result items
@@ -70,4 +71,5 @@ execute if items entity @s container.* *[custom_data~{"crazy_adventure": {"manua
 execute if items entity @s container.* *[custom_data~{"crazy_adventure": {"souls_bag":true} }] run recipe give @s crazy_adventure:souls_bag
 execute if items entity @s container.* *[custom_data~{"crazy_adventure": {"ore_extractor_1":true} }] run recipe give @s crazy_adventure:ore_extractor_1
 execute if items entity @s container.* *[custom_data~{"crazy_adventure": {"anti_radiation_leggings":true} }] run recipe give @s crazy_adventure:anti_radiation_leggings
+execute if items entity @s container.* *[custom_data~{"crazy_adventure": {"anti_radiation_boots":true} }] run recipe give @s crazy_adventure:anti_radiation_boots
 

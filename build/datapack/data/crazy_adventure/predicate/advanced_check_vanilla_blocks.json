@@ -8,6 +8,7 @@
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_furnace\"]}","location": {"block": {"blocks": "minecraft:furnace"}}}},
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_gold_block\"]}","location": {"block": {"blocks": "minecraft:gold_block"}}}},
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_iron_block\"]}","location": {"block": {"blocks": "minecraft:iron_block"}}}},
+		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_jungle_sapling\"]}","location": {"block": {"blocks": "minecraft:jungle_sapling"}}}},
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_obsidian\"]}","location": {"block": {"blocks": "minecraft:obsidian"}}}},
 		{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"crazy_adventure.vanilla.minecraft_polished_deepslate\"]}","location": {"block": {"blocks": "minecraft:polished_deepslate"}}}}
 	]
