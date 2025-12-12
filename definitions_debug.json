@@ -48,7 +48,7 @@
 	"uranium_helmet": {
 		"id": "minecraft:diamond_helmet",
 		"category": "equipment",
-		"custom_data": {"crazy_adventure": {"radiation": 150,"uranium_helmet": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"custom_data": {"smithed": {"dict": {"armor": {"uranium": true,"helmet": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": 150,"uranium_helmet": true}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 544,
 		"attribute_modifiers": [{"type": "armor","amount": 3.5,"operation": "add_value","slot": "head","id": "crazy_adventure:armor.head"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "head","id": "crazy_adventure:armor_toughness.head"}],
@@ -60,7 +60,7 @@
 	"uranium_chestplate": {
 		"id": "minecraft:diamond_chestplate",
 		"category": "equipment",
-		"custom_data": {"crazy_adventure": {"radiation": 240,"uranium_chestplate": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"custom_data": {"smithed": {"dict": {"armor": {"uranium": true,"chestplate": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": 240,"uranium_chestplate": true}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 791,
 		"attribute_modifiers": [{"type": "armor","amount": 8.5,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor.chest"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor_toughness.chest"}],
@@ -72,7 +72,7 @@
 	"uranium_leggings": {
 		"id": "minecraft:diamond_leggings",
 		"category": "equipment",
-		"custom_data": {"crazy_adventure": {"radiation": 210,"uranium_leggings": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"custom_data": {"smithed": {"dict": {"armor": {"uranium": true,"leggings": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": 210,"uranium_leggings": true}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 742,
 		"attribute_modifiers": [{"type": "armor","amount": 6.5,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor.legs"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor_toughness.legs"}],
@@ -84,7 +84,7 @@
 	"uranium_boots": {
 		"id": "minecraft:diamond_boots",
 		"category": "equipment",
-		"custom_data": {"crazy_adventure": {"radiation": 120,"uranium_boots": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"custom_data": {"smithed": {"dict": {"armor": {"uranium": true,"boots": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": 120,"uranium_boots": true}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 643,
 		"attribute_modifiers": [{"type": "armor","amount": 3.5,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor.feet"},{"type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor_toughness.feet"}],
@@ -197,7 +197,7 @@
 	"californium_helmet": {
 		"id": "minecraft:netherite_helmet",
 		"category": "equipment",
-		"custom_data": {"crazy_adventure": {"radiation": 375,"californium_helmet": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"custom_data": {"smithed": {"dict": {"armor": {"californium": true,"helmet": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": 375,"californium_helmet": true}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 814,
 		"attribute_modifiers": [{"type": "armor","amount": 6.0,"operation": "add_value","slot": "head","id": "crazy_adventure:armor.head"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "head","id": "crazy_adventure:armor_toughness.head"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "head","id": "crazy_adventure:knockback_resistance.head"}],
@@ -209,7 +209,7 @@
 	"californium_chestplate": {
 		"id": "minecraft:netherite_chestplate",
 		"category": "equipment",
-		"custom_data": {"crazy_adventure": {"radiation": 600,"californium_chestplate": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"custom_data": {"smithed": {"dict": {"armor": {"californium": true,"chestplate": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": 600,"californium_chestplate": true}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","XXX","XXX"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 1184,
 		"attribute_modifiers": [{"type": "armor","amount": 11.0,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor.chest"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "chest","id": "crazy_adventure:armor_toughness.chest"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "chest","id": "crazy_adventure:knockback_resistance.chest"}],
@@ -221,7 +221,7 @@
 	"californium_leggings": {
 		"id": "minecraft:netherite_leggings",
 		"category": "equipment",
-		"custom_data": {"crazy_adventure": {"radiation": 525,"californium_leggings": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"custom_data": {"smithed": {"dict": {"armor": {"californium": true,"leggings": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": 525,"californium_leggings": true}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["XXX","X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 1110,
 		"attribute_modifiers": [{"type": "armor","amount": 9.0,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor.legs"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "legs","id": "crazy_adventure:armor_toughness.legs"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "legs","id": "crazy_adventure:knockback_resistance.legs"}],
@@ -233,7 +233,7 @@
 	"californium_boots": {
 		"id": "minecraft:netherite_boots",
 		"category": "equipment",
-		"custom_data": {"crazy_adventure": {"radiation": 300,"californium_boots": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
+		"custom_data": {"smithed": {"dict": {"armor": {"californium": true,"boots": true}},"ignore": {"functionality": true,"crafting": true}},"crazy_adventure": {"radiation": 300,"californium_boots": true}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "equipment","shape": ["X X","X X"],"ingredients": {"X": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_ingot": true}}}}},"manual_priority": 0}],
 		"max_damage": 962,
 		"attribute_modifiers": [{"type": "armor","amount": 6.0,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor.feet"},{"type": "armor_toughness","amount": 3,"operation": "add_value","slot": "feet","id": "crazy_adventure:armor_toughness.feet"},{"type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "feet","id": "crazy_adventure:knockback_resistance.feet"}],
@@ -421,7 +421,7 @@
 		"category": "energy",
 		"custom_data": {"energy": {"usage": 300,"max_storage": 15000},"crazy_adventure": {"ore_extractor_4": true},"smithed": {"ignore": {"functionality": true,"crafting": true}}},
 		"result_of_crafting": [{"type": "crafting_shaped","result_count": 1,"category": "misc","shape": ["IGI","IWI","CCC"],"ingredients": {"I": {"components": {"minecraft:custom_data": {"crazy_adventure": {"uranium_block": true}}}},"G": {"components": {"minecraft:custom_data": {"crazy_adventure": {"californium_pickaxe": true}}}},"W": {"components": {"minecraft:custom_data": {"crazy_adventure": {"ore_extractor_3": true}}}},"C": {"item": "minecraft:oxidized_copper"}}}],
-		"wiki_components": [{"text": "Sorry for making eyes contact, butr your extractor impress me so much !!!","color": "green"},{"text": "\nGenerate ores from nowhere !","color": "gray"},{"text": "\nIs it science ? No, it's magic !","color": "gray"}],
+		"wiki_components": [{"text": "Sorry for making eyes contact, but your extractor impress me so much !!!","color": "green"},{"text": "\nGenerate ores from nowhere !","color": "gray"},{"text": "\nIs it science ? No, it's magic !","color": "gray"}],
 		"vanilla_block": {"id": "minecraft:barrel","apply_facing": true},
 		"item_model": "crazy_adventure:ore_extractor_4",
 		"item_name": {"text": "Ore Extractor 4"},

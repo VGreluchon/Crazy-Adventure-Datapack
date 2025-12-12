@@ -1,7 +1,7 @@
 
 # ruff: noqa: E501
 # Imports
-from stewbeet import *
+from stewbeet import * # type: ignore
 
 from stouputils.print import info
 
@@ -30,7 +30,7 @@ def main_additions() -> None:
 				{"text":"Good to know your Tchernobyl rate.","color":"green"},
 				{"text":"\nHold in your offhand to know how much radiation is there is your body.","color":"gray"},
 			],
-			},
+		},
 		"uranium_core": {
 			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: MISC,
 			"tooltip_display": {"hidden_components": ["minecraft:unbreakable"]},
@@ -40,7 +40,6 @@ def main_additions() -> None:
 				{"text":"Very interesting right ?","color":"green"},
 				{"text":"\nUsed to craft a lot of things","color":"gray"},
 			],
-			
 		},
 		"californium_core": {
    			"id": "minecraft:warped_fungus_on_a_stick", CATEGORY: MISC,
@@ -148,57 +147,65 @@ def main_additions() -> None:
 			WIKI_COMPONENT: [
 				{"text":"Very cool helmet.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 150Bq to your Radiation Limit].","color":"gray"},]},
-				
-		
+				{"text":"\n[Add 150Bq to your Radiation Limit].","color":"gray"},
+			]
+		},
 		"uranium_chestplate":{
 			"custom_data": {ns: {"radiation": 240}},
 			WIKI_COMPONENT: [
 				{"text":"Very cool chestplate.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 240Bq to your Radiation Limit].","color":"gray"},]},
-		
+				{"text":"\n[Add 240Bq to your Radiation Limit].","color":"gray"},
+			]
+		},
 		"uranium_leggings":{
 			"custom_data": {ns: {"radiation": 210}},
 			WIKI_COMPONENT: [
 				{"text":"Very cool leggings.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 210Bq to your Radiation Limit].","color":"gray"},]},
-		
+				{"text":"\n[Add 210Bq to your Radiation Limit].","color":"gray"},
+			]
+		},
 		"uranium_boots":{
 			"custom_data": {ns: {"radiation": 120}},
 			WIKI_COMPONENT: [
 				{"text":"Very cool boots.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 120Bq to your Radiation Limit].","color":"gray"},]},
-		
+				{"text":"\n[Add 120Bq to your Radiation Limit].","color":"gray"},
+			]
+		},
 		"californium_helmet":{
 			"custom_data": {ns: {"radiation": 375}},
 			WIKI_COMPONENT: [
 				{"text":"Extremely cool helmet.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 375Bq to your Radiation Limit].","color":"gray"},]},
-		
+				{"text":"\n[Add 375Bq to your Radiation Limit].","color":"gray"},
+			]
+		},
 		"californium_chestplate":{
 			"custom_data": {ns: {"radiation": 600}},
 			WIKI_COMPONENT: [
 				{"text":"Extremely cool chestplate.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 600Bq to your Radiation Limit].","color":"gray"},]},
-		
+				{"text":"\n[Add 600Bq to your Radiation Limit].","color":"gray"},
+			]
+		},
 		"californium_leggings":{
 			"custom_data": {ns: {"radiation": 525}},
 			WIKI_COMPONENT: [
 				{"text":"Extremely cool leggings.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 525Bq to your Radiation Limit].","color":"gray"},]},
-		
+				{"text":"\n[Add 525Bq to your Radiation Limit].","color":"gray"},
+			]
+		},
 		"californium_boots":{
 			"custom_data": {ns: {"radiation": 300}},
 			WIKI_COMPONENT: [
 				{"text":"Extremely cool boots.","color":"green"},
 				{"text":"\nUse radioactive items and food to generate radioactivity.","color":"gray"},
-				{"text":"\n[Add 300Bq to your Radiation Limit].","color":"gray"},]},
+				{"text":"\n[Add 300Bq to your Radiation Limit].","color":"gray"},
+			]
+		},
 	}
 
 	# Raw materials
@@ -213,14 +220,8 @@ def main_additions() -> None:
 	additions["ore_extractor_3"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
 	additions["ore_extractor_4"][VANILLA_BLOCK] = {"id": "minecraft:barrel", "apply_facing": True}
 
-	# additions["geiger_counter"] = {VANILLA_BLOCK: {"id": "minecraft:iron_block", "apply_facing": False}}
-
 
 	# Update the definitions with new data
-	for k, v in additions.items():
-		if k in Mem.definitions:
-			Mem.definitions[k].update(v)
-		else:
-			Mem.definitions[k] = v
+	Mem.definitions = super_merge_dict(Mem.definitions, additions)
 	info("Database additions loaded")
 
